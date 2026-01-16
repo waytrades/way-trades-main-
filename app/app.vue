@@ -52,7 +52,7 @@
             </div>
             <h2 class="text-3xl md:text-4xl font-black mb-4">WATCH US TRADE LIVE</h2>
             <p class="text-gray-400 text-lg max-w-xl">
-              Join us every weekday at <span class="text-yellow-500 font-bold">9:20 AM EST</span> to watch the BBR Strategy applied to the live markets in real-time.
+              Join us every weekday at <span class="text-yellow-500 font-bold">9:25 AM EST</span> to watch the BBR Strategy applied to the live markets in real-time.
             </p>
           </div>
           <div class="flex flex-col gap-4 w-full md:w-auto">
