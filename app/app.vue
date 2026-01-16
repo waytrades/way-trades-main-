@@ -56,7 +56,7 @@
             </p>
           </div>
           <div class="flex flex-col gap-4 w-full md:w-auto">
-            <a href="https://www.tiktok.com/@way_trades" target="_blank" class="flex items-center justify-center gap-3 bg-white text-black font-bold py-4 px-8 rounded-lg hover:bg-gray-200 transition-colors">
+            <a href="https://www.tiktok.com/@waytrades" target="_blank" class="flex items-center justify-center gap-3 bg-white text-black font-bold py-4 px-8 rounded-lg hover:bg-gray-200 transition-colors">
               <Icon name="simple-icons:tiktok" class="w-6 h-6" />
               WATCH ON TIKTOK
             </a>
@@ -160,7 +160,7 @@
         <div class="flex justify-center gap-6 text-gray-400 mb-8">
           <a href="https://www.instagram.com/way_trades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:instagram" class="w-6 h-6" /></a>
           <a href="https://www.youtube.com/@waytrades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:youtube" class="w-6 h-6" /></a>
-          <a href="https://www.tiktok.com/@way_trades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:tiktok" class="w-6 h-6" /></a>
+          <a href="https://www.tiktok.com/@waytrades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:tiktok" class="w-6 h-6" /></a>
         </div>
         <p class="text-gray-600 text-xs">© 2026 Way Trades. All rights reserved.</p>
       </div>
