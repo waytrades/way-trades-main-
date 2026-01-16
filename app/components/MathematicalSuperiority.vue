@@ -124,7 +124,7 @@
       <div class="text-center max-w-3xl mx-auto">
         <h3 class="text-2xl font-bold text-white mb-4">Stop Chasing Perfection. Start Using Math.</h3>
         <p class="text-gray-400 mb-8">
-          Join our free Discord community to watch daily live trading at 9:20 AM EST, where you'll see the 1:3 Risk:Reward model in action.
+          Join our free Discord community to watch daily live trading at 9:25 AM EST, where you'll see the 1:3 Risk:Reward model in action.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a 

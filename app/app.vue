@@ -2,8 +2,8 @@
   <div class="min-h-screen bg-slate-950 text-white font-sans selection:bg-yellow-500 selection:text-slate-950">
     <!-- Navigation -->
     <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
-      <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-        <div class="flex items-center gap-3">
+      <div class="container mx-auto px-4 py-3 flex justify-center md:justify-between items-center">
+        <div class="flex items-center gap-3 justify-center md:justify-start">
           <img src="/images/logo.png" alt="Way Trades Logo" class="w-12 h-12 object-contain" />
           <span class="text-xl font-black tracking-tighter">WAY TRADES</span>
         </div>
