@@ -56,13 +56,9 @@
             </p>
           </div>
           <div class="flex flex-col gap-4 w-full md:w-auto">
-            <a href="https://www.tiktok.com/@waytrades" target="_blank" class="flex items-center justify-center gap-3 bg-white text-black font-bold py-4 px-8 rounded-lg hover:bg-gray-200 transition-colors">
-              <Icon name="simple-icons:tiktok" class="w-6 h-6" />
-              WATCH ON TIKTOK
-            </a>
-            <a href="https://www.youtube.com/@waytrades" target="_blank" class="flex items-center justify-center gap-3 bg-red-600 text-white font-bold py-4 px-8 rounded-lg hover:bg-red-700 transition-colors">
-              <Icon name="simple-icons:youtube" class="w-6 h-6" />
-              WATCH ON YOUTUBE
+            <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="flex items-center justify-center gap-3 bg-yellow-500 text-slate-950 font-bold py-4 px-8 rounded-lg hover:bg-yellow-600 transition-colors">
+              <Icon name="lucide:discord" class="w-6 h-6" />
+              JOIN FREE DISCORD
             </a>
           </div>
         </div>
