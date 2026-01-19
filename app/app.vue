@@ -17,11 +17,11 @@
     </nav>
 
     <!-- Hero Section with Backtest Proof -->
-    <header class="relative py-12 md:py-20 overflow-hidden">
+    <header class="relative py-4 md:py-20 overflow-hidden">
       <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-500/10 via-transparent to-transparent -z-10"></div>
       <div class="container mx-auto px-4">
         <!-- Unique Mechanism Badge -->
-        <div class="text-center mb-8">
+        <div class="text-center mb-4 md:mb-8">
           <div class="inline-flex items-center gap-2 bg-yellow-500/10 text-yellow-500 px-4 py-2 rounded-full text-sm font-bold border border-yellow-500/20">
             <Icon name="lucide:calculator" class="w-4 h-4" />
             THE BBR STRATEGY: 1:3 RISK:REWARD
@@ -29,26 +29,26 @@
         </div>
         
         <!-- Main Hero Grid -->
-        <div class="grid md:grid-cols-2 gap-8 items-center mb-12">
-          <!-- Left: Headline and CTA -->
+        <div class="flex flex-col md:grid md:grid-cols-2 gap-8 items-center mb-12" style="display: flex; flex-direction: column-reverse; @media (min-width: 768px) { flex-direction: row; }">
+          <!-- Right: Video Placeholder (Mobile First) -->
           <div class="text-center md:text-left">
-            <h1 class="text-5xl md:text-6xl font-black tracking-tighter mb-6 leading-[0.95]">
+            <h1 class="text-4xl md:text-6xl font-black tracking-tighter mb-4 md:mb-6 leading-[0.95]">
               <span class="text-yellow-500">PROOF</span> OVER PROMISES
             </h1>
-            <p class="text-xl text-gray-400 mb-8 leading-relaxed">
-              4 hours of raw backtest data. 55% win rate. 3.92 profit factor. No hype. Just math.
+            <p class="text-lg md:text-xl text-gray-400 mb-6 md:mb-8 leading-relaxed">
+              6 hours of raw backtest data. 55% win rate. 3.92 profit factor. No hype. Just math.
             </p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-5 px-10 rounded-lg transition-all transform hover:scale-105 text-lg shadow-[0_0_20px_rgba(234,179,8,0.3)]">
+            <div class="flex flex-col gap-3 md:flex-row md:gap-4 justify-center md:justify-start">
+              <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-4 md:py-5 px-8 md:px-10 rounded-lg transition-all transform hover:scale-105 text-base md:text-lg shadow-[0_0_20px_rgba(234,179,8,0.3)]">
                 JOIN FREE DISCORD
               </a>
-              <a href="#strategy" class="bg-slate-900 hover:bg-slate-800 text-white font-bold py-5 px-10 rounded-lg transition-all border border-slate-800 text-lg">
+              <a href="#strategy" class="bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 md:py-5 px-8 md:px-10 rounded-lg transition-all border border-slate-800 text-base md:text-lg">
                 SEE THE MATH
               </a>
             </div>
           </div>
           
-          <!-- Right: Video Placeholder with Stats Overlay -->
+          <!-- Left: Headline and CTA (Mobile Second) -->
           <div class="relative">
             <!-- Video Placeholder (will be replaced with YouTube embed) -->
             <div class="relative bg-slate-900 border-2 border-yellow-500/50 rounded-2xl overflow-hidden aspect-video flex items-center justify-center">
@@ -119,7 +119,7 @@
           <h2 class="text-4xl md:text-5xl font-black mb-4">CHOOSE YOUR PATH</h2>
           <p class="text-gray-400 text-xl">From free education to professional VIP mentorship.</p>
         </div>
-        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div class="flex flex-col md:grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <!-- Free Plan -->
           <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 flex flex-col">
             <h3 class="text-2xl font-bold mb-2">FREE COMMUNITY</h3>
@@ -192,10 +192,10 @@
           <img src="/images/logo.png" alt="Way Trades Logo" class="w-10 h-10 object-contain" />
           <span class="text-lg font-black tracking-tighter">WAY TRADES</span>
         </div>
-        <p class="text-gray-500 text-sm max-w-2xl mx-auto mb-8">
+        <p class="text-gray-500 text-sm max-w-2xl mx-auto mb-4 md:mb-8">
           Trading involves significant risk of loss and is not suitable for all investors. Way Trades provides educational content only and does not provide financial advice.
         </p>
-        <div class="flex justify-center gap-6 text-gray-400 mb-8">
+        <div class="flex justify-center gap-6 text-gray-400 mb-4 md:mb-8">
           <a href="https://www.instagram.com/way_trades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:instagram" class="w-6 h-6" /></a>
           <a href="https://www.youtube.com/@waytrades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:youtube" class="w-6 h-6" /></a>
           <a href="https://www.tiktok.com/@waytrades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:tiktok" class="w-6 h-6" /></a>
