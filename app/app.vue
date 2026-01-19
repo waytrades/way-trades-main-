@@ -16,25 +16,69 @@
       </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="relative pt-20 pb-32 overflow-hidden">
+    <!-- Hero Section with Backtest Proof -->
+    <header class="relative py-12 md:py-20 overflow-hidden">
       <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-500/10 via-transparent to-transparent -z-10"></div>
-      <div class="container mx-auto px-4 text-center">
-        <div class="inline-flex items-center gap-2 bg-yellow-500/10 text-yellow-500 px-4 py-2 rounded-full text-sm font-bold mb-8 border border-yellow-500/20">
-          <Icon name="lucide:calculator" class="w-4 h-4" />
-          MATHEMATICALLY PROVEN 1:3 RISK:REWARD
+      <div class="container mx-auto px-4">
+        <!-- Unique Mechanism Badge -->
+        <div class="text-center mb-8">
+          <div class="inline-flex items-center gap-2 bg-yellow-500/10 text-yellow-500 px-4 py-2 rounded-full text-sm font-bold border border-yellow-500/20">
+            <Icon name="lucide:calculator" class="w-4 h-4" />
+            THE BBR STRATEGY: 1:3 RISK:REWARD
+          </div>
         </div>
-
-        <p class="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed">
-          Stop chasing 90% win rates. We use the <span class="text-white font-bold">BBR Strategy</span> to dominate the markets with a sustainable <span class="text-yellow-500 font-bold">1:3 Risk:Reward</span> model.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-5 px-10 rounded-lg transition-all transform hover:scale-105 text-xl shadow-[0_0_20px_rgba(234,179,8,0.3)]">
-            START TRADING FOR FREE
-          </a>
-          <a href="#strategy" class="bg-slate-900 hover:bg-slate-800 text-white font-bold py-5 px-10 rounded-lg transition-all border border-slate-800 text-xl">
-            SEE THE MATH
-          </a>
+        
+        <!-- Main Hero Grid -->
+        <div class="grid md:grid-cols-2 gap-8 items-center mb-12">
+          <!-- Left: Headline and CTA -->
+          <div class="text-center md:text-left">
+            <h1 class="text-5xl md:text-6xl font-black tracking-tighter mb-6 leading-[0.95]">
+              <span class="text-yellow-500">PROOF</span> OVER PROMISES
+            </h1>
+            <p class="text-xl text-gray-400 mb-8 leading-relaxed">
+              4 hours of raw backtest data. 55% win rate. 3.92 profit factor. No hype. Just math.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+              <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-5 px-10 rounded-lg transition-all transform hover:scale-105 text-lg shadow-[0_0_20px_rgba(234,179,8,0.3)]">
+                JOIN FREE DISCORD
+              </a>
+              <a href="#strategy" class="bg-slate-900 hover:bg-slate-800 text-white font-bold py-5 px-10 rounded-lg transition-all border border-slate-800 text-lg">
+                SEE THE MATH
+              </a>
+            </div>
+          </div>
+          
+          <!-- Right: Video Placeholder with Stats Overlay -->
+          <div class="relative">
+            <!-- Video Placeholder (will be replaced with YouTube embed) -->
+            <div class="relative bg-slate-900 border-2 border-yellow-500/50 rounded-2xl overflow-hidden aspect-video flex items-center justify-center">
+              <div class="absolute inset-0 bg-gradient-to-br from-yellow-500/10 to-transparent"></div>
+              <div class="text-center z-10">
+                <Icon name="lucide:play-circle" class="w-20 h-20 text-yellow-500 mx-auto mb-4" />
+                <p class="text-white font-bold text-lg">4-Hour Backtest Video</p>
+                <p class="text-gray-400 text-sm mt-2">Jan 2025 - Raw Trading Data</p>
+              </div>
+            </div>
+            
+            <!-- Stats Overlay -->
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-950 to-transparent p-6 rounded-b-2xl">
+              <div class="grid grid-cols-3 gap-4">
+                <div class="text-center">
+                  <p class="text-yellow-500 text-2xl font-black">3.92</p>
+                  <p class="text-gray-400 text-xs font-bold mt-1">PROFIT FACTOR</p>
+                </div>
+                <div class="text-center">
+                  <p class="text-yellow-500 text-2xl font-black">55%</p>
+                  <p class="text-gray-400 text-xs font-bold mt-1">WIN RATE</p>
+                </div>
+                <div class="text-center">
+                  <p class="text-yellow-500 text-2xl font-black">1:3</p>
+                  <p class="text-gray-400 text-xs font-bold mt-1">RISK:REWARD</p>
+                </div>
+              </div>
+              <p class="text-gray-500 text-xs text-center mt-4">Only 2 Losing Days</p>
+            </div>
+          </div>
         </div>
       </div>
     </header>
