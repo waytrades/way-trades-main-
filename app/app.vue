@@ -1,5 +1,12 @@
 <template>
   <div class="min-h-screen bg-slate-950 text-white font-sans selection:bg-yellow-500 selection:text-slate-950">
+    <!-- Top Warning Banner -->
+    <div class="bg-red-500/10 border-b border-red-500/30 py-3 text-center">
+      <p class="text-red-400 text-sm md:text-base font-bold px-4">
+        If You're Still Chasing High Win Rates With Low R:R, This Site Isn't For You
+      </p>
+    </div>
+
     <!-- Navigation -->
     <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
       <div class="container mx-auto px-4 py-3 flex justify-center md:justify-between items-center">
@@ -54,6 +61,13 @@
                 allowfullscreen
                 class="absolute inset-0"
               ></iframe>
+            </div>
+            
+            <!-- Video Warning Text -->
+            <div class="text-center mb-6">
+              <p class="text-red-400 text-sm md:text-base font-bold">
+                ⚠️ WARNING: Don't Watch This Video Unless You're Ready to Change How You Trade
+              </p>
             </div>
             
             <!-- Clean Stats Bar Below Video -->
