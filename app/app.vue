@@ -3,7 +3,7 @@
     <!-- Navigation -->
     <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
       <div class="container mx-auto px-4 py-3 flex justify-center md:justify-between items-center">
-        <div class="flex items-center gap-3 justify-center md:justify-start">
+        <div class="flex items-center gap-3 justify-center">
           <img src="/images/logo.png" alt="Way Trades Logo" class="w-12 h-12 object-contain" />
           <span class="text-xl font-black tracking-tighter">WAY TRADES</span>
         </div>
@@ -31,12 +31,12 @@
         <!-- Hero Content - Vertical Stack for Mobile -->
         <div class="max-w-4xl mx-auto">
           <!-- Headline -->
-          <h1 class="text-4xl md:text-6xl font-black tracking-tighter mb-4 md:mb-6 leading-[0.95] text-center md:text-left">
+          <h1 class="text-4xl md:text-6xl font-black tracking-tighter mb-4 md:mb-6 leading-[0.95] text-center">
             <span class="text-yellow-500">PROOF</span> OVER PROMISES
           </h1>
           
           <!-- Sub-headline -->
-          <p class="text-lg md:text-xl text-gray-400 mb-8 md:mb-10 leading-relaxed text-center md:text-left">
+          <p class="text-lg md:text-xl text-gray-400 mb-8 md:mb-10 leading-relaxed text-center">
             6 hours of raw backtest data. 55% win rate. 3.92 profit factor. No hype. Just math.
           </p>
           
@@ -73,7 +73,7 @@
           </div>
           
           <!-- CTA Buttons -->
-          <div class="flex flex-col gap-3 md:flex-row md:gap-4 justify-center md:justify-start">
+          <div class="flex flex-col gap-3 md:flex-row md:gap-4 justify-center">
             <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-4 md:py-5 px-8 md:px-10 rounded-lg transition-all transform hover:scale-105 text-base md:text-lg shadow-[0_0_20px_rgba(234,179,8,0.3)]">
               JOIN FREE DISCORD
             </a>
@@ -89,7 +89,7 @@
     <section class="py-16 bg-slate-900/50 border-y border-slate-800">
       <div class="container mx-auto px-4">
         <div class="bg-slate-950 border-2 border-yellow-500/50 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
-          <div class="text-center md:text-left">
+          <div class="text-center">
             <div class="inline-flex items-center gap-2 bg-red-500/10 text-red-500 px-3 py-1 rounded-full text-xs font-bold mb-4 animate-pulse">
               <div class="w-2 h-2 bg-red-500 rounded-full"></div>
               LIVE DAILY
