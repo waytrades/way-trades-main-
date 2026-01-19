@@ -42,14 +42,18 @@
           
           <!-- Video Placeholder with Clean Stats Bar Below -->
           <div class="mb-8 md:mb-10">
-            <!-- Video Placeholder (will be replaced with YouTube embed) -->
-            <div class="relative bg-slate-900 border-2 border-yellow-500/50 rounded-2xl overflow-hidden aspect-video flex items-center justify-center mb-4">
-              <div class="absolute inset-0 bg-gradient-to-br from-yellow-500/10 to-transparent"></div>
-              <div class="text-center z-10">
-                <Icon name="lucide:play-circle" class="w-20 h-20 text-yellow-500 mx-auto mb-4" />
-                <p class="text-white font-bold text-lg">4-Hour Backtest Video</p>
-                <p class="text-gray-400 text-sm mt-2">Jan 2025 - Raw Trading Data</p>
-              </div>
+            <!-- YouTube Video Embed -->
+            <div class="relative bg-slate-900 border-2 border-yellow-500/50 rounded-2xl overflow-hidden aspect-video mb-4">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/TbDnaZZVZ-E"
+                title="4-Hour Backtest Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                class="absolute inset-0"
+              ></iframe>
             </div>
             
             <!-- Clean Stats Bar Below Video -->
