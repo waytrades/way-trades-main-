@@ -74,10 +74,10 @@
           
           <!-- CTA Buttons -->
           <div class="flex flex-col gap-3 md:flex-row md:gap-4 justify-center">
-            <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-4 md:py-5 px-8 md:px-10 rounded-lg transition-all transform hover:scale-105 text-base md:text-lg shadow-[0_0_20px_rgba(234,179,8,0.3)]">
+            <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="w-full text-center bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-4 md:py-5 px-8 md:px-10 rounded-lg transition-all transform hover:scale-105 text-base md:text-lg shadow-[0_0_20px_rgba(234,179,8,0.3)]">
               JOIN FREE DISCORD
             </a>
-            <a href="#strategy" class="bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 md:py-5 px-8 md:px-10 rounded-lg transition-all border border-slate-800 text-base md:text-lg">
+            <a href="#strategy" class="w-full text-center bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 md:py-5 px-8 md:px-10 rounded-lg transition-all border border-slate-800 text-base md:text-lg">
               SEE THE MATH
             </a>
           </div>
