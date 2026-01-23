@@ -242,8 +242,8 @@
                   <div class="flex items-start gap-4">
                     <Icon name="lucide:check-circle" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
                     <div>
-                      <p class="font-bold text-white">14 Private 1-on-1 Calls</p>
-                      <p class="text-gray-400 text-sm">2 calls per week for 6 weeks, plus kickoff & strategy session</p>
+                      <p class="font-bold text-white">12 Private 1-on-1 Calls</p>
+                      <p class="text-gray-400 text-sm">2 dedicated calls per week for 6 weeks</p>
                     </div>
                   </div>
                   <div class="flex items-start gap-4">
