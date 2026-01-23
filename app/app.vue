@@ -114,13 +114,13 @@
             </div>
             <h2 class="text-3xl md:text-4xl font-black mb-4">WATCH US TRADE LIVE</h2>
             <p class="text-gray-400 text-lg max-w-xl">
-              Join us every weekday at <span class="text-yellow-500 font-bold">9:25 AM EST</span> to watch the BBR Strategy applied to the live markets in real-time.
+              Join us every weekday at <span class="text-yellow-500 font-bold">9:25 AM EST</span> to watch the BBR Strategy applied to the live markets in real-time. <span class="text-yellow-500 font-bold">VIP Members Only (7-Day Free Trial)</span>
             </p>
           </div>
           <div class="flex flex-col gap-4 w-full md:w-auto">
-            <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="flex items-center justify-center gap-3 bg-yellow-500 text-slate-950 font-bold py-4 px-8 rounded-lg hover:bg-yellow-600 transition-colors">
-              <Icon name="lucide:discord" class="w-6 h-6" />
-              JOIN FREE DISCORD
+            <a href="https://whop.com/waytrades/vip-access-60-1cb2/?utm_source=store_page&funnelId=product_7b3b2e38-8bc7-402b-9afa-d939c94b9673" target="_blank" class="flex items-center justify-center gap-3 bg-yellow-500 text-slate-950 font-bold py-4 px-8 rounded-lg hover:bg-yellow-600 transition-colors">
+              <Icon name="lucide:zap" class="w-6 h-6" />
+              START 7-DAY FREE TRIAL
             </a>
           </div>
         </div>
@@ -158,10 +158,10 @@
                 Trading Chat Access
               </li>
               <li class="flex items-center gap-3 text-gray-500 line-through">
-                Morning Watchlists
+                Live Daily Trading (VIP Only)
               </li>
               <li class="flex items-center gap-3 text-gray-500 line-through">
-                Live Day Trading Signals
+                Morning Watchlists
               </li>
             </ul>
             <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="w-full py-4 bg-slate-800 hover:bg-slate-700 text-white font-bold rounded-lg text-center transition-colors">
@@ -179,6 +179,10 @@
               <li class="flex items-center gap-3 text-gray-300">
                 <Icon name="lucide:check" class="text-yellow-500 w-5 h-5" />
                 Everything in Free
+              </li>
+              <li class="flex items-center gap-3 text-gray-300">
+                <Icon name="lucide:check" class="text-yellow-500 w-5 h-5" />
+                Live Daily Trading (9:25 AM EST)
               </li>
               <li class="flex items-center gap-3 text-gray-300">
                 <Icon name="lucide:check" class="text-yellow-500 w-5 h-5" />
