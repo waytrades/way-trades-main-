@@ -324,7 +324,7 @@
 
             <!-- CTA Button -->
             <div class="flex flex-col gap-4">
-              <a href="https://whop.com/waytrades/" target="_blank" class="w-full text-center bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-5 px-8 rounded-lg transition-all transform hover:scale-105 text-lg shadow-[0_0_30px_rgba(234,179,8,0.4)]">
+              <a href="https://whop.com/waytrades/the-bbr-1-on-1-mentorship/" target="_blank" class="w-full text-center bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-5 px-8 rounded-lg transition-all transform hover:scale-105 text-lg shadow-[0_0_30px_rgba(234,179,8,0.4)]">
                 ENROLL NOW - LIMITED SPOTS
               </a>
               <p class="text-center text-gray-400 text-sm">First-come, first-served. Once 5 spots are filled, the program closes until a student graduates.</p>
