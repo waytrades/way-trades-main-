@@ -17,7 +17,7 @@
         <div class="hidden md:flex items-center gap-8 text-sm font-bold text-gray-400">
           <a href="#strategy" class="hover:text-yellow-500 transition-colors">STRATEGY</a>
           <a href="#pricing" class="hover:text-yellow-500 transition-colors">MEMBERSHIP</a>
-          <a href="#courses" class="hover:text-yellow-500 transition-colors">COURSES</a>
+          <a href="#mentorship" class="hover:text-yellow-500 transition-colors">MENTORSHIP</a>
           <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="bg-yellow-500 text-slate-950 px-4 py-2 rounded hover:bg-yellow-600 transition-colors">JOIN FREE</a>
         </div>
       </div>
@@ -307,8 +307,8 @@
             <!-- Who This Is For -->
             <div class="grid md:grid-cols-2 gap-6 mb-8">
               <div>
-                <p class="text-green-400 font-bold mb-3">✓ This is for you if:</p>
-                <ul class="text-gray-300 text-sm space-y-2">
+                <p class="text-green-400 font-bold mb-3 text-center">✓ This is for you if:</p>
+                <ul class="text-gray-300 text-center text-sm space-y-2">
                   <li>• You're serious about making trading a profession</li>
                   <li>• You want a clear, personalized roadmap</li>
                   <li>• You need high-level accountability</li>
@@ -316,8 +316,8 @@
                 </ul>
               </div>
               <div>
-                <p class="text-red-400 font-bold mb-3">✗ This is NOT for you if:</p>
-                <ul class="text-gray-300 text-sm space-y-2">
+                <p class="text-red-400 font-bold mb-3 text-center">✗ This is NOT for you if:</p>
+                <ul class="text-gray-300 text-center text-sm space-y-2">
                   <li>• You're chasing hype or magic bullets</li>
                   <li>• You're unwilling to put in the work</li>
                   <li>• You want guaranteed profits</li>
