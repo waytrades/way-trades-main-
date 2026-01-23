@@ -11,7 +11,7 @@
     <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
       <div class="container mx-auto px-4 py-3 flex justify-center md:justify-between items-center">
         <div class="flex items-center gap-3 justify-center">
-          <img src="/images/logo.png" alt="Way Trades Logo" class="w-12 h-12 object-contain" />
+          <img src="/logo.png" alt="Way Trades Logo" class="w-12 h-12 object-contain" />
           <span class="text-xl font-black tracking-tighter">WAY TRADES</span>
         </div>
         <div class="hidden md:flex items-center gap-8 text-sm font-bold text-gray-400">
@@ -342,7 +342,7 @@
     <footer class="py-12 border-t border-slate-800 bg-slate-950">
       <div class="container mx-auto px-4 text-center">
         <div class="flex items-center justify-center gap-3 mb-6">
-          <img src="/images/logo.png" alt="Way Trades Logo" class="w-10 h-10 object-contain" />
+          <img src="/logo.png" alt="Way Trades Logo" class="w-10 h-10 object-contain" />
           <span class="text-lg font-black tracking-tighter">WAY TRADES</span>
         </div>
         <p class="text-gray-500 text-sm max-w-2xl mx-auto mb-8">
