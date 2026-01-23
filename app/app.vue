@@ -205,6 +205,135 @@
       </div>
     </section>
 
+    <!-- Elite 1-on-1 Mentorship Section -->
+    <section id="mentorship" class="py-24 bg-gradient-to-b from-slate-950 to-slate-900 border-t border-yellow-500/20">
+      <div class="container mx-auto px-4">
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+          <div class="inline-flex items-center gap-2 bg-yellow-500/10 text-yellow-500 px-4 py-2 rounded-full text-sm font-bold border border-yellow-500/20 mb-6">
+            <Icon name="lucide:crown" class="w-4 h-4" />
+            ELITE TIER
+          </div>
+          <h2 class="text-4xl md:text-5xl font-black mb-4">The 6-Week <span class="text-yellow-500">Trader Transformation</span></h2>
+          <p class="text-gray-400 text-lg max-w-2xl mx-auto">Master the 1:3 Edge with personalized 1-on-1 mentorship. Limited to 5 serious traders only.</p>
+        </div>
+
+        <!-- Main Mentorship Card -->
+        <div class="max-w-4xl mx-auto">
+          <div class="bg-slate-900 border-2 border-yellow-500 rounded-2xl p-8 md:p-12 relative">
+            <!-- Scarcity Badge -->
+            <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-red-500 text-white text-xs font-black px-4 py-2 rounded-full">
+              ONLY 5 SPOTS AVAILABLE
+            </div>
+
+            <!-- Price & Headline -->
+            <div class="text-center mb-8">
+              <p class="text-yellow-500 text-sm font-bold mb-2">ONE-TIME INVESTMENT</p>
+              <h3 class="text-5xl md:text-6xl font-black text-white mb-4">$2,500</h3>
+              <p class="text-gray-300 text-lg">6-Week Intensive Program with Lifetime VIP Access</p>
+            </div>
+
+            <!-- What's Included -->
+            <div class="mb-12">
+              <h4 class="text-2xl font-black mb-6 text-center">What's Included:</h4>
+              <div class="grid md:grid-cols-2 gap-6">
+                <!-- Column 1 -->
+                <div class="space-y-4">
+                  <div class="flex items-start gap-4">
+                    <Icon name="lucide:check-circle" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <div>
+                      <p class="font-bold text-white">14 Private 1-on-1 Calls</p>
+                      <p class="text-gray-400 text-sm">2 calls per week for 6 weeks, plus kickoff & strategy session</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <Icon name="lucide:check-circle" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <div>
+                      <p class="font-bold text-white">Personalized Trading Roadmap</p>
+                      <p class="text-gray-400 text-sm">Custom plan tailored to your capital, schedule & goals</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <Icon name="lucide:check-circle" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <div>
+                      <p class="font-bold text-white">Weekly Accountability</p>
+                      <p class="text-gray-400 text-sm">I review your journal & hold you to your plan</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="space-y-4">
+                  <div class="flex items-start gap-4">
+                    <Icon name="lucide:check-circle" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <div>
+                      <p class="font-bold text-white">Full BBR Strategy Breakdown</p>
+                      <p class="text-gray-400 text-sm">Complete mastery of the 1:3 Edge & all setups</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <Icon name="lucide:check-circle" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <div>
+                      <p class="font-bold text-white">1-on-1 Risk Management Class</p>
+                      <p class="text-gray-400 text-sm">Position sizing, capital preservation & survival</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <Icon name="lucide:check-circle" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <div>
+                      <p class="font-bold text-white">1-on-1 Trading Psychology Class</p>
+                      <p class="text-gray-400 text-sm">Eliminate fear, greed & revenge trading</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bonus: Lifetime VIP -->
+            <div class="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mb-8">
+              <div class="flex items-start gap-4">
+                <Icon name="lucide:gift" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                <div>
+                  <p class="font-bold text-yellow-500 mb-2">BONUS: Lifetime VIP Discord Access</p>
+                  <p class="text-gray-300">Full access to everything we offer forever. Live signals, watchlists, courses, priority support—all included.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Who This Is For -->
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+              <div>
+                <p class="text-green-400 font-bold mb-3">✓ This is for you if:</p>
+                <ul class="text-gray-300 text-sm space-y-2">
+                  <li>• You're serious about making trading a profession</li>
+                  <li>• You want a clear, personalized roadmap</li>
+                  <li>• You need high-level accountability</li>
+                  <li>• You're ready to master the 1:3 Edge</li>
+                </ul>
+              </div>
+              <div>
+                <p class="text-red-400 font-bold mb-3">✗ This is NOT for you if:</p>
+                <ul class="text-gray-300 text-sm space-y-2">
+                  <li>• You're chasing hype or magic bullets</li>
+                  <li>• You're unwilling to put in the work</li>
+                  <li>• You want guaranteed profits</li>
+                  <li>• You're not ready to commit</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- CTA Button -->
+            <div class="flex flex-col gap-4">
+              <a href="https://whop.com/waytrades/" target="_blank" class="w-full text-center bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-5 px-8 rounded-lg transition-all transform hover:scale-105 text-lg shadow-[0_0_30px_rgba(234,179,8,0.4)]">
+                ENROLL NOW - LIMITED SPOTS
+              </a>
+              <p class="text-center text-gray-400 text-sm">First-come, first-served. Once 5 spots are filled, the program closes until a student graduates.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer class="py-12 border-t border-slate-800 bg-slate-950">
       <div class="container mx-auto px-4 text-center">
