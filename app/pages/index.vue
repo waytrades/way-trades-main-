@@ -208,7 +208,7 @@
           <a href="https://www.youtube.com/@waytrades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:youtube" class="w-6 h-6" /></a>
           <a href="https://www.tiktok.com/@way_trades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:tiktok" class="w-6 h-6" /></a>
         </div>
-        <p class="text-gray-600 text-xs">© 2026 Way Trades. All rights reserved.</p>
+        <p class="text-gray-600 text-xs">© 2026 Way Trades. All rights reserved. | <NuxtLink to="/privacy" class="hover:text-yellow-500 transition-colors">Privacy Policy</NuxtLink></p>
       </div>
     </footer>
   </div>
