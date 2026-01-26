@@ -2,7 +2,7 @@
   <footer class="py-8 border-t border-primary/20 bg-primary-darker">
     <div class="container mx-auto px-4 text-center">
       <p class="text-gray-400">
-        © 2026 Way Trades. All rights reserved.
+        © 2026 Way Trades. All rights reserved. | <NuxtLink to="/privacy" class="hover:text-yellow-400 transition-colors">Privacy Policy</NuxtLink>
       </p>
       <p class="text-gray-400 mt-2">
         Join The Way to Trading Success
