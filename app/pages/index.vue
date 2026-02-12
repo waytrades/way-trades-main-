@@ -353,7 +353,17 @@
           <a href="https://www.youtube.com/@waytrades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:youtube" class="w-6 h-6" /></a>
           <a href="https://www.tiktok.com/@waytrades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:tiktok" class="w-6 h-6" /></a>
         </div>
-        <p class="text-gray-600 text-xs">© 2026 Way Trades. All rights reserved. | <NuxtLink to="/privacy" class="hover:text-yellow-500 transition-colors">Privacy Policy</NuxtLink></p>
+        <div class="flex flex-wrap justify-center gap-4 text-gray-600 text-xs mb-4">
+          <span>© 2026 Way Trades. All rights reserved.</span>
+          <span class="hidden md:inline">|</span>
+          <NuxtLink to="/privacy" class="hover:text-yellow-500 transition-colors">Privacy Policy</NuxtLink>
+          <span>|</span>
+          <NuxtLink to="/return-policy" class="hover:text-yellow-500 transition-colors">Return Policy</NuxtLink>
+          <span>|</span>
+          <NuxtLink to="/terms-of-service" class="hover:text-yellow-500 transition-colors">Terms & Conditions</NuxtLink>
+          <span>|</span>
+          <NuxtLink to="/eula" class="hover:text-yellow-500 transition-colors">EULA</NuxtLink>
+        </div>
       </div>
     </footer>
   </div>
