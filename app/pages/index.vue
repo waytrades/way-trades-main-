@@ -373,6 +373,5 @@
 </template>
 
 <script setup>
-import TestimonialsSection from '~/components/TestimonialsSection.vue'
 const { gtag } = useGtag()
 </script>
