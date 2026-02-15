@@ -96,7 +96,7 @@
               JOIN FREE DISCORD
             </a>
             <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/" target="_blank" class="w-full text-center bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 md:py-5 px-8 md:px-10 rounded-lg transition-all border border-slate-800 text-base md:text-lg">
-              GET THE STRATEGY CHEAT SHEET
+              GET FREE STRATEGY CHEAT SHEET
             </a>
           </div>
         </div>
