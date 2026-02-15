@@ -32,7 +32,7 @@
               </div>
 
               <!-- Quote -->
-              <p class="text-gray-300 text-lg mb-6 flex-grow">
+              <p class="text-gray-300 text-lg mb-6">
                 "{{ testimonial.quote }}"
               </p>
 
