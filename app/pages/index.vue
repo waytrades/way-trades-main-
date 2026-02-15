@@ -209,6 +209,9 @@
       </div>
     </section>
 
+    <!-- Testimonials Section -->
+    <TestimonialsSection />
+
     <!-- Elite 1-on-1 Mentorship Section -->
     <section id="mentorship" class="py-24 bg-gradient-to-b from-slate-950 to-slate-900 border-t border-yellow-500/20">
       <div class="container mx-auto px-4">
