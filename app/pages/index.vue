@@ -38,7 +38,7 @@
         <!-- Hero Content - Vertical Stack for Mobile -->
         <div class="max-w-4xl mx-auto">
           <!-- Headline -->
-          <h1 class="text-[32px] md:text-6xl font-black tracking-tighter mb-4 md:mb-6 leading-[0.95] text-center max-w-xs md:max-w-none mx-auto">
+          <h1 class="text-[32px] md:text-6xl font-black tracking-tight md:tracking-tighter mb-4 md:mb-6 leading-[0.95] text-center max-w-[280px] md:max-w-none mx-auto">
             Live Trade My <span class="text-yellow-500">BBR</span><br class="md:hidden" /> Strategy With Me For <span class="text-yellow-500">Free</span>
           </h1>
           
