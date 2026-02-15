@@ -12,7 +12,8 @@ export default defineNuxtConfig({
   },
   components: {
     dirs: [
-      '~/components'
+      '~/components',
+      '~/app/components'
     ]
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sanity', '@nuxt/icon', 'nuxt-gtag'],
