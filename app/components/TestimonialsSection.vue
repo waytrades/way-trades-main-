@@ -77,34 +77,29 @@ const scrollContainer = ref(null)
 
 const testimonials = [
   {
-    quote: "I was skeptical about the 50% win rate until I backtested it myself. The math checks out. Way Trades isn't hype—it's pure strategy.",
-    author: "Marcus T.",
-    title: "Day Trader, 3 months VIP"
+    quote: "I promise yall there are so many more to come. Want to thank God, myself, and all of you guys for believing me and helping me achieve this! Just another step up the ladder and nothing is slowing me down! Discipline and consistency always wins! Thank you again and lets keep getting at it!!",
+    author: "GhostTapz",
+    title: "Consistent Trader"
   },
   {
-    quote: "The BBR strategy changed how I approach trading. Instead of chasing 90% win rates, I focused on the 1:3 risk-to-reward. My account is up 34% this quarter.",
-    author: "Sarah M.",
-    title: "Swing Trader, 6 months VIP"
+    quote: "I didn\'t realize how many small mistakes were adding up until i met Waylon. He took time to give me advice and not sugar coat anything. I watched his vids and joined his live. I was eager to get better. And thanks to my dedication and help from people like @WayTrades (Admin) i changed how i trade completely, and it ended up leading to myfirst $5,000 week in payouts",
+    author: "Angs",
+    title: "$5,000 Payout Week"
   },
   {
-    quote: "Finally, a community that values education over false promises. The live trading sessions alone are worth the membership. The math is real.",
-    author: "James K.",
-    title: "Options Trader, 1 year VIP"
+    quote: "I\'ve taken and explored a few trading courses over the last two years, but this one really stands out. The way the break and retest strategy is taught is clear, practical, and easy to apply in real market conditions. Nothing feels overcomplicated or theoretical just for the sake of it. What I appreciate most is the focus on patience, confirmation, and risk management—not just chasing moves. The lessons helped me understand why setups work, not just when to enter. Even early on, I found myself trading with more confidence and discipline. If you\'re serious about learning a structured, repeatable approach to day trading—this course is absolutely worth your time.",
+    author: "JCNY",
+    title: "Structured Day Trading"
   },
   {
-    quote: "I've been in trading for 5 years. Way Trades is the first place where I actually understand WHY the strategy works, not just HOW to execute it.",
-    author: "Alex R.",
-    title: "Futures Trader, Mentorship Program"
+    quote: "WAY IS A SELF MADE TRADER. CONSISTENT/KNOWS WHAT HE TALKING ABOUT/EXECUTION ON POINT/SIMPLE AMD EFFECTIVE ANALYSIS/POISED. JOIN THE \"WAY\". COME FOR THE JOURNEY. LEARN AND EARN. He taught me a lot about myself and made me better as a trader and person.",
+    author: "Big E",
+    title: "Self-Made Trader"
   },
   {
-    quote: "The backtest proof video convinced me. Seeing 3.92 profit factor with a 56% win rate over 6 months of data—that's not luck, that's a system.",
-    author: "Chris D.",
-    title: "Stock Trader, Free Community"
-  },
-  {
-    quote: "The free Discord has more value than paid courses I've taken. The mentorship program took my trading to the next level. Highly recommend.",
-    author: "Emma L.",
-    title: "Crypto Trader, Mentorship Program"
+    quote: "Joining this discord was a turning point for me. The focus on discipline, risk management, and a proven system completely changed how I approach the market. I finally broke out of the breakeven phase and built consistent habits that actually work. Way and loc are some of the most transparent traders I know, and if you\'re serious about futures trading and want real progress without the hype, this Discord delivers. 💯💰 (edited)",
+    author: "Damon",
+    title: "Futures Trading Success"
   }
 ]
 
