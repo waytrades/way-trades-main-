@@ -1,3 +1,4 @@
+// Force redeployment
 export default defineNuxtConfig({
   app: {
     head: {
