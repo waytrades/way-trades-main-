@@ -31,7 +31,7 @@
         <div class="text-center mb-4 md:mb-8">
           <div class="inline-flex items-center gap-2 bg-yellow-500/10 text-yellow-500 px-4 py-2 rounded-full text-sm font-bold border border-yellow-500/20">
             <Icon name="lucide:calculator" class="w-4 h-4" />
-            THE BBR STRATEGY: 1:3 RISK:REWARD
+            FUTURES DAY TRADERS
           </div>
         </div>
         
@@ -43,8 +43,8 @@
           </h1>
           
           <!-- Sub-headline -->
-          <p class="text-lg md:text-xl text-gray-400 mb-8 md:mb-10 leading-relaxed text-center">
-            6 hours of raw backtest data. 55% win rate. 3.92 profit factor. No hype. Just math.
+          <p class="text-sm md:text-base text-gray-400 mb-8 md:mb-10 leading-relaxed text-center">
+            Live Trade My BBR Strategy With Me For Free
           </p>
           
           <!-- Video Placeholder with Clean Stats Bar Below -->
@@ -208,9 +208,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Testimonials Section -->
-    <TestimonialsSection />
 
     <!-- Elite 1-on-1 Mentorship Section -->
     <section id="mentorship" class="py-24 bg-gradient-to-b from-slate-950 to-slate-900 border-t border-yellow-500/20">
