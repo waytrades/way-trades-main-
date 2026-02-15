@@ -28,7 +28,7 @@
             <div class="bg-slate-900 border border-slate-800 rounded-xl p-8 h-full flex flex-col justify-between hover:border-yellow-500/50 transition-colors">
               <!-- Stars -->
               <div class="flex gap-1 mb-4">
-                <Icon v-for="star in 5" :key="star" name="lucide:star" class="w-5 h-5 text-yellow-500 fill-yellow-500" />
+                <Icon v-for="star in 5" :key="star" name="lucide:star" class="w-5 h-5 text-yellow-400 fill-yellow-400" />
               </div>
 
               <!-- Quote -->
@@ -97,7 +97,7 @@ const testimonials = [
     title: "Self-Made Trader"
   },
   {
-    quote: "Joining this discord was a turning point for me. The focus on discipline, risk management, and a proven system completely changed how I approach the market. I finally broke out of the breakeven phase and built consistent habits that actually work. Way and loc are some of the most transparent traders I know, and if you\'re serious about futures trading and want real progress without the hype, this Discord delivers. 💯💰 (edited)",
+    quote: "Joining this discord was a turning point for me. The focus on discipline, risk management, and a proven system completely changed how I approach the market. I finally broke out of the breakeven phase and built consistent habits that actually work. Way and loc are some of the most transparent traders I know, and if you\'re serious about futures trading and want real progress without the hype, this Discord delivers. 💯💰",
     author: "Damon",
     title: "Futures Trading Success"
   }
