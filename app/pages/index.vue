@@ -39,13 +39,8 @@
         <div class="max-w-4xl mx-auto">
           <!-- Headline -->
           <h1 class="text-4xl md:text-6xl font-black tracking-tighter mb-4 md:mb-6 leading-[0.95] text-center">
-            <span class="text-yellow-500">PROOF</span> OVER PROMISES
+            Live Trade My <span class="text-yellow-500">BBR</span> Strategy With Me For Free
           </h1>
-          
-          <!-- Sub-headline -->
-          <p class="text-sm md:text-base text-gray-400 mb-8 md:mb-10 leading-relaxed text-center">
-            Live Trade My BBR Strategy With Me For Free
-          </p>
           
           <!-- Video Placeholder with Clean Stats Bar Below -->
           <div class="mb-8 md:mb-10">
