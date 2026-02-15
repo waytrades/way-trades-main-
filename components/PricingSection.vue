@@ -135,11 +135,15 @@
 </template>
 
 <script setup lang="ts">
+const { gtag } = useGtag()
+
 function joinFreeCommuntiy() {
+  gtag.event('click', { event_category: 'pricing', event_label: 'join_free_community' })
   window.open('https://whop.com/waytrades/free-access-c6/', '_blank')
 }
 
 function joinVipMembership() {
+  gtag.event('click', { event_category: 'pricing', event_label: 'join_vip_membership' })
   window.open('https://whop.com/waytrades/vip-access-60-1cb2/?utm_source=store_page&funnelId=product_7b3b2e38-8bc7-402b-9afa-d939c94b9673', '_blank')
 }
 </script>
