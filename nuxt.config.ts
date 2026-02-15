@@ -10,6 +10,11 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4, ssr: true,
   },
+  components: {
+    dirs: [
+      '~/components'
+    ]
+  },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sanity', '@nuxt/icon', 'nuxt-gtag'],
   gtag: {
     id: 'G-K1NVV36LZP'
