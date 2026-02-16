@@ -110,6 +110,13 @@
       <MathematicalSuperiority />
     </div>
 
+    <!-- Testimonials Section -->
+    <section class="py-24 bg-slate-950">
+      <div class="container mx-auto px-4">
+        <TestimonialsSection />
+      </div>
+    </section>
+
     <!-- Pricing Section -->
     <section id="pricing" class="py-24 bg-slate-950">
       <div class="container mx-auto px-4">
