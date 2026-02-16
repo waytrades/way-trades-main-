@@ -94,6 +94,11 @@
               START 7-DAY FREE TRIAL
             </a>
           </div>
+          
+          <!-- CTA Description -->
+          <p class="text-center text-gray-400 text-sm md:text-base mt-6 md:mt-8">
+            (I share my entire screen and live trade daily at 9:25am EST)
+          </p>
         </div>
       </div>
     </header>
