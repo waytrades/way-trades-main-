@@ -90,37 +90,15 @@
             <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" @click="gtag.event('click', { event_category: 'cta', event_label: 'join_free_discord' })" class="w-full text-center bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-4 md:py-5 px-8 md:px-10 rounded-lg transition-all transform hover:scale-105 text-base md:text-lg shadow-[0_0_20px_rgba(234,179,8,0.3)]">
               JOIN FREE DISCORD
             </a>
-            <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/" target="_blank" @click="gtag.event('click', { event_category: 'cta', event_label: 'get_cheat_sheet' })" class="w-full text-center bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 md:py-5 px-8 md:px-10 rounded-lg transition-all border border-slate-800 text-base md:text-lg">
-              GET FREE STRATEGY CHEAT SHEET
+            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" @click="gtag.event('click', { event_category: 'cta', event_label: 'start_trial' })" class="w-full text-center bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 md:py-5 px-8 md:px-10 rounded-lg transition-all border border-slate-800 text-base md:text-lg">
+              START 7-DAY FREE TRIAL
             </a>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Live Trading Section -->
-    <section class="py-16 bg-slate-900/50 border-y border-slate-800">
-      <div class="container mx-auto px-4">
-        <div class="bg-slate-950 border-2 border-yellow-500/50 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
-          <div class="text-center">
-            <div class="inline-flex items-center gap-2 bg-red-500/10 text-red-500 px-3 py-1 rounded-full text-xs font-bold mb-4 animate-pulse">
-              <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-              LIVE DAILY
-            </div>
-            <h2 class="text-3xl md:text-4xl font-black mb-4">WATCH US TRADE LIVE</h2>
-            <p class="text-gray-400 text-lg max-w-xl">
-              Join us every weekday at <span class="text-yellow-500 font-bold">9:25 AM EST</span> to watch the BBR Strategy applied to the live markets in real-time. <span class="text-yellow-500 font-bold">VIP Members Only (7-Day Free Trial)</span>
-            </p>
-          </div>
-          <div class="flex flex-col gap-4 w-full md:w-auto">
-            <a href="https://whop.com/waytrades/vip-access-60-1cb2/?utm_source=store_page&funnelId=product_7b3b2e38-8bc7-402b-9afa-d939c94b9673" target="_blank" class="flex items-center justify-center gap-3 bg-yellow-500 text-slate-950 font-bold py-4 px-8 rounded-lg hover:bg-yellow-600 transition-colors">
-              <Icon name="lucide:zap" class="w-6 h-6" />
-              START 7-DAY FREE TRIAL
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+
 
     <!-- Mathematical Superiority Section -->
     <div id="strategy">
