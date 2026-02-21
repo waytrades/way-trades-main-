@@ -28,7 +28,7 @@
 
           <!-- Subheadline -->
           <p class="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed">
-            Stop chasing 90% win rates with 1:1 risk-reward. Get the exact framework I use to trade the 1:3 edge with a 55% win rate and 3.92 profit factor.
+            Stop chasing high win rates with low risk:reward. Get the exact framework I use to rinse prop firms with a 1:3 edge and a 55% win rate.
           </p>
 
           <!-- Value Props -->
@@ -141,26 +141,26 @@
         <h2 class="text-3xl md:text-4xl font-black text-center mb-12">Traders Are Already Using This</h2>
         
         <div class="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
-          <div class="bg-slate-900 border border-slate-800 rounded-lg p-6">
-            <div class="flex items-center gap-3 mb-4">
-              <div class="w-10 h-10 rounded-full bg-yellow-500/20 flex items-center justify-center">
-                <span class="text-yellow-500 font-black text-sm">GH</span>
-              </div>
-              <div>
-                <p class="font-bold">GhostTapz</p>
+            <div class="bg-slate-900 border border-slate-800 rounded-lg p-6">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-full bg-yellow-500/20 flex items-center justify-center">
+                  <span class="text-yellow-500 font-black text-sm">DE</span>
+                </div>
+                <div>
+                  <p class="font-bold">DeErick</p>
                 <p class="text-xs text-gray-500">Verified Member</p>
               </div>
             </div>
             <p class="text-gray-300 text-sm">"This strategy changed how I think about risk. The 1:3 edge is the real deal."</p>
           </div>
 
-          <div class="bg-slate-900 border border-slate-800 rounded-lg p-6">
-            <div class="flex items-center gap-3 mb-4">
-              <div class="w-10 h-10 rounded-full bg-yellow-500/20 flex items-center justify-center">
-                <span class="text-yellow-500 font-black text-sm">AN</span>
-              </div>
-              <div>
-                <p class="font-bold">Angs</p>
+            <div class="bg-slate-900 border border-slate-800 rounded-lg p-6">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-full bg-yellow-500/20 flex items-center justify-center">
+                  <span class="text-yellow-500 font-black text-sm">BE</span>
+                </div>
+                <div>
+                  <p class="font-bold">Big E</p>
                 <p class="text-xs text-gray-500">Verified Member</p>
               </div>
             </div>
