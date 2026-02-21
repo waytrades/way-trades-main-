@@ -42,10 +42,10 @@
           </div>
 
           <!-- VSL Placeholder -->
-          <div class="bg-slate-900 border-2 border-dashed border-yellow-500/30 rounded-xl p-4 text-center mb-6">
-            <Icon name="lucide:video" class="w-10 h-10 text-yellow-500/50 mx-auto mb-1" />
-            <p class="text-gray-400 text-sm font-bold mb-1">Video Sales Letter (VSL)</p>
-            <p class="text-gray-500 text-xs">Your custom VSL will be embedded here</p>
+          <div class="bg-slate-900 border-2 border-dashed border-yellow-500/30 rounded-xl p-8 text-center mb-6">
+            <Icon name="lucide:video" class="w-20 h-20 text-yellow-500/50 mx-auto mb-3" />
+            <p class="text-gray-400 text-base font-bold mb-2">Video Sales Letter (VSL)</p>
+            <p class="text-gray-500 text-sm">Your custom VSL will be embedded here</p>
           </div>
 
           <!-- Value Props -->
