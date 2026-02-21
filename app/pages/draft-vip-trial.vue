@@ -16,44 +16,44 @@
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto text-center">
           <!-- Badge -->
-          <div class="inline-flex items-center gap-2 bg-red-500/10 text-red-500 px-4 py-2 rounded-full text-sm font-bold border border-red-500/20 mb-6 animate-pulse">
+          <div class="inline-flex items-center gap-2 bg-red-500/10 text-red-500 px-3 py-1 rounded-full text-xs font-bold border border-red-500/20 mb-2 animate-pulse">
             <div class="w-2 h-2 bg-red-500 rounded-full"></div>
             LIMITED TIME OFFER
           </div>
 
           <!-- Main Headline -->
-          <h1 class="text-4xl md:text-6xl font-black tracking-tighter mb-6 leading-[1.1]">
+          <h1 class="text-3xl md:text-5xl font-black tracking-tighter mb-3 leading-[1.1]">
             Watch Me Trade Live
             <br class="md:hidden" />
             <span class="text-yellow-500">Every Day For Free</span>
           </h1>
 
           <!-- Subheadline -->
-          <p class="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed">
+          <p class="text-base md:text-lg text-gray-300 mb-4 leading-relaxed">
             See exactly how I apply the BBR Strategy to live markets. Full screen share. Real trades. Real results. No BS.
           </p>
 
           <!-- Main CTA -->
-          <div class="mb-12">
-            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-5 px-12 rounded-lg transition-all transform hover:scale-105 text-lg shadow-[0_0_30px_rgba(234,179,8,0.4)]">
+          <div class="mb-6">
+            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-3 px-8 rounded-lg transition-all transform hover:scale-105 text-base shadow-[0_0_30px_rgba(234,179,8,0.4)]">
               START 7-DAY FREE TRIAL
             </a>
-            <p class="text-gray-400 text-sm mt-4">Cancel anytime.</p>
+            <p class="text-gray-400 text-xs mt-2">Cancel anytime.</p>
           </div>
 
           <!-- Value Props -->
-          <div class="grid md:grid-cols-3 gap-4 mb-12">
-            <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-4">
-              <Icon name="lucide:calendar" class="w-6 h-6 text-yellow-500 mx-auto mb-2" />
-              <p class="text-sm font-bold">Daily at 9:25 AM EST</p>
+          <div class="grid md:grid-cols-3 gap-3 mb-6">
+            <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-3">
+              <Icon name="lucide:calendar" class="w-5 h-5 text-yellow-500 mx-auto mb-1" />
+              <p class="text-xs font-bold">Daily at 9:25 AM EST</p>
             </div>
-            <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-4">
-              <Icon name="lucide:monitor" class="w-6 h-6 text-yellow-500 mx-auto mb-2" />
-              <p class="text-sm font-bold">Full Screen Share</p>
+            <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-3">
+              <Icon name="lucide:monitor" class="w-5 h-5 text-yellow-500 mx-auto mb-1" />
+              <p class="text-xs font-bold">Full Screen Share</p>
             </div>
-            <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-4">
-              <Icon name="lucide:zap" class="w-6 h-6 text-yellow-500 mx-auto mb-2" />
-              <p class="text-sm font-bold">Real Money Trading</p>
+            <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-3">
+              <Icon name="lucide:zap" class="w-5 h-5 text-yellow-500 mx-auto mb-1" />
+              <p class="text-xs font-bold">Real Money Trading</p>
             </div>
           </div>
         </div>
@@ -61,13 +61,13 @@
     </section>
 
     <!-- VSL Placeholder Section -->
-    <section class="py-16 md:py-24 bg-slate-900/50 border-y border-slate-800">
+    <section class="py-4 md:py-6 bg-slate-900/50 border-y border-slate-800">
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto">
-          <div class="bg-slate-900 border-2 border-dashed border-yellow-500/30 rounded-2xl p-12 text-center">
-            <Icon name="lucide:video" class="w-16 h-16 text-yellow-500/50 mx-auto mb-4" />
-            <p class="text-gray-400 text-lg font-bold mb-2">Video Sales Letter (VSL)</p>
-            <p class="text-gray-500 text-sm">Your custom VSL will be embedded here</p>
+          <div class="bg-slate-900 border-2 border-dashed border-yellow-500/30 rounded-xl p-6 text-center">
+            <Icon name="lucide:video" class="w-12 h-12 text-yellow-500/50 mx-auto mb-2" />
+            <p class="text-gray-400 text-base font-bold mb-1">Video Sales Letter (VSL)</p>
+            <p class="text-gray-500 text-xs">Your custom VSL will be embedded here</p>
           </div>
         </div>
       </div>
