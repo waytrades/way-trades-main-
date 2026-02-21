@@ -11,7 +11,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="relative py-16 md:py-24 overflow-hidden">
+    <section class="relative py-4 md:py-8 overflow-hidden">
       <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-500/10 via-transparent to-transparent -z-10"></div>
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto text-center">
@@ -31,27 +31,8 @@
             Stop chasing high win rates with low risk:reward. Get the exact framework I use to rinse prop firms with a 1:3 edge and a 55% win rate.
           </p>
 
-          <!-- Value Props -->
-          <div class="grid md:grid-cols-3 gap-6 mb-12">
-            <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-6">
-              <Icon name="lucide:target" class="w-8 h-8 text-yellow-500 mx-auto mb-3" />
-              <p class="font-bold mb-2">The 3 BBR Setups</p>
-              <p class="text-sm text-gray-400">Breakouts, Bounces & Rejects explained</p>
-            </div>
-            <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-6">
-              <Icon name="lucide:calculator" class="w-8 h-8 text-yellow-500 mx-auto mb-3" />
-              <p class="font-bold mb-2">Risk Management Math</p>
-              <p class="text-sm text-gray-400">Position sizing for the 1:3 edge</p>
-            </div>
-            <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-6">
-              <Icon name="lucide:chart-line" class="w-8 h-8 text-yellow-500 mx-auto mb-3" />
-              <p class="font-bold mb-2">Real Backtest Data</p>
-              <p class="text-sm text-gray-400">55% win rate. 3.92 profit factor.</p>
-            </div>
-          </div>
-
-          <!-- CTA Section -->
-          <div class="bg-gradient-to-b from-slate-900 to-slate-950 border border-yellow-500/20 rounded-2xl p-8 md:p-12">
+          <!-- Email Form Section -->
+          <div class="bg-gradient-to-b from-slate-900 to-slate-950 border border-yellow-500/20 rounded-2xl p-8 md:p-12 mb-12">
             <h2 class="text-2xl md:text-3xl font-black mb-4">Get Your Free Cheat Sheet</h2>
             <p class="text-gray-400 mb-8">Enter your email below and I'll send you the complete BBR Strategy guide instantly.</p>
 
@@ -74,6 +55,27 @@
               </div>
             </div>
           </div>
+
+          <!-- Value Props -->
+          <div class="grid md:grid-cols-3 gap-6 mb-12">
+            <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-6">
+              <Icon name="lucide:target" class="w-8 h-8 text-yellow-500 mx-auto mb-3" />
+              <p class="font-bold mb-2">The 3 BBR Setups</p>
+              <p class="text-sm text-gray-400">Breakouts, Bounces & Rejects explained</p>
+            </div>
+            <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-6">
+              <Icon name="lucide:calculator" class="w-8 h-8 text-yellow-500 mx-auto mb-3" />
+              <p class="font-bold mb-2">Risk Management Math</p>
+              <p class="text-sm text-gray-400">Position sizing for the 1:3 edge</p>
+            </div>
+            <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-6">
+              <Icon name="lucide:chart-line" class="w-8 h-8 text-yellow-500 mx-auto mb-3" />
+              <p class="font-bold mb-2">Real Backtest Data</p>
+              <p class="text-sm text-gray-400">55% win rate. 3.92 profit factor.</p>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>
