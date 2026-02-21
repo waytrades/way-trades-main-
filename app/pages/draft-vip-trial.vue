@@ -34,11 +34,18 @@
           </p>
 
           <!-- Main CTA -->
-          <div class="mb-6">
+          <div class="mb-4">
             <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-3 px-8 rounded-lg transition-all transform hover:scale-105 text-base shadow-[0_0_30px_rgba(234,179,8,0.4)]">
               START 7-DAY FREE TRIAL
             </a>
             <p class="text-gray-400 text-xs mt-2">Cancel anytime.</p>
+          </div>
+
+          <!-- VSL Placeholder -->
+          <div class="bg-slate-900 border-2 border-dashed border-yellow-500/30 rounded-xl p-4 text-center mb-6">
+            <Icon name="lucide:video" class="w-10 h-10 text-yellow-500/50 mx-auto mb-1" />
+            <p class="text-gray-400 text-sm font-bold mb-1">Video Sales Letter (VSL)</p>
+            <p class="text-gray-500 text-xs">Your custom VSL will be embedded here</p>
           </div>
 
           <!-- Value Props -->
@@ -55,19 +62,6 @@
               <Icon name="lucide:zap" class="w-5 h-5 text-yellow-500 mx-auto mb-1" />
               <p class="text-xs font-bold">Real Money Trading</p>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- VSL Placeholder Section -->
-    <section class="py-4 md:py-6 bg-slate-900/50 border-y border-slate-800">
-      <div class="container mx-auto px-4">
-        <div class="max-w-3xl mx-auto">
-          <div class="bg-slate-900 border-2 border-dashed border-yellow-500/30 rounded-xl p-6 text-center">
-            <Icon name="lucide:video" class="w-12 h-12 text-yellow-500/50 mx-auto mb-2" />
-            <p class="text-gray-400 text-base font-bold mb-1">Video Sales Letter (VSL)</p>
-            <p class="text-gray-500 text-xs">Your custom VSL will be embedded here</p>
           </div>
         </div>
       </div>
