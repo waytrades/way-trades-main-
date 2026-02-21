@@ -134,7 +134,9 @@
               </div>
             </div>
             <div>
-              <h3 class="font-bold text-lg mb-2">Trading Community<            <p class="text-gray-400 text-sm">Join 100+ serious traders in our Discord. Ask questions, share wins, get feedback from the community.</p>            </div>
+              <h3 class="font-bold text-lg mb-2">Trading Community</h3>
+              <p class="text-gray-400 text-sm">Join 100+ serious traders in our Discord. Ask questions, share wins, get feedback from the community.</p>
+            </div>
           </div>
         </div>
       </div>
