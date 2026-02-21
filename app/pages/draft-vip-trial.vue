@@ -11,7 +11,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="relative py-16 md:py-24 overflow-hidden">
+    <section class="relative py-4 md:py-8 overflow-hidden">
       <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-500/10 via-transparent to-transparent -z-10"></div>
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto text-center">
