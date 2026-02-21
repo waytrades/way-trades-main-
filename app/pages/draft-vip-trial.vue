@@ -117,8 +117,7 @@
             </div>
             <div>
               <h3 class="font-bold text-lg mb-2">Full Video Courses</h3>
-              <p class="text-gray-400">Access to the complete BBR Strategy video library. Learn at your own pace. Lifetime access.</p>
-            </div>
+              <p class="text-gray-400 text-sm">Access to the complete BBR Strategy video library. Learn at your own pace.</p>     </div>
           </div>
 
           <div class="flex gap-4">
