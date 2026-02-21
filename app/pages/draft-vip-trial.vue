@@ -38,7 +38,7 @@
             <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-5 px-12 rounded-lg transition-all transform hover:scale-105 text-lg shadow-[0_0_30px_rgba(234,179,8,0.4)]">
               START 7-DAY FREE TRIAL
             </a>
-            <p class="text-gray-400 text-sm mt-4">No credit card required. Cancel anytime.</p>
+            <p class="text-gray-400 text-sm mt-4">Cancel anytime.</p>
           </div>
 
           <!-- Value Props -->
@@ -60,24 +60,15 @@
       </div>
     </section>
 
-    <!-- Video Section -->
+    <!-- VSL Placeholder Section -->
     <section class="py-16 md:py-24 bg-slate-900/50 border-y border-slate-800">
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto">
-          <!-- YouTube Video Embed -->
-          <div class="relative bg-slate-900 border-2 border-yellow-500/50 rounded-2xl overflow-hidden aspect-video mb-6">
-            <iframe
-              width="100%"
-              height="100%"
-              src="https://www.youtube.com/embed/TbDnaZZVZ-E"
-              title="Live Trading Example"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-              class="absolute inset-0"
-            ></iframe>
+          <div class="bg-slate-900 border-2 border-dashed border-yellow-500/30 rounded-2xl p-12 text-center">
+            <Icon name="lucide:video" class="w-16 h-16 text-yellow-500/50 mx-auto mb-4" />
+            <p class="text-gray-400 text-lg font-bold mb-2">Video Sales Letter (VSL)</p>
+            <p class="text-gray-500 text-sm">Your custom VSL will be embedded here</p>
           </div>
-          <p class="text-center text-gray-400 text-sm">Watch a sample of how I trade live. This is what you'll see every weekday.</p>
         </div>
       </div>
     </section>
@@ -143,9 +134,7 @@
               </div>
             </div>
             <div>
-              <h3 class="font-bold text-lg mb-2">Trading Community</h3>
-              <p class="text-gray-400">Join 500+ serious traders in our Discord. Ask questions, share wins, get feedback from the community.</p>
-            </div>
+              <h3 class="font-bold text-lg mb-2">Trading Community<            <p class="text-gray-400 text-sm">Join 100+ serious traders in our Discord. Ask questions, share wins, get feedback from the community.</p>            </div>
           </div>
         </div>
       </div>
@@ -257,7 +246,7 @@
               <span>What if I can't make the 9:25 AM EST time?</span>
               <Icon name="lucide:chevron-down" class="w-5 h-5 group-open:rotate-180 transition-transform" />
             </summary>
-            <p class="text-gray-400 mt-4">All live sessions are recorded and available in the member area. You can watch them anytime that works for your schedule.</p>
+            <p class="text-gray-400 mt-4">If you can't make the morning lives, you'll be able to watch me recap each and every trading day in the "trade-recaps" channel in the Discord.</p>
           </details>
 
           <details class="bg-slate-900 border border-slate-800 rounded-lg p-6 cursor-pointer group">
@@ -266,14 +255,6 @@
               <Icon name="lucide:chevron-down" class="w-5 h-4 group-open:rotate-180 transition-transform" />
             </summary>
             <p class="text-gray-400 mt-4">Your trial converts to a $74/month VIP membership. You can cancel anytime, no questions asked. But most people stay because the value is undeniable.</p>
-          </details>
-
-          <details class="bg-slate-900 border border-slate-800 rounded-lg p-6 cursor-pointer group">
-            <summary class="font-bold flex items-center justify-between">
-              <span>Is there a money-back guarantee?</span>
-              <Icon name="lucide:chevron-down" class="w-5 h-4 group-open:rotate-180 transition-transform" />
-            </summary>
-            <p class="text-gray-400 mt-4">Yes. If you're not satisfied within the first 7 days, we'll refund you in full. No questions asked. We're confident you'll love it.</p>
           </details>
         </div>
       </div>
@@ -289,7 +270,30 @@
           <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-5 px-12 rounded-lg transition-all transform hover:scale-105 text-lg shadow-[0_0_30px_rgba(234,179,8,0.4)] mb-4">
             START 7-DAY FREE TRIAL
           </a>
-          <p class="text-gray-400 text-sm">No credit card required. Cancel anytime.</p>
+          <p class="text-gray-400 text-sm">Cancel anytime.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Backtest Video Section -->
+    <section class="py-16 md:py-24 bg-slate-900/50 border-t border-slate-800">
+      <div class="container mx-auto px-4">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-3xl md:text-4xl font-black text-center mb-12">The Math That Works</h2>
+          <!-- YouTube Video Embed -->
+          <div class="relative bg-slate-900 border-2 border-yellow-500/50 rounded-2xl overflow-hidden aspect-video mb-6">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/TbDnaZZVZ-E"
+              title="4-Hour Backtest Video"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              class="absolute inset-0"
+            ></iframe>
+          </div>
+          <p class="text-center text-gray-400 text-sm">6 hours of raw backtest data. 55% win rate. 3.92 profit factor. No hype. Just math.</p>
         </div>
       </div>
     </section>
