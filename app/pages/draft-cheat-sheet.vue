@@ -37,18 +37,7 @@
             GET FREE CHEAT SHEET
           </a>
 
-          <!-- Trust Signals -->
-          <div class="flex flex-col md:flex-row items-center justify-center gap-6 text-sm text-gray-400">
-            <div class="flex items-center gap-2">
-              <Icon name="lucide:lock" class="w-4 h-4 text-yellow-500" />
-              <span>Your email is safe with us</span>
-            </div>
-            <div class="hidden md:block">•</div>
-            <div class="flex items-center gap-2">
-              <Icon name="lucide:mail" class="w-4 h-4 text-yellow-500" />
-              <span>Unsubscribe anytime</span>
-            </div>
-          </div>
+
 
           <!-- Value Props -->
           <div class="grid md:grid-cols-3 gap-6 mb-12">
