@@ -31,28 +31,22 @@
             Stop chasing high win rates with low risk:reward. Get the exact framework I use to rinse prop firms with a 1:3 edge and a 55% win rate.
           </p>
 
-          <!-- Email Form Section -->
-          <div class="bg-gradient-to-b from-slate-900 to-slate-950 border border-yellow-500/20 rounded-2xl p-8 md:p-12 mb-12">
-            <h2 class="text-2xl md:text-3xl font-black mb-4">Get Your Free Cheat Sheet</h2>
-            <p class="text-gray-400 mb-8">Enter your email below and I'll send you the complete BBR Strategy guide instantly.</p>
+          <!-- CTA Button -->
+          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl mb-6 shadow-lg shadow-yellow-500/20">
+            <Icon name="lucide:download" class="w-5 h-5" />
+            GET FREE CHEAT SHEET
+          </a>
 
-            <!-- Mailmodo Form Placeholder -->
-            <div class="bg-slate-800 border-2 border-dashed border-yellow-500/30 rounded-lg p-8 text-center mb-6">
-              <p class="text-gray-400 text-sm mb-2">📧 Mailmodo Form Embed Here</p>
-              <p class="text-gray-500 text-xs">Email opt-in form will be connected once finalized</p>
+          <!-- Trust Signals -->
+          <div class="flex flex-col md:flex-row items-center justify-center gap-6 text-sm text-gray-400">
+            <div class="flex items-center gap-2">
+              <Icon name="lucide:lock" class="w-4 h-4 text-yellow-500" />
+              <span>Your email is safe with us</span>
             </div>
-
-            <!-- Trust Signals -->
-            <div class="flex flex-col md:flex-row items-center justify-center gap-6 text-sm text-gray-400">
-              <div class="flex items-center gap-2">
-                <Icon name="lucide:lock" class="w-4 h-4 text-yellow-500" />
-                <span>Your email is safe with us</span>
-              </div>
-              <div class="hidden md:block">•</div>
-              <div class="flex items-center gap-2">
-                <Icon name="lucide:mail" class="w-4 h-4 text-yellow-500" />
-                <span>Unsubscribe anytime</span>
-              </div>
+            <div class="hidden md:block">•</div>
+            <div class="flex items-center gap-2">
+              <Icon name="lucide:mail" class="w-4 h-4 text-yellow-500" />
+              <span>Unsubscribe anytime</span>
             </div>
           </div>
 
@@ -179,13 +173,10 @@
           <h2 class="text-3xl md:text-4xl font-black mb-6">Ready to Learn the Math?</h2>
           <p class="text-lg text-gray-400 mb-8">Get the cheat sheet and start thinking about trading differently. No credit card required.</p>
           
-          <div class="bg-gradient-to-b from-slate-900 to-slate-950 border border-yellow-500/20 rounded-2xl p-8">
-            <p class="text-gray-400 mb-6">Enter your email below:</p>
-            <div class="bg-slate-800 border-2 border-dashed border-yellow-500/30 rounded-lg p-8 text-center">
-              <p class="text-gray-400 text-sm mb-2">📧 Mailmodo Form Embed Here</p>
-              <p class="text-gray-500 text-xs">Email opt-in form will be connected once finalized</p>
-            </div>
-          </div>
+          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl shadow-lg shadow-yellow-500/20">
+            <Icon name="lucide:download" class="w-5 h-5" />
+            GET FREE CHEAT SHEET
+          </a>
         </div>
       </div>
     </section>
