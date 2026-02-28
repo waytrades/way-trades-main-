@@ -15,21 +15,10 @@
       <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-500/10 via-transparent to-transparent -z-10"></div>
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto text-center">
-          <!-- Badge -->
-          <div class="inline-flex items-center gap-2 bg-yellow-500/10 text-yellow-500 px-4 py-2 rounded-full text-sm font-bold border border-yellow-500/20 mb-6">
-            <Icon name="lucide:zap" class="w-4 h-4" />
-            FREE STRATEGY GUIDE
-          </div>
-
           <!-- Main Headline -->
-          <h1 class="text-4xl md:text-6xl font-black tracking-tighter mb-6 leading-[1.1]">
+          <h1 class="text-4xl md:text-6xl font-black tracking-tighter mb-12 leading-[1.1]">
             The <span class="text-yellow-500">BBR Strategy</span> Cheat Sheet
           </h1>
-
-          <!-- Subheadline -->
-          <p class="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed">
-            Stop chasing high win rates with low risk:reward. Get the exact framework I use to rinse prop firms with a 1:3 edge and a 55% win rate.
-          </p>
 
           <!-- VSL Video Section -->
           <div class="w-full max-w-2xl mx-auto mb-8">
@@ -46,10 +35,15 @@
           </div>
 
           <!-- CTA Button -->
-          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl mb-12 shadow-lg shadow-yellow-500/20">
+          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl mb-8 shadow-lg shadow-yellow-500/20">
             <Icon name="lucide:download" class="w-5 h-5" />
             GET FREE CHEAT SHEET
           </a>
+
+          <!-- Subheadline (Moved Below CTA) -->
+          <p class="text-lg md:text-xl text-gray-300 mb-12 leading-relaxed">
+            Stop chasing high win rates with low risk:reward. Get the exact framework I use to rinse prop firms with a 1:3 edge and a 55% win rate.
+          </p>
 
           <!-- Value Props -->
           <div class="grid md:grid-cols-3 gap-6 mb-12">
