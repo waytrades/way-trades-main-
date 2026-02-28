@@ -31,14 +31,8 @@
             Stop chasing high win rates with low risk:reward. Get the exact framework I use to rinse prop firms with a 1:3 edge and a 55% win rate.
           </p>
 
-          <!-- CTA Button -->
-          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl mb-6 shadow-lg shadow-yellow-500/20">
-            <Icon name="lucide:download" class="w-5 h-5" />
-            GET FREE CHEAT SHEET
-          </a>
-
           <!-- VSL Video Section -->
-          <div class="w-full max-w-2xl mx-auto mb-12">
+          <div class="w-full max-w-2xl mx-auto mb-8">
             <div class="relative w-full bg-slate-900 rounded-lg overflow-hidden border border-slate-800 shadow-lg" style="padding-bottom: 56.25%;">
               <iframe
                 class="absolute top-0 left-0 w-full h-full"
@@ -50,6 +44,12 @@
               </iframe>
             </div>
           </div>
+
+          <!-- CTA Button -->
+          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl mb-12 shadow-lg shadow-yellow-500/20">
+            <Icon name="lucide:download" class="w-5 h-5" />
+            GET FREE CHEAT SHEET
+          </a>
 
           <!-- Value Props -->
           <div class="grid md:grid-cols-3 gap-6 mb-12">
