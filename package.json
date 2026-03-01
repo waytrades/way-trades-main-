@@ -16,6 +16,7 @@
     "@sanity/client": "^7.14.0",
     "@sanity/image-url": "^2.0.2",
     "@stripe/stripe-js": "^8.6.1",
+    "@vercel/analytics": "^1.6.1",
     "autoprefixer": "^10.4.23",
     "axios": "^1.13.2",
     "dotenv": "^17.2.3",
