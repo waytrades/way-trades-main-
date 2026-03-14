@@ -191,4 +191,14 @@
 definePageMeta({
   layout: 'default'
 })
+
+// SEO Meta Tags
+useSeoMeta({
+  title: 'Free BBR Strategy Cheat Sheet | Master the 1:3 Trading Edge',
+  ogTitle: 'Free BBR Strategy Cheat Sheet | Master the 1:3 Trading Edge',
+  description: 'Download the exact framework I use to trade breakouts, bounces, and rejects with a 50% win rate. Get the PDF cheat sheet and start trading with a mathematical edge today.',
+  ogDescription: 'Download the exact framework I use to trade breakouts, bounces, and rejects with a 50% win rate. Get the PDF cheat sheet and start trading with a mathematical edge today.',
+  ogImage: '/logo.png',
+  twitterCard: 'summary_large_image',
+})
 </script>
