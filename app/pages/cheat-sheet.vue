@@ -23,13 +23,13 @@
           <!-- VSL Video Section -->
           <div class="w-full max-w-2xl mx-auto mb-8">
             <div class="relative w-full bg-slate-900 rounded-lg overflow-hidden border border-slate-800 shadow-lg" style="padding-bottom: 56.25%;">
-              <iframe
-                class="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/CzXuJOF6OW4"
-                title="BBR Strategy Cheat Sheet VSL"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
+              <iframe 
+                src="https://player.vimeo.com/video/1173603255?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                title="BBR CHEAT SHEET VSL">
               </iframe>
             </div>
           </div>
