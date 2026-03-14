@@ -39,7 +39,7 @@
         <div class="max-w-4xl mx-auto">
           <!-- Headline -->
           <h1 class="text-[26px] md:text-6xl font-black tracking-tight md:tracking-tighter mb-4 md:mb-6 leading-[1.2] md:leading-[0.95] text-center md:max-w-none mx-auto">
-            Live Trade My<br class="md:hidden" /> <span class="text-yellow-500">BBR</span> Strategy With Me For <span class="text-yellow-500">Free</span>
+            Experience <span class="text-yellow-500">Professional</span> Futures Trading in <span class="text-yellow-500">Real-Time</span>
           </h1>
           
           <!-- Video Placeholder with Clean Stats Bar Below -->
