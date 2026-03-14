@@ -112,6 +112,12 @@ const testimonials = [
     quote: "WAY IS A SELF MADE TRADER. CONSISTENT/KNOWS WHAT HE TALKING ABOUT/EXECUTION ON POINT/SIMPLE AND EFFECTIVE ANALYSIS/POISED. JOIN THE WAY. COME FOR THE JOURNEY. LEARN AND EARN. He taught me a lot about myself and made me better as a trader and person.",
     author: "Big E",
     title: "Self-Made Trader"
+  },
+  {
+    image: "/testimonial-ghosttapz.webp",
+    quote: "I promise yall there are so many more to come. Want to thank God, myself, and all of you guys for believing me and helping me achieve this! Just another step up the ladder and nothing is slowing me down! Discipline and consistency always wins! Thank you again and lets keep getting at it!!",
+    author: "GhostTapz",
+    title: "Multiple Achievements"
   }
 ]
 
