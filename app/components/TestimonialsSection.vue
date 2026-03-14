@@ -77,29 +77,29 @@ const scrollContainer = ref(null)
 
 const testimonials = [
   {
-    quote: "I promise yall there are so many more to come. Want to thank God, myself, and all of you guys for believing me and helping me achieve this! Just another step up the ladder and nothing is slowing me down! Discipline and consistency always wins! Thank you again and lets keep getting at it!!",
-    author: "GhostTapz",
-    title: "Consistent Trader"
+    quote: "Just got paid now, my first payout !!! And this is just the beginning",
+    author: "Charly",
+    title: "First Payout Achieved"
   },
   {
-    quote: "I didn\'t realize how many small mistakes were adding up until i met Waylon. He took time to give me advice and not sugar coat anything. I watched his vids and joined his live. I was eager to get better. And thanks to my dedication and help from people like @WayTrades (Admin) i changed how i trade completely, and it ended up leading to myfirst $5,000 week in payouts",
+    quote: "I didn't realize how many small mistakes were adding up until i met Waylon. He took time to give me advice and not sugar coat anything. I watched his vids and joined his live. I was eager to get better. And thanks to my dedication and help from people like @WayTrades (Admin) i changed how i trade completely, and it ended up leading to my first $5,000 week in payouts",
     author: "Angs",
     title: "$5,000 Payout Week"
   },
   {
-    quote: "I\'ve taken and explored a few trading courses over the last two years, but this one really stands out. The way the break and retest strategy is taught is clear, practical, and easy to apply in real market conditions. Nothing feels overcomplicated or theoretical just for the sake of it. What I appreciate most is the focus on patience, confirmation, and risk management—not just chasing moves. The lessons helped me understand why setups work, not just when to enter. Even early on, I found myself trading with more confidence and discipline. If you\'re serious about learning a structured, repeatable approach to day trading—this course is absolutely worth your time.",
-    author: "JCNY",
-    title: "Structured Day Trading"
+    quote: "Joining this cord is the best decision I made in a while. After blowing 4 evals, following @WayTrades (Admin) and his psychology has helped me passed my first Eval, many more to come!!!",
+    author: "aftradescash",
+    title: "First Eval Passed"
   },
   {
-    quote: "WAY IS A SELF MADE TRADER. CONSISTENT/KNOWS WHAT HE TALKING ABOUT/EXECUTION ON POINT/SIMPLE AMD EFFECTIVE ANALYSIS/POISED. JOIN THE \"WAY\". COME FOR THE JOURNEY. LEARN AND EARN. He taught me a lot about myself and made me better as a trader and person.",
-    author: "Big E",
-    title: "Self-Made Trader"
-  },
-  {
-    quote: "Joining this discord was a turning point for me. The focus on discipline, risk management, and a proven system completely changed how I approach the market. I finally broke out of the breakeven phase and built consistent habits that actually work. Way and loc are some of the most transparent traders I know, and if you\'re serious about futures trading and want real progress without the hype, this Discord delivers. 💯💰",
+    quote: "Joining this discord was a turning point for me. The focus on discipline, risk management, and a proven system completely changed how I approach the market. I finally broke out of the breakeven phase and built consistent habits that actually work. Way and loc are some of the most transparent traders I know, and if you're serious about futures trading and want real progress without the hype, this Discord delivers.",
     author: "Damon",
     title: "Futures Trading Success"
+  },
+  {
+    quote: "WAY IS A SELF MADE TRADER. CONSISTENT/KNOWS WHAT HE TALKING ABOUT/EXECUTION ON POINT/SIMPLE AND EFFECTIVE ANALYSIS/POISED. JOIN THE WAY. COME FOR THE JOURNEY. LEARN AND EARN. He taught me a lot about myself and made me better as a trader and person.",
+    author: "Big E",
+    title: "Self-Made Trader"
   }
 ]
 
