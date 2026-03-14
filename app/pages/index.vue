@@ -27,13 +27,6 @@
     <header class="relative py-4 md:py-20 overflow-hidden">
       <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-500/10 via-transparent to-transparent -z-10"></div>
       <div class="container mx-auto px-4">
-        <!-- Unique Mechanism Badge -->
-        <div class="text-center mb-4 md:mb-8">
-          <div class="inline-flex items-center gap-2 bg-yellow-500/10 text-yellow-500 px-4 py-2 rounded-full text-sm font-bold border border-yellow-500/20">
-            <Icon name="lucide:calculator" class="w-4 h-4" />
-            FUTURES DAY TRADERS
-          </div>
-        </div>
         
         <!-- Hero Content - Vertical Stack for Mobile -->
         <div class="max-w-4xl mx-auto">
