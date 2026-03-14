@@ -345,4 +345,14 @@
 
 <script setup>
 const { gtag } = useGtag()
+
+// SEO Meta Tags
+useSeoMeta({
+  title: 'Way Trades | Experience Professional Futures Trading in Real-Time',
+  ogTitle: 'Way Trades | Experience Professional Futures Trading in Real-Time',
+  description: 'Stop chasing hype. Watch me live trade the BBR strategy daily with a 1:3 risk-reward edge and 50% win rate. Start your 7-day free trial and see the proof for yourself.',
+  ogDescription: 'Stop chasing hype. Watch me live trade the BBR strategy daily with a 1:3 risk-reward edge and 50% win rate. Start your 7-day free trial and see the proof for yourself.',
+  ogImage: '/logo.png',
+  twitterCard: 'summary_large_image',
+})
 </script>
