@@ -24,12 +24,11 @@
           <div class="w-full max-w-2xl mx-auto mb-8">
             <div class="relative w-full bg-slate-900 rounded-lg overflow-hidden border border-slate-800 shadow-lg" style="padding-bottom: 56.25%;">
               <iframe 
-                src="https://player.vimeo.com/video/1173603255?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-                frameborder="0" 
-                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-                title="BBR CHEAT SHEET VSL">
+                src="https://player.mediadelivery.net/embed/617398/1239e75e-8a41-4831-a58f-9052807cbedf?autoplay=false&loop=true&muted=false&preload=true&responsive=true" 
+                loading="lazy" 
+                style="border:0;position:absolute;top:0;height:100%;width:100%;" 
+                allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" 
+                allowfullscreen="true">
               </iframe>
             </div>
           </div>
