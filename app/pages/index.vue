@@ -37,13 +37,18 @@
           
           <!-- Video Placeholder with Clean Stats Bar Below -->
           <div class="mb-8 md:mb-10">
-            <!-- VSL Video Embed Placeholder -->
+            <!-- Temporary YouTube Backtesting Video (Until Vimeo VSL is Ready) -->
             <div class="relative bg-slate-900 border-2 border-yellow-500/50 rounded-2xl overflow-hidden aspect-video mb-4">
-              <!-- Your VSL will be embedded here. Use a YouTube/Vimeo embed or direct video player. -->
-              <!-- Example: <iframe src="YOUR_VSL_LINK_HERE" frameborder="0" allowfullscreen class="absolute inset-0 w-full h-full"></iframe> -->
-              <div class="absolute inset-0 flex items-center justify-center text-gray-400 text-lg font-bold">
-                [YOUR VSL VIDEO HERE]
-              </div>
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/TbDnaZZVZ-E"
+                title="4-Hour Backtest Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                class="absolute inset-0"
+              ></iframe>
             </div>
             
             <!-- Clean Stats Bar Below Video -->
