@@ -42,7 +42,7 @@
 
           <!-- Subheadline (Moved Below CTA) -->
           <p class="text-lg md:text-xl text-gray-300 mb-12 leading-relaxed">
-            Stop chasing high win rates with low risk:reward. Get the exact framework I use to rinse prop firms with a 1:3 edge and a 55% win rate.
+            Stop chasing high win rates with low risk:reward. Get the exact framework I use to rinse prop firms with a 1:3 edge and a 50% win rate.
           </p>
 
           <!-- Value Props -->
@@ -60,7 +60,7 @@
             <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-6">
               <Icon name="lucide:chart-line" class="w-8 h-8 text-yellow-500 mx-auto mb-3" />
               <p class="font-bold mb-2">Real Backtest Data</p>
-              <p class="text-sm text-gray-400">55% win rate. 3.92 profit factor.</p>
+              <p class="text-sm text-gray-400">50% win rate. 3.92 profit factor.</p>
             </div>
           </div>
 

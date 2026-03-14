@@ -73,7 +73,7 @@
                   <p class="text-gray-400 text-xs md:text-sm font-bold mt-2">PROFIT FACTOR</p>
                 </div>
                 <div class="text-center">
-                  <p class="text-yellow-500 text-2xl md:text-3xl font-black">55%</p>
+                  <p class="text-yellow-500 text-2xl md:text-3xl font-black">50%</p>
                   <p class="text-gray-400 text-xs md:text-sm font-bold mt-2">WIN RATE</p>
                 </div>
                 <div class="text-center">
