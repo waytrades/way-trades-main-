@@ -99,6 +99,9 @@
           <p class="text-center text-gray-400 text-sm md:text-base mt-6 md:mt-8">
             (I share my entire screen and live trade daily at 9:25am EST)
           </p>
+          <p class="text-center text-yellow-500 text-sm md:text-base font-bold mt-4">
+            First week is FREE so you can see we're legitimate, transparent, profitable, and CAN help you get payouts and become consistently profitable as well.
+          </p>
         </div>
       </div>
     </header>
