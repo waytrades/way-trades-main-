@@ -9,17 +9,25 @@
 
     <!-- Navigation -->
     <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
-      <div class="container mx-auto px-4 py-3 flex justify-center md:justify-between items-center">
-        <div class="flex items-center gap-3 justify-center">
+      <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+        <!-- Logo and Brand Name (Left) -->
+        <div class="flex items-center gap-3">
           <img src="/logo.png" alt="Way Trades Logo" class="w-12 h-12 object-contain" />
           <span class="text-xl font-black tracking-tighter">WAY TRADES</span>
         </div>
+        
+        <!-- Desktop Navigation (Hidden on Mobile) -->
         <div class="hidden md:flex items-center gap-8 text-sm font-bold text-gray-400">
           <a href="#strategy" class="hover:text-yellow-500 transition-colors">STRATEGY</a>
           <a href="#pricing" class="hover:text-yellow-500 transition-colors">MEMBERSHIP</a>
           <a href="#mentorship" class="hover:text-yellow-500 transition-colors">MENTORSHIP</a>
-          <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="bg-yellow-500 text-slate-950 px-4 py-2 rounded hover:bg-yellow-600 transition-colors">JOIN FREE</a>
+          <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="bg-yellow-500 text-slate-950 px-4 py-2 rounded hover:bg-yellow-600 transition-colors font-bold">JOIN FREE</a>
         </div>
+        
+        <!-- Mobile Discord Button (Visible on Mobile Only) -->
+        <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="md:hidden bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black px-3 py-2 rounded text-sm transition-all">
+          JOIN FREE
+        </a>
       </div>
     </nav>
 
@@ -71,12 +79,9 @@
             </div>
           </div>
           
-          <!-- CTA Buttons -->
-          <div class="flex flex-col gap-3 md:flex-row md:gap-4 justify-center">
-            <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" @click="gtag.event('click', { event_category: 'cta', event_label: 'join_free_discord' })" class="w-full text-center bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-4 md:py-5 px-8 md:px-10 rounded-lg transition-all transform hover:scale-105 text-base md:text-lg shadow-[0_0_20px_rgba(234,179,8,0.3)]">
-              JOIN FREE DISCORD
-            </a>
-            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" @click="gtag.event('click', { event_category: 'cta', event_label: 'start_trial' })" class="w-full text-center bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 md:py-5 px-8 md:px-10 rounded-lg transition-all border border-slate-800 text-base md:text-lg">
+          <!-- CTA Button (Desktop and Mobile) -->
+          <div class="flex justify-center">
+            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" @click="gtag.event('click', { event_category: 'cta', event_label: 'start_trial' })" class="w-full md:w-auto text-center bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-4 md:py-5 px-8 md:px-12 rounded-lg transition-all transform hover:scale-105 text-base md:text-lg shadow-[0_0_20px_rgba(234,179,8,0.3)]">
               START 7-DAY FREE TRIAL
             </a>
           </div>
