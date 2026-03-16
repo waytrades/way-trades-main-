@@ -175,7 +175,7 @@
                 Morning Watchlists
               </li>
             </ul>
-            <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="w-full py-4 bg-slate-800 hover:bg-slate-700 text-white font-bold rounded-lg text-center transition-colors">
+            <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="w-full py-4 bg-slate-800 hover:bg-slate-700 text-white font-bold rounded-full text-center transition-colors">
               JOIN FREE
             </a>
           </div>
@@ -212,7 +212,7 @@
                 Priority Support & Guidance
               </li>
             </ul>
-            <a href="https://whop.com/waytrades/vip-access-60-1cb2/?utm_source=store_page&funnelId=product_7b3b2e38-8bc7-402b-9afa-d939c94b9673" target="_blank" class="w-full py-4 bg-green-500 hover:bg-green-600 text-slate-950 font-black rounded-lg text-center transition-colors">
+            <a href="https://whop.com/waytrades/vip-access-60-1cb2/?utm_source=store_page&funnelId=product_7b3b2e38-8bc7-402b-9afa-d939c94b9673" target="_blank" class="w-full py-4 bg-green-500 hover:bg-green-600 text-slate-950 font-black rounded-full text-center transition-colors">
               GET VIP ACCESS
             </a>
           </div>
@@ -339,7 +339,7 @@
 
             <!-- CTA Button -->
             <div class="flex flex-col gap-4">
-              <a href="https://whop.com/waytrades/the-bbr-1-on-1-mentorship/" target="_blank" class="w-full text-center bg-green-500 hover:bg-green-600 text-slate-950 font-black py-5 px-8 rounded-lg transition-all transform hover:scale-105 text-lg shadow-[0_0_30px_rgba(34,197,94,0.4)]">
+              <a href="https://whop.com/waytrades/the-bbr-1-on-1-mentorship/" target="_blank" class="w-full text-center bg-green-500 hover:bg-green-600 text-slate-950 font-black py-5 px-8 rounded-full transition-all transform hover:scale-105 text-lg shadow-[0_0_30px_rgba(34,197,94,0.4)]">
                 ENROLL NOW - LIMITED SPOTS
               </a>
               <p class="text-center text-gray-400 text-sm">First-come, first-served. Once 5 spots are filled, the program closes until a student graduates.</p>

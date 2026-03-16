@@ -34,7 +34,7 @@
           </div>
 
           <!-- CTA Button -->
-          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl mb-8 shadow-lg shadow-green-500/20">
+          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-full transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl mb-8 shadow-lg shadow-green-500/20">
             <Icon name="lucide:download" class="w-5 h-5" />
             GET FREE CHEAT SHEET
           </a>
@@ -75,7 +75,7 @@
           <h2 class="text-3xl md:text-4xl font-black mb-6">Ready to Learn the Math?</h2>
           <p class="text-lg text-gray-400 mb-8">Get the cheat sheet and start thinking about trading differently. No credit card required.</p>
           
-          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl shadow-lg shadow-green-500/20">
+          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-full transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl shadow-lg shadow-green-500/20">
             <Icon name="lucide:download" class="w-5 h-5" />
             GET FREE CHEAT SHEET
           </a>
