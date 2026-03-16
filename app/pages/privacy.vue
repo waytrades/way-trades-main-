@@ -1,13 +1,13 @@
 <template>
   <div class="min-h-screen bg-slate-950 text-slate-200 py-20 px-4 sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto">
-      <h1 class="text-4xl font-bold text-yellow-400 mb-8">Privacy Policy</h1>
+      <h1 class="text-4xl font-bold text-green-400 mb-8">Privacy Policy</h1>
       <p class="text-sm text-slate-400 mb-12">Last Updated: January 26, 2026</p>
 
       <section class="mb-10">
         <h2 class="text-2xl font-semibold text-white mb-4">1. Introduction</h2>
         <p class="mb-4">
-          Way Trades ("we," "our," or "us") operates the website at <a href="https://www.waytrades.com" class="text-yellow-400 hover:underline">waytrades.com</a> and provides trading education services. This policy explains how we handle your data across our website, Discord community, and email systems.
+          Way Trades ("we," "our," or "us") operates the website at <a href="https://www.waytrades.com" class="text-green-400 hover:underline">waytrades.com</a> and provides trading education services. This policy explains how we handle your data across our website, Discord community, and email systems.
         </p>
       </section>
 
@@ -53,11 +53,11 @@
       <section class="mb-10">
         <h2 class="text-2xl font-semibold text-white mb-4">6. Contact Us</h2>
         <p class="mb-4">For any questions regarding this policy, please contact:</p>
-        <p class="text-lg font-medium text-yellow-400">contact@waytrades.com</p>
+        <p class="text-lg font-medium text-green-400">contact@waytrades.com</p>
       </section>
 
       <div class="mt-20 pt-8 border-t border-slate-800">
-        <NuxtLink to="/" class="text-yellow-400 hover:text-yellow-300 transition-colors flex items-center gap-2">
+        <NuxtLink to="/" class="text-green-400 hover:text-green-300 transition-colors flex items-center gap-2">
           <span>&larr;</span> Back to Home
         </NuxtLink>
       </div>

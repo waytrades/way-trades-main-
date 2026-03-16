@@ -4,7 +4,7 @@
       <!-- Section Header -->
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-black text-white mb-4">
-          REAL <span class="text-yellow-500">RESULTS</span> FROM REAL TRADERS
+          REAL <span class="text-green-500">RESULTS</span> FROM REAL TRADERS
         </h2>
         <p class="text-gray-400 text-lg max-w-2xl mx-auto">
           See how traders like you are applying the BBR Strategy and achieving consistent, mathematically-proven results.
@@ -25,10 +25,10 @@
             :key="index"
             class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-center"
           >
-            <div class="bg-slate-900 border border-slate-800 rounded-xl p-8 h-full flex flex-col justify-between hover:border-yellow-500/50 transition-colors">
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-8 h-full flex flex-col justify-between hover:border-green-500/50 transition-colors">
               <!-- Stars -->
               <div class="flex gap-1 mb-4">
-                <Icon v-for="star in 5" :key="star" name="lucide:star" class="w-5 h-5 text-yellow-500 fill-yellow-500" />
+                <Icon v-for="star in 5" :key="star" name="lucide:star" class="w-5 h-5 text-green-500 fill-green-500" />
               </div>
 
               <!-- Quote -->
@@ -48,14 +48,14 @@
         <!-- Navigation Buttons (Desktop) -->
         <button 
           @click="scroll('left')"
-          class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 items-center justify-center w-12 h-12 bg-yellow-500 hover:bg-yellow-600 text-slate-950 rounded-full transition-colors z-10"
+          class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 items-center justify-center w-12 h-12 bg-green-500 hover:bg-green-600 text-slate-950 rounded-full transition-colors z-10"
           aria-label="Scroll left"
         >
           <Icon name="lucide:chevron-left" class="w-6 h-6" />
         </button>
         <button 
           @click="scroll('right')"
-          class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 items-center justify-center w-12 h-12 bg-yellow-500 hover:bg-yellow-600 text-slate-950 rounded-full transition-colors z-10"
+          class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 items-center justify-center w-12 h-12 bg-green-500 hover:bg-green-600 text-slate-950 rounded-full transition-colors z-10"
           aria-label="Scroll right"
         >
           <Icon name="lucide:chevron-right" class="w-6 h-6" />

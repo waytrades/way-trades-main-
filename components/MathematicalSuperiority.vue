@@ -4,13 +4,13 @@
       <!-- Section Header -->
       <div class="text-center mb-16">
         <div class="flex justify-center mb-4">
-          <Icon name="lucide:brain" class="w-12 h-12 text-yellow-500" />
+          <Icon name="lucide:brain" class="w-12 h-12 text-green-500" />
         </div>
         <h2 class="text-4xl md:text-5xl font-black text-white mb-4">
           MATH OVER HYPE
         </h2>
         <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-          Most traders chase high win rates. We chase <span class="font-bold text-yellow-500">Mathematical Robustness</span>. 
+          Most traders chase high win rates. We chase <span class="font-bold text-green-500">Mathematical Robustness</span>. 
           Here's why a <span class="font-bold text-white">55% win rate with 1:3 Risk:Reward</span> is the ultimate trading edge.
         </p>
       </div>
@@ -18,15 +18,15 @@
       <!-- Main Comparison Grid -->
       <div class="grid md:grid-cols-2 gap-8 mb-12 max-w-5xl mx-auto">
         <!-- BBR Strategy Card -->
-        <div class="border-2 border-yellow-500/50 hover:border-yellow-500 transition-all duration-300 bg-slate-900/50 backdrop-blur relative overflow-hidden rounded-xl">
-          <div class="absolute top-0 right-0 bg-yellow-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-bl-lg">
+        <div class="border-2 border-green-500/50 hover:border-green-500 transition-all duration-300 bg-slate-900/50 backdrop-blur relative overflow-hidden rounded-xl">
+          <div class="absolute top-0 right-0 bg-green-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-bl-lg">
             RECOMMENDED
           </div>
-          <div class="p-6 bg-yellow-500/10 border-b border-yellow-500/20">
+          <div class="p-6 bg-green-500/10 border-b border-green-500/20">
             <div class="flex items-center justify-center mb-2">
-              <Icon name="lucide:trending-up" class="w-10 h-10 text-yellow-500" />
+              <Icon name="lucide:trending-up" class="w-10 h-10 text-green-500" />
             </div>
-            <h3 class="text-2xl font-bold text-center text-yellow-500">BBR Strategy</h3>
+            <h3 class="text-2xl font-bold text-center text-green-500">BBR Strategy</h3>
           </div>
           <div class="p-6 space-y-4">
             <div class="space-y-3 border-b border-slate-800 pb-4">
@@ -36,7 +36,7 @@
               </div>
               <div class="flex justify-between items-center">
                 <span class="text-gray-400">Risk:Reward:</span>
-                <span class="font-bold text-lg text-yellow-500">1:3</span>
+                <span class="font-bold text-lg text-green-500">1:3</span>
               </div>
               <div class="flex justify-between items-center">
                 <span class="text-gray-400">Per Trade Expectancy:</span>
@@ -97,15 +97,15 @@
 
       <!-- Key Insight Box -->
       <div class="max-w-4xl mx-auto mb-12">
-        <div class="border-2 border-yellow-500 bg-yellow-500/5 rounded-xl p-8">
-          <h3 class="text-2xl font-bold text-yellow-500 mb-4">The "Margin for Error" Advantage</h3>
+        <div class="border-2 border-green-500 bg-green-500/5 rounded-xl p-8">
+          <h3 class="text-2xl font-bold text-green-500 mb-4">The "Margin for Error" Advantage</h3>
           <p class="text-lg text-white mb-4">
             The BBR Strategy is superior because it is <span class="font-bold">Robust</span>. 
             In trading, you will have bad weeks. The math determines if you survive them.
           </p>
           <div class="grid md:grid-cols-2 gap-6 mt-6">
             <div class="space-y-2">
-              <p class="font-bold text-yellow-500">BBR Strategy (1:3 R:R)</p>
+              <p class="font-bold text-green-500">BBR Strategy (1:3 R:R)</p>
               <p class="text-sm text-gray-400">
                 If your win rate drops to <span class="text-white font-bold">35%</span>, you are <span class="text-green-500 font-bold">STILL PROFITABLE</span> (+$0.50 per 10 trades).
               </p>
@@ -130,7 +130,7 @@
           <a 
             href="https://whop.com/waytrades/free-access-c6/" 
             target="_blank"
-            class="bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-bold py-4 px-8 rounded-lg transition-colors text-lg"
+            class="bg-green-500 hover:bg-green-600 text-slate-950 font-bold py-4 px-8 rounded-lg transition-colors text-lg"
           >
             Join Free Community
           </a>

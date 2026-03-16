@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-slate-950 text-slate-200 py-20 px-4 sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto">
-      <h1 class="text-4xl font-bold text-yellow-400 mb-8">Terms & Conditions</h1>
+      <h1 class="text-4xl font-bold text-green-400 mb-8">Terms & Conditions</h1>
       <p class="text-sm text-slate-400 mb-12">Last Updated: February 11, 2026</p>
 
       <section class="mb-10">
@@ -34,7 +34,7 @@
       </section>
 
       <div class="mt-20 pt-8 border-t border-slate-800">
-        <NuxtLink to="/" class="text-yellow-400 hover:text-yellow-300 transition-colors flex items-center gap-2">
+        <NuxtLink to="/" class="text-green-400 hover:text-green-300 transition-colors flex items-center gap-2">
           <span>&larr;</span> Back to Home
         </NuxtLink>
       </div>

@@ -123,7 +123,7 @@
             <!-- CTA Button -->
             <button 
               @click="joinVipMembership"
-              class="btn-primary w-full bg-primary hover:bg-yellow-400"
+              class="btn-primary w-full bg-primary hover:bg-green-400"
             >
               Get VIP Access
             </button>

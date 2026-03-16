@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-slate-950 text-white font-sans selection:bg-yellow-500 selection:text-slate-950">
+  <div class="min-h-screen bg-slate-950 text-white font-sans selection:bg-green-500 selection:text-slate-950">
     <!-- Navigation -->
     <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
       <div class="container mx-auto px-4 py-3 flex justify-center md:justify-between items-center">
@@ -12,12 +12,12 @@
 
     <!-- Hero Section -->
     <section class="relative py-4 md:py-8 overflow-hidden">
-      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-500/10 via-transparent to-transparent -z-10"></div>
+      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-green-500/10 via-transparent to-transparent -z-10"></div>
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto text-center">
           <!-- Main Headline -->
           <h1 class="text-4xl md:text-6xl font-black tracking-tighter mb-12 leading-[1.1]">
-            The <span class="text-yellow-500">BBR Strategy</span> Cheat Sheet
+            The <span class="text-green-500">BBR Strategy</span> Cheat Sheet
           </h1>
 
           <!-- VSL Video Section -->
@@ -34,7 +34,7 @@
           </div>
 
           <!-- CTA Button -->
-          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl mb-8 shadow-lg shadow-yellow-500/20">
+          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl mb-8 shadow-lg shadow-green-500/20">
             <Icon name="lucide:download" class="w-5 h-5" />
             GET FREE CHEAT SHEET
           </a>
@@ -47,17 +47,17 @@
           <!-- Value Props -->
           <div class="grid md:grid-cols-3 gap-6 mb-12">
             <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-6">
-              <Icon name="lucide:target" class="w-8 h-8 text-yellow-500 mx-auto mb-3" />
+              <Icon name="lucide:target" class="w-8 h-8 text-green-500 mx-auto mb-3" />
               <p class="font-bold mb-2">The 3 BBR Setups</p>
               <p class="text-sm text-gray-400">Breakouts, Bounces & Rejects explained</p>
             </div>
             <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-6">
-              <Icon name="lucide:calculator" class="w-8 h-8 text-yellow-500 mx-auto mb-3" />
+              <Icon name="lucide:calculator" class="w-8 h-8 text-green-500 mx-auto mb-3" />
               <p class="font-bold mb-2">Risk Management Math</p>
               <p class="text-sm text-gray-400">Position sizing for the 1:3 edge</p>
             </div>
             <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-6">
-              <Icon name="lucide:chart-line" class="w-8 h-8 text-yellow-500 mx-auto mb-3" />
+              <Icon name="lucide:chart-line" class="w-8 h-8 text-green-500 mx-auto mb-3" />
               <p class="font-bold mb-2">Real Backtest Data</p>
               <p class="text-sm text-gray-400">50% win rate. 3.92 profit factor.</p>
             </div>
@@ -76,8 +76,8 @@
         <div class="max-w-3xl mx-auto space-y-6">
           <div class="flex gap-4">
             <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-10 w-10 rounded-lg bg-yellow-500/10 border border-yellow-500/30">
-                <span class="text-yellow-500 font-black">1</span>
+              <div class="flex items-center justify-center h-10 w-10 rounded-lg bg-green-500/10 border border-green-500/30">
+                <span class="text-green-500 font-black">1</span>
               </div>
             </div>
             <div>
@@ -88,8 +88,8 @@
 
           <div class="flex gap-4">
             <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-10 w-10 rounded-lg bg-yellow-500/10 border border-yellow-500/30">
-                <span class="text-yellow-500 font-black">2</span>
+              <div class="flex items-center justify-center h-10 w-10 rounded-lg bg-green-500/10 border border-green-500/30">
+                <span class="text-green-500 font-black">2</span>
               </div>
             </div>
             <div>
@@ -100,8 +100,8 @@
 
           <div class="flex gap-4">
             <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-10 w-10 rounded-lg bg-yellow-500/10 border border-yellow-500/30">
-                <span class="text-yellow-500 font-black">3</span>
+              <div class="flex items-center justify-center h-10 w-10 rounded-lg bg-green-500/10 border border-green-500/30">
+                <span class="text-green-500 font-black">3</span>
               </div>
             </div>
             <div>
@@ -112,8 +112,8 @@
 
           <div class="flex gap-4">
             <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-10 w-10 rounded-lg bg-yellow-500/10 border border-yellow-500/30">
-                <span class="text-yellow-500 font-black">4</span>
+              <div class="flex items-center justify-center h-10 w-10 rounded-lg bg-green-500/10 border border-green-500/30">
+                <span class="text-green-500 font-black">4</span>
               </div>
             </div>
             <div>
@@ -133,8 +133,8 @@
         <div class="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             <div class="bg-slate-900 border border-slate-800 rounded-lg p-6">
               <div class="flex items-center gap-3 mb-4">
-                <div class="w-10 h-10 rounded-full bg-yellow-500/20 flex items-center justify-center">
-                  <span class="text-yellow-500 font-black text-sm">DE</span>
+                <div class="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center">
+                  <span class="text-green-500 font-black text-sm">DE</span>
                 </div>
                 <div>
                   <p class="font-bold">DeErick</p>
@@ -146,8 +146,8 @@
 
             <div class="bg-slate-900 border border-slate-800 rounded-lg p-6">
               <div class="flex items-center gap-3 mb-4">
-                <div class="w-10 h-10 rounded-full bg-yellow-500/20 flex items-center justify-center">
-                  <span class="text-yellow-500 font-black text-sm">BE</span>
+                <div class="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center">
+                  <span class="text-green-500 font-black text-sm">BE</span>
                 </div>
                 <div>
                   <p class="font-bold">Big E</p>
@@ -167,7 +167,7 @@
           <h2 class="text-3xl md:text-4xl font-black mb-6">Ready to Learn the Math?</h2>
           <p class="text-lg text-gray-400 mb-8">Get the cheat sheet and start thinking about trading differently. No credit card required.</p>
           
-          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl shadow-lg shadow-yellow-500/20">
+          <a href="https://whop.com/waytrades/the-bbr-strategy-starter-kit/?utm_source=store_page&funnelId=store_a4d97bb8-8f7c-46b9-922b-21890f5d5180" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-slate-950 font-black px-8 md:px-12 py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg md:text-xl shadow-lg shadow-green-500/20">
             <Icon name="lucide:download" class="w-5 h-5" />
             GET FREE CHEAT SHEET
           </a>

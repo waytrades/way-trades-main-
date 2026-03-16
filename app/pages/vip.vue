@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-slate-950 flex items-center justify-center text-white">
     <div class="text-center">
       <h1 class="text-2xl font-bold mb-4">Redirecting to VIP Access...</h1>
-      <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-yellow-400 mx-auto"></div>
+      <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-green-400 mx-auto"></div>
     </div>
   </div>
 </template>
