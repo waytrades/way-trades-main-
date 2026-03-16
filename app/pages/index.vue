@@ -1,11 +1,6 @@
 <template>
   <div class="min-h-screen bg-slate-950 text-white font-sans selection:bg-green-500 selection:text-slate-950">
-    <!-- Top Warning Banner -->
-    <div class="bg-red-500/10 border-b border-red-500/30 py-3 text-center">
-      <p class="text-red-400 text-sm md:text-base font-bold px-4">
-        If You're Still Chasing High Win Rates With Low R:R, This Site Isn't For You
-      </p>
-    </div>
+
 
     <!-- Navigation -->
     <nav class="sticky top-4 z-50 px-4">
