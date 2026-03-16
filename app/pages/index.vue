@@ -10,7 +10,7 @@
     <!-- Navigation -->
     <nav class="sticky top-4 z-50 px-4">
       <div class="container mx-auto max-w-5xl">
-        <div class="bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-full px-2 py-2 flex justify-between items-center shadow-2xl">
+        <div class="bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-full px-2 py-2 flex justify-between items-center shadow-2xl relative">
           <!-- Logo and Brand Name (Left) -->
           <div class="flex items-center gap-3 pl-4">
             <img src="/logo.png" alt="Way Trades Logo" class="w-8 h-8 object-contain" />
@@ -18,7 +18,7 @@
           </div>
           
           <!-- Desktop Navigation (Hidden on Mobile) -->
-          <div class="hidden md:flex items-center gap-6 text-[11px] font-bold text-gray-400">
+          <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center gap-6 text-[11px] font-bold text-gray-400">
             <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="hover:text-green-500 transition-colors">FREE DISCORD</a>
             <a href="/cheat-sheet" class="hover:text-green-500 transition-colors">FREE STRATEGY CHEAT SHEET</a>
             <a href="#testimonials" class="hover:text-green-500 transition-colors">TESTIMONIALS</a>
