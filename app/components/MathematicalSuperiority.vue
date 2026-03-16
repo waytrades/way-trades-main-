@@ -130,16 +130,16 @@
           <a 
             href="https://whop.com/waytrades/free-access-c6/" 
             target="_blank"
-            class="bg-green-500 hover:bg-green-600 text-slate-950 font-bold py-4 px-8 rounded-full transition-colors text-lg"
+            class="border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-slate-950 font-bold py-4 px-8 rounded-full transition-all text-lg"
           >
             Join Free Community
           </a>
           <a 
             href="https://whop.com/waytrades/vip-access-60-1cb2/?utm_source=store_page&funnelId=product_7b3b2e38-8bc7-402b-9afa-d939c94b9673" 
             target="_blank"
-            class="bg-green-500 hover:bg-green-600 text-slate-950 font-bold py-4 px-8 rounded-full transition-colors text-lg"
+            class="bg-green-500 hover:bg-green-600 text-slate-950 font-bold py-4 px-8 rounded-full transition-all text-lg shadow-[0_0_20px_rgba(34,197,94,0.3)]"
           >
-            Get VIP access
+            Get VIP Access
           </a>
         </div>
       </div>
