@@ -8,13 +8,13 @@ export default defineNuxtConfig({
       script: [
         {
           async: true,
-          src: 'https://www.googletagmanager.com/gtag/js?id=G-K1NVV36LZP'
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-QXNYRXWPJ9'
         },
         {
           innerHTML: `window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-K1NVV36LZP');`
+          gtag('config', 'G-QXNYRXWPJ9');`
         }
       ]
     }
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sanity', '@nuxt/icon', 'nuxt-gtag'],
   gtag: {
-    id: 'G-K1NVV36LZP'
+    id: 'G-QXNYRXWPJ9'
   },
   sanity: {
     projectId: process.env.NUXT_PUBLIC_SANITY_PROJECT_ID,
