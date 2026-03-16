@@ -13,7 +13,7 @@
         <!-- Logo and Brand Name (Left) -->
         <div class="flex items-center gap-3">
           <img src="/logo.png" alt="Way Trades Logo" class="w-12 h-12 object-contain" />
-          <span class="text-xl font-black tracking-tighter text-green-500">WAY TRADES</span>
+          <span class="text-[10px] font-black tracking-tighter text-green-500">WAY TRADES</span>
         </div>
         
         <!-- Desktop Navigation (Hidden on Mobile) -->
