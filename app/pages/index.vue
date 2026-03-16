@@ -8,49 +8,58 @@
     </div>
 
     <!-- Navigation -->
-    <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
-      <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-        <!-- Logo and Brand Name (Left) -->
-        <div class="flex items-center gap-3">
-          <img src="/logo.png" alt="Way Trades Logo" class="w-12 h-12 object-contain" />
-          <span class="text-[13px] font-black tracking-tighter text-white">WAY TRADES</span>
-        </div>
-        
-        <!-- Desktop Navigation (Hidden on Mobile) -->
-        <div class="hidden md:flex items-center gap-8 text-sm font-bold text-gray-400">
-          <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="hover:text-green-500 transition-colors">FREE DISCORD</a>
-          <a href="/cheat-sheet" class="hover:text-green-500 transition-colors">FREE STRATEGY CHEAT SHEET</a>
-          <a href="#testimonials" class="hover:text-green-500 transition-colors">TESTIMONIALS</a>
-          <a href="#mentorship" class="hover:text-green-500 transition-colors">MENTORSHIP</a>
-          <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="bg-green-500 text-slate-950 px-4 py-2 rounded hover:bg-green-600 transition-colors font-bold">JOIN DISCORD</a>
-        </div>
-        
-        <!-- Mobile Hamburger Menu and CTA -->
-        <div class="md:hidden flex items-center gap-3">
-          <!-- Mobile Discord CTA Button -->
-          <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="bg-green-500 hover:bg-green-600 text-slate-950 font-black px-3 py-2 rounded text-sm transition-all">
-            JOIN DISCORD
-          </a>
+    <nav class="sticky top-4 z-50 px-4">
+      <div class="container mx-auto max-w-5xl">
+        <div class="bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-full px-2 py-2 flex justify-between items-center shadow-2xl">
+          <!-- Logo and Brand Name (Left) -->
+          <div class="flex items-center gap-3 pl-4">
+            <img src="/logo.png" alt="Way Trades Logo" class="w-8 h-8 object-contain" />
+            <span class="text-[11px] font-black tracking-tighter text-white">WAY TRADES</span>
+          </div>
+          
+          <!-- Desktop Navigation (Hidden on Mobile) -->
+          <div class="hidden md:flex items-center gap-6 text-[11px] font-bold text-gray-400">
+            <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="hover:text-green-500 transition-colors">FREE DISCORD</a>
+            <a href="/cheat-sheet" class="hover:text-green-500 transition-colors">FREE STRATEGY CHEAT SHEET</a>
+            <a href="#testimonials" class="hover:text-green-500 transition-colors">TESTIMONIALS</a>
+            <a href="#mentorship" class="hover:text-green-500 transition-colors">MENTORSHIP</a>
+          </div>
 
-          <!-- Hamburger Menu Button -->
-          <div class="relative group">
-            <button class="text-gray-400 hover:text-green-500 transition-colors flex items-center">
-              <Icon name="lucide:menu" class="w-6 h-6" />
-            </button>
-            <!-- Dropdown Menu -->
-            <div class="absolute right-0 mt-2 w-48 bg-slate-900 border border-slate-800 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-              <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="block px-4 py-3 text-sm text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors border-b border-slate-800">
-                Free Discord
-              </a>
-              <a href="/cheat-sheet" class="block px-4 py-3 text-sm text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors border-b border-slate-800">
-                Free Strategy Cheat Sheet
-              </a>
-              <a href="#testimonials" class="block px-4 py-3 text-sm text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors border-b border-slate-800">
-                Testimonials
-              </a>
-              <a href="#mentorship" class="block px-4 py-3 text-sm text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors">
-                Mentorship
-              </a>
+          <!-- CTA Button (Desktop) -->
+          <div class="hidden md:block">
+            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="bg-green-500 text-slate-950 px-6 py-2.5 rounded-full hover:bg-green-600 transition-all font-black text-xs flex items-center gap-2 group">
+              JOIN DISCORD
+              <Icon name="lucide:chevron-right" class="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+            </a>
+          </div>
+          
+          <!-- Mobile Hamburger Menu and CTA -->
+          <div class="md:hidden flex items-center gap-2 pr-2">
+            <!-- Mobile Discord CTA Button -->
+            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="bg-green-500 hover:bg-green-600 text-slate-950 font-black px-4 py-2 rounded-full text-xs transition-all">
+              JOIN DISCORD
+            </a>
+
+            <!-- Hamburger Menu Button -->
+            <div class="relative group">
+              <button class="text-gray-400 hover:text-green-500 transition-colors flex items-center p-2">
+                <Icon name="lucide:menu" class="w-5 h-5" />
+              </button>
+              <!-- Dropdown Menu -->
+              <div class="absolute right-0 mt-4 w-56 bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 overflow-hidden">
+                <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="block px-5 py-4 text-xs font-bold text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors border-b border-slate-800">
+                  Free Discord
+                </a>
+                <a href="/cheat-sheet" class="block px-5 py-4 text-xs font-bold text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors border-b border-slate-800">
+                  Free Strategy Cheat Sheet
+                </a>
+                <a href="#testimonials" class="block px-5 py-4 text-xs font-bold text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors border-b border-slate-800">
+                  Testimonials
+                </a>
+                <a href="#mentorship" class="block px-5 py-4 text-xs font-bold text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors">
+                  Mentorship
+                </a>
+              </div>
             </div>
           </div>
         </div>
