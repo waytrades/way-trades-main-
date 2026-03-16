@@ -36,7 +36,7 @@
           <!-- Mobile Hamburger Menu and CTA -->
           <div class="md:hidden flex items-center gap-2 pr-2">
             <!-- Mobile Discord CTA Button -->
-            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="bg-green-500 hover:bg-green-600 text-slate-950 font-black px-4 py-2 rounded-full text-xs transition-all">
+            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="bg-green-500 hover:bg-green-600 text-slate-950 font-black px-4 py-2 rounded-full text-[10px] transition-all">
               JOIN DISCORD
             </a>
 
@@ -116,7 +116,7 @@
           
           <!-- CTA Button (Desktop and Mobile) -->
           <div class="flex justify-center">
-            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" @click="gtag.event('click', { event_category: 'cta', event_label: 'start_trial' })" class="w-full md:w-auto text-center bg-green-500 hover:bg-green-600 text-slate-950 font-black py-4 md:py-5 px-8 md:px-12 rounded-lg transition-all transform hover:scale-105 text-base md:text-lg shadow-[0_0_20px_rgba(34,197,94,0.3)]">
+            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" @click="gtag.event('click', { event_category: 'cta', event_label: 'start_trial' })" class="w-full md:w-auto text-center bg-green-500 hover:bg-green-600 text-slate-950 font-black py-4 md:py-5 px-8 md:px-12 rounded-full transition-all transform hover:scale-105 text-base md:text-lg shadow-[0_0_20px_rgba(34,197,94,0.3)]">
               START 7-DAY FREE TRIAL
             </a>
           </div>
