@@ -13,6 +13,7 @@
         <!-- Logo and Brand Name (Left) -->
         <div class="flex items-center gap-3">
           <img src="/logo.png" alt="Way Trades Logo" class="w-12 h-12 object-contain" />
+          <span class="text-xl font-black tracking-tighter hidden md:inline">WAY TRADES</span>
         </div>
         
         <!-- Desktop Navigation (Hidden on Mobile) -->
@@ -20,13 +21,38 @@
           <a href="#strategy" class="hover:text-green-500 transition-colors">STRATEGY</a>
           <a href="#pricing" class="hover:text-green-500 transition-colors">MEMBERSHIP</a>
           <a href="#mentorship" class="hover:text-green-500 transition-colors">MENTORSHIP</a>
-          <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="bg-green-500 text-slate-950 px-4 py-2 rounded hover:bg-green-600 transition-colors font-bold">JOIN FREE</a>
+          <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="bg-green-500 text-slate-950 px-4 py-2 rounded hover:bg-green-600 transition-colors font-bold">JOIN DISCORD</a>
         </div>
         
-        <!-- Mobile Discord Button (Visible on Mobile Only) -->
-        <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="md:hidden bg-green-500 hover:bg-green-600 text-slate-950 font-black px-3 py-2 rounded text-sm transition-all">
-          JOIN FREE
-        </a>
+        <!-- Mobile Hamburger Menu and CTA -->
+        <div class="md:hidden flex items-center gap-3">
+          <!-- Hamburger Menu Button -->
+          <div class="relative group">
+            <button class="text-gray-400 hover:text-green-500 transition-colors">
+              <Icon name="lucide:menu" class="w-6 h-6" />
+            </button>
+            <!-- Dropdown Menu -->
+            <div class="absolute right-0 mt-2 w-48 bg-slate-900 border border-slate-800 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+              <a href="/cheat-sheet" class="block px-4 py-3 text-sm text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors border-b border-slate-800">
+                Free Strategy Cheat Sheet
+              </a>
+              <a href="#testimonials" class="block px-4 py-3 text-sm text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors border-b border-slate-800">
+                Testimonials
+              </a>
+              <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="block px-4 py-3 text-sm text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors border-b border-slate-800">
+                Free Discord
+              </a>
+              <a href="#mentorship" class="block px-4 py-3 text-sm text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors">
+                Mentorship
+              </a>
+            </div>
+          </div>
+          
+          <!-- Mobile Discord CTA Button -->
+          <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="bg-green-500 hover:bg-green-600 text-slate-950 font-black px-3 py-2 rounded text-sm transition-all">
+            JOIN DISCORD
+          </a>
+        </div>
       </div>
     </nav>
 
