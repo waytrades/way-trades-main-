@@ -26,9 +26,14 @@
         
         <!-- Mobile Hamburger Menu and CTA -->
         <div class="md:hidden flex items-center gap-3">
+          <!-- Mobile Discord CTA Button -->
+          <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="bg-green-500 hover:bg-green-600 text-slate-950 font-black px-3 py-2 rounded text-sm transition-all">
+            JOIN DISCORD
+          </a>
+
           <!-- Hamburger Menu Button -->
           <div class="relative group">
-            <button class="text-gray-400 hover:text-green-500 transition-colors">
+            <button class="text-gray-400 hover:text-green-500 transition-colors flex items-center">
               <Icon name="lucide:menu" class="w-6 h-6" />
             </button>
             <!-- Dropdown Menu -->
@@ -47,11 +52,6 @@
               </a>
             </div>
           </div>
-          
-          <!-- Mobile Discord CTA Button -->
-          <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="bg-green-500 hover:bg-green-600 text-slate-950 font-black px-3 py-2 rounded text-sm transition-all">
-            JOIN DISCORD
-          </a>
         </div>
       </div>
     </nav>
