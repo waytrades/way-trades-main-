@@ -33,14 +33,14 @@
             </button>
             <!-- Dropdown Menu -->
             <div class="absolute right-0 mt-2 w-48 bg-slate-900 border border-slate-800 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+              <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="block px-4 py-3 text-sm text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors border-b border-slate-800">
+                Free Discord
+              </a>
               <a href="/cheat-sheet" class="block px-4 py-3 text-sm text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors border-b border-slate-800">
                 Free Strategy Cheat Sheet
               </a>
               <a href="#testimonials" class="block px-4 py-3 text-sm text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors border-b border-slate-800">
                 Testimonials
-              </a>
-              <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="block px-4 py-3 text-sm text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors border-b border-slate-800">
-                Free Discord
               </a>
               <a href="#mentorship" class="block px-4 py-3 text-sm text-gray-400 hover:text-green-500 hover:bg-slate-800 transition-colors">
                 Mentorship
