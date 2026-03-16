@@ -18,8 +18,9 @@
         
         <!-- Desktop Navigation (Hidden on Mobile) -->
         <div class="hidden md:flex items-center gap-8 text-sm font-bold text-gray-400">
-          <a href="#strategy" class="hover:text-green-500 transition-colors">STRATEGY</a>
-          <a href="#pricing" class="hover:text-green-500 transition-colors">MEMBERSHIP</a>
+          <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="hover:text-green-500 transition-colors">FREE DISCORD</a>
+          <a href="/cheat-sheet" class="hover:text-green-500 transition-colors">FREE STRATEGY CHEAT SHEET</a>
+          <a href="#testimonials" class="hover:text-green-500 transition-colors">TESTIMONIALS</a>
           <a href="#mentorship" class="hover:text-green-500 transition-colors">MENTORSHIP</a>
           <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="bg-green-500 text-slate-950 px-4 py-2 rounded hover:bg-green-600 transition-colors font-bold">JOIN DISCORD</a>
         </div>
@@ -127,7 +128,7 @@
     </div>
 
     <!-- Testimonials Section -->
-    <section class="py-24 bg-slate-950">
+    <section id="testimonials" class="py-24 bg-slate-950">
       <div class="container mx-auto px-4">
         <TestimonialsSection />
       </div>
