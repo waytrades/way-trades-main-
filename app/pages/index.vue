@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-slate-950 text-white font-sans selection:bg-yellow-500 selection:text-slate-950">
+  <div class="min-h-screen bg-slate-950 text-white font-sans selection:bg-green-500 selection:text-slate-950">
     <!-- Top Warning Banner -->
     <div class="bg-red-500/10 border-b border-red-500/30 py-3 text-center">
       <p class="text-red-400 text-sm md:text-base font-bold px-4">
@@ -18,14 +18,14 @@
         
         <!-- Desktop Navigation (Hidden on Mobile) -->
         <div class="hidden md:flex items-center gap-8 text-sm font-bold text-gray-400">
-          <a href="#strategy" class="hover:text-yellow-500 transition-colors">STRATEGY</a>
-          <a href="#pricing" class="hover:text-yellow-500 transition-colors">MEMBERSHIP</a>
-          <a href="#mentorship" class="hover:text-yellow-500 transition-colors">MENTORSHIP</a>
-          <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="bg-yellow-500 text-slate-950 px-4 py-2 rounded hover:bg-yellow-600 transition-colors font-bold">JOIN FREE</a>
+          <a href="#strategy" class="hover:text-green-500 transition-colors">STRATEGY</a>
+          <a href="#pricing" class="hover:text-green-500 transition-colors">MEMBERSHIP</a>
+          <a href="#mentorship" class="hover:text-green-500 transition-colors">MENTORSHIP</a>
+          <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="bg-green-500 text-slate-950 px-4 py-2 rounded hover:bg-green-600 transition-colors font-bold">JOIN FREE</a>
         </div>
         
         <!-- Mobile Discord Button (Visible on Mobile Only) -->
-        <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="md:hidden bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black px-3 py-2 rounded text-sm transition-all">
+        <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="md:hidden bg-green-500 hover:bg-green-600 text-slate-950 font-black px-3 py-2 rounded text-sm transition-all">
           JOIN FREE
         </a>
       </div>
@@ -33,20 +33,20 @@
 
     <!-- Hero Section with Backtest Proof -->
     <header class="relative py-4 md:py-20 overflow-hidden">
-      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-500/10 via-transparent to-transparent -z-10"></div>
+      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-green-500/10 via-transparent to-transparent -z-10"></div>
       <div class="container mx-auto px-4">
         
         <!-- Hero Content - Vertical Stack for Mobile -->
         <div class="max-w-4xl mx-auto">
           <!-- Headline -->
           <h1 class="text-[26px] md:text-6xl font-black tracking-tight md:tracking-tighter mb-4 md:mb-6 leading-[1.2] md:leading-[0.95] text-center md:max-w-none mx-auto">
-            Experience <span class="text-yellow-500">Professional</span> Futures Trading in <span class="text-yellow-500">Real-Time</span>
+            Experience <span class="text-green-500">Professional</span> Futures Trading in <span class="text-green-500">Real-Time</span>
           </h1>
           
           <!-- Video Placeholder with Clean Stats Bar Below -->
           <div class="mb-8 md:mb-10">
             <!-- Temporary YouTube Backtesting Video (Until Vimeo VSL is Ready) -->
-            <div class="relative bg-slate-900 border-2 border-yellow-500/50 rounded-2xl overflow-hidden aspect-video mb-4">
+            <div class="relative bg-slate-900 border-2 border-green-500/50 rounded-2xl overflow-hidden aspect-video mb-4">
               <iframe
                 width="100%"
                 height="100%"
@@ -60,18 +60,18 @@
             </div>
             
             <!-- Clean Stats Bar Below Video -->
-            <div class="bg-slate-900 border border-yellow-500/30 rounded-lg p-4 md:p-6">
+            <div class="bg-slate-900 border border-green-500/30 rounded-lg p-4 md:p-6">
               <div class="grid grid-cols-3 gap-4">
                 <div class="text-center">
-                  <p class="text-yellow-500 text-2xl md:text-3xl font-black">3.92</p>
+                  <p class="text-green-500 text-2xl md:text-3xl font-black">3.92</p>
                   <p class="text-gray-400 text-xs md:text-sm font-bold mt-2">PROFIT FACTOR</p>
                 </div>
                 <div class="text-center">
-                  <p class="text-yellow-500 text-2xl md:text-3xl font-black">50%</p>
+                  <p class="text-green-500 text-2xl md:text-3xl font-black">50%</p>
                   <p class="text-gray-400 text-xs md:text-sm font-bold mt-2">WIN RATE</p>
                 </div>
                 <div class="text-center">
-                  <p class="text-yellow-500 text-2xl md:text-3xl font-black">1:3</p>
+                  <p class="text-green-500 text-2xl md:text-3xl font-black">1:3</p>
                   <p class="text-gray-400 text-xs md:text-sm font-bold mt-2">RISK:REWARD</p>
                 </div>
               </div>
@@ -81,7 +81,7 @@
           
           <!-- CTA Button (Desktop and Mobile) -->
           <div class="flex justify-center">
-            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" @click="gtag.event('click', { event_category: 'cta', event_label: 'start_trial' })" class="w-full md:w-auto text-center bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-4 md:py-5 px-8 md:px-12 rounded-lg transition-all transform hover:scale-105 text-base md:text-lg shadow-[0_0_20px_rgba(234,179,8,0.3)]">
+            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" @click="gtag.event('click', { event_category: 'cta', event_label: 'start_trial' })" class="w-full md:w-auto text-center bg-green-500 hover:bg-green-600 text-slate-950 font-black py-4 md:py-5 px-8 md:px-12 rounded-lg transition-all transform hover:scale-105 text-base md:text-lg shadow-[0_0_20px_rgba(34,197,94,0.3)]">
               START 7-DAY FREE TRIAL
             </a>
           </div>
@@ -90,7 +90,7 @@
           <p class="text-center text-gray-400 text-sm md:text-base mt-6 md:mt-8">
             (I share my entire screen and live trade daily at 9:25am EST)
           </p>
-          <p class="text-center text-yellow-500 text-sm md:text-base font-bold mt-4">
+          <p class="text-center text-green-500 text-sm md:text-base font-bold mt-4">
             First week is FREE so you can see we're legitimate, transparent, profitable, and CAN help you get payouts and become consistently profitable as well.
           </p>
         </div>
@@ -125,15 +125,15 @@
             <div class="text-4xl font-black mb-6">$0<span class="text-sm text-gray-500 font-normal">/forever</span></div>
             <ul class="space-y-4 mb-8 flex-grow">
               <li class="flex items-center gap-3 text-gray-300">
-                <Icon name="lucide:check" class="text-yellow-500 w-5 h-5" />
+                <Icon name="lucide:check" class="text-green-500 w-5 h-5" />
                 Full Video Courses
               </li>
               <li class="flex items-center gap-3 text-gray-300">
-                <Icon name="lucide:check" class="text-yellow-500 w-5 h-5" />
+                <Icon name="lucide:check" class="text-green-500 w-5 h-5" />
                 Free Live Classes + Q&A
               </li>
               <li class="flex items-center gap-3 text-gray-300">
-                <Icon name="lucide:check" class="text-yellow-500 w-5 h-5" />
+                <Icon name="lucide:check" class="text-green-500 w-5 h-5" />
                 Trading Chat Access
               </li>
               <li class="flex items-center gap-3 text-gray-500 line-through">
@@ -148,39 +148,39 @@
             </a>
           </div>
           <!-- VIP Plan -->
-          <div class="bg-slate-900 border-2 border-yellow-500 rounded-2xl p-8 flex flex-col relative transform md:scale-105 shadow-2xl shadow-yellow-500/10">
-            <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-500 text-slate-950 text-xs font-black px-4 py-1 rounded-full">
+          <div class="bg-slate-900 border-2 border-green-500 rounded-2xl p-8 flex flex-col relative transform md:scale-105 shadow-2xl shadow-green-500/10">
+            <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-500 text-slate-950 text-xs font-black px-4 py-1 rounded-full">
               MOST POPULAR
             </div>
-            <h3 class="text-2xl font-bold mb-2 text-yellow-500">VIP MEMBERSHIP</h3>
+            <h3 class="text-2xl font-bold mb-2 text-green-500">VIP MEMBERSHIP</h3>
             <div class="text-4xl font-black mb-6">$74<span class="text-sm text-gray-500 font-normal">/month</span></div>
             <ul class="space-y-4 mb-8 flex-grow">
               <li class="flex items-center gap-3 text-gray-300">
-                <Icon name="lucide:check" class="text-yellow-500 w-5 h-5" />
+                <Icon name="lucide:check" class="text-green-500 w-5 h-5" />
                 Everything in Free
               </li>
               <li class="flex items-center gap-3 text-gray-300">
-                <Icon name="lucide:check" class="text-yellow-500 w-5 h-5" />
+                <Icon name="lucide:check" class="text-green-500 w-5 h-5" />
                 Live Daily Trading (9:25 AM EST)
               </li>
               <li class="flex items-center gap-3 text-gray-300">
-                <Icon name="lucide:check" class="text-yellow-500 w-5 h-5" />
+                <Icon name="lucide:check" class="text-green-500 w-5 h-5" />
                 Morning Watchlists
               </li>
               <li class="flex items-center gap-3 text-gray-300">
-                <Icon name="lucide:check" class="text-yellow-500 w-5 h-5" />
+                <Icon name="lucide:check" class="text-green-500 w-5 h-5" />
                 Live Day Trading Signals
               </li>
               <li class="flex items-center gap-3 text-gray-300">
-                <Icon name="lucide:check" class="text-yellow-500 w-5 h-5" />
+                <Icon name="lucide:check" class="text-green-500 w-5 h-5" />
                 Full Access to BBR Strategy
               </li>
               <li class="flex items-center gap-3 text-gray-300">
-                <Icon name="lucide:check" class="text-yellow-500 w-5 h-5" />
+                <Icon name="lucide:check" class="text-green-500 w-5 h-5" />
                 Priority Support & Guidance
               </li>
             </ul>
-            <a href="https://whop.com/waytrades/vip-access-60-1cb2/?utm_source=store_page&funnelId=product_7b3b2e38-8bc7-402b-9afa-d939c94b9673" target="_blank" class="w-full py-4 bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black rounded-lg text-center transition-colors">
+            <a href="https://whop.com/waytrades/vip-access-60-1cb2/?utm_source=store_page&funnelId=product_7b3b2e38-8bc7-402b-9afa-d939c94b9673" target="_blank" class="w-full py-4 bg-green-500 hover:bg-green-600 text-slate-950 font-black rounded-lg text-center transition-colors">
               GET VIP ACCESS
             </a>
           </div>
@@ -189,21 +189,21 @@
     </section>
 
     <!-- Elite 1-on-1 Mentorship Section -->
-    <section id="mentorship" class="py-24 bg-gradient-to-b from-slate-950 to-slate-900 border-t border-yellow-500/20">
+    <section id="mentorship" class="py-24 bg-gradient-to-b from-slate-950 to-slate-900 border-t border-green-500/20">
       <div class="container mx-auto px-4">
         <!-- Section Header -->
         <div class="text-center mb-16">
-          <div class="inline-flex items-center gap-2 bg-yellow-500/10 text-yellow-500 px-4 py-2 rounded-full text-sm font-bold border border-yellow-500/20 mb-6">
+          <div class="inline-flex items-center gap-2 bg-green-500/10 text-green-500 px-4 py-2 rounded-full text-sm font-bold border border-green-500/20 mb-6">
             <Icon name="lucide:crown" class="w-4 h-4" />
             ELITE TIER
           </div>
-          <h2 class="text-4xl md:text-5xl font-black mb-4">The 6-Week <span class="text-yellow-500">Trader Transformation</span></h2>
+          <h2 class="text-4xl md:text-5xl font-black mb-4">The 6-Week <span class="text-green-500">Trader Transformation</span></h2>
           <p class="text-gray-400 text-lg max-w-2xl mx-auto">Master the 1:3 Edge with personalized 1-on-1 mentorship. Limited to 5 serious traders only.</p>
         </div>
 
         <!-- Main Mentorship Card -->
         <div class="max-w-4xl mx-auto">
-          <div class="bg-slate-900 border-2 border-yellow-500 rounded-2xl p-8 md:p-12 relative">
+          <div class="bg-slate-900 border-2 border-green-500 rounded-2xl p-8 md:p-12 relative">
             <!-- Scarcity Badge -->
             <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-red-500 text-white text-xs font-black px-4 py-2 rounded-full">
               ONLY 5 SPOTS AVAILABLE
@@ -211,7 +211,7 @@
 
             <!-- Price & Headline -->
             <div class="text-center mb-8">
-              <p class="text-yellow-500 text-sm font-bold mb-2">ONE-TIME INVESTMENT</p>
+              <p class="text-green-500 text-sm font-bold mb-2">ONE-TIME INVESTMENT</p>
               <h3 class="text-5xl md:text-6xl font-black text-white mb-4">$2,500</h3>
               <p class="text-gray-300 text-lg">6-Week Intensive Program with Lifetime VIP Access</p>
             </div>
@@ -223,21 +223,21 @@
                 <!-- Column 1 -->
                 <div class="space-y-4">
                   <div class="flex items-start gap-4">
-                    <Icon name="lucide:check-circle" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <Icon name="lucide:check-circle" class="w-6 h-6 text-green-500 flex-shrink-0 mt-1" />
                     <div>
                       <p class="font-bold text-white">12 Private 1-on-1 Calls</p>
                       <p class="text-gray-400 text-sm">2 dedicated calls per week for 6 weeks</p>
                     </div>
                   </div>
                   <div class="flex items-start gap-4">
-                    <Icon name="lucide:check-circle" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <Icon name="lucide:check-circle" class="w-6 h-6 text-green-500 flex-shrink-0 mt-1" />
                     <div>
                       <p class="font-bold text-white">Personalized Trading Roadmap</p>
                       <p class="text-gray-400 text-sm">Custom plan tailored to your capital, schedule & goals</p>
                     </div>
                   </div>
                   <div class="flex items-start gap-4">
-                    <Icon name="lucide:check-circle" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <Icon name="lucide:check-circle" class="w-6 h-6 text-green-500 flex-shrink-0 mt-1" />
                     <div>
                       <p class="font-bold text-white">Weekly Accountability</p>
                       <p class="text-gray-400 text-sm">I review your journal & hold you to your plan</p>
@@ -248,21 +248,21 @@
                 <!-- Column 2 -->
                 <div class="space-y-4">
                   <div class="flex items-start gap-4">
-                    <Icon name="lucide:check-circle" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <Icon name="lucide:check-circle" class="w-6 h-6 text-green-500 flex-shrink-0 mt-1" />
                     <div>
                       <p class="font-bold text-white">Full BBR Strategy Breakdown</p>
                       <p class="text-gray-400 text-sm">Complete mastery of the 1:3 Edge & all setups</p>
                     </div>
                   </div>
                   <div class="flex items-start gap-4">
-                    <Icon name="lucide:check-circle" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <Icon name="lucide:check-circle" class="w-6 h-6 text-green-500 flex-shrink-0 mt-1" />
                     <div>
                       <p class="font-bold text-white">1-on-1 Risk Management Class</p>
                       <p class="text-gray-400 text-sm">Position sizing, capital preservation & survival</p>
                     </div>
                   </div>
                   <div class="flex items-start gap-4">
-                    <Icon name="lucide:check-circle" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <Icon name="lucide:check-circle" class="w-6 h-6 text-green-500 flex-shrink-0 mt-1" />
                     <div>
                       <p class="font-bold text-white">1-on-1 Trading Psychology Class</p>
                       <p class="text-gray-400 text-sm">Eliminate fear, greed & revenge trading</p>
@@ -273,11 +273,11 @@
             </div>
 
             <!-- Bonus: Lifetime VIP -->
-            <div class="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mb-8">
+            <div class="bg-green-500/10 border border-green-500/30 rounded-lg p-6 mb-8">
               <div class="flex items-start gap-4">
-                <Icon name="lucide:gift" class="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                <Icon name="lucide:gift" class="w-6 h-6 text-green-500 flex-shrink-0 mt-1" />
                 <div>
-                  <p class="font-bold text-yellow-500 mb-2">BONUS: Lifetime VIP Discord Access</p>
+                  <p class="font-bold text-green-500 mb-2">BONUS: Lifetime VIP Discord Access</p>
                   <p class="text-gray-300">Full access to everything we offer forever. Live signals, watchlists, courses, priority support—all included.</p>
                 </div>
               </div>
@@ -307,7 +307,7 @@
 
             <!-- CTA Button -->
             <div class="flex flex-col gap-4">
-              <a href="https://whop.com/waytrades/the-bbr-1-on-1-mentorship/" target="_blank" class="w-full text-center bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-5 px-8 rounded-lg transition-all transform hover:scale-105 text-lg shadow-[0_0_30px_rgba(234,179,8,0.4)]">
+              <a href="https://whop.com/waytrades/the-bbr-1-on-1-mentorship/" target="_blank" class="w-full text-center bg-green-500 hover:bg-green-600 text-slate-950 font-black py-5 px-8 rounded-lg transition-all transform hover:scale-105 text-lg shadow-[0_0_30px_rgba(34,197,94,0.4)]">
                 ENROLL NOW - LIMITED SPOTS
               </a>
               <p class="text-center text-gray-400 text-sm">First-come, first-served. Once 5 spots are filled, the program closes until a student graduates.</p>
@@ -328,20 +328,20 @@
           Trading involves significant risk of loss and is not suitable for all investors. Way Trades provides educational content only and does not provide financial advice.
         </p>
         <div class="flex justify-center gap-6 text-gray-400 mb-8">
-          <a href="https://www.instagram.com/way_trades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:instagram" class="w-6 h-6" /></a>
-          <a href="https://www.youtube.com/@waytrades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:youtube" class="w-6 h-6" /></a>
-          <a href="https://www.tiktok.com/@waytrades" target="_blank" class="hover:text-yellow-500 transition-colors"><Icon name="simple-icons:tiktok" class="w-6 h-6" /></a>
+          <a href="https://www.instagram.com/way_trades" target="_blank" class="hover:text-green-500 transition-colors"><Icon name="simple-icons:instagram" class="w-6 h-6" /></a>
+          <a href="https://www.youtube.com/@waytrades" target="_blank" class="hover:text-green-500 transition-colors"><Icon name="simple-icons:youtube" class="w-6 h-6" /></a>
+          <a href="https://www.tiktok.com/@waytrades" target="_blank" class="hover:text-green-500 transition-colors"><Icon name="simple-icons:tiktok" class="w-6 h-6" /></a>
         </div>
         <div class="flex flex-wrap justify-center gap-4 text-gray-600 text-xs mb-4">
           <span>© 2026 Way Trades. All rights reserved.</span>
           <span class="hidden md:inline">|</span>
-          <NuxtLink to="/privacy" class="hover:text-yellow-500 transition-colors">Privacy Policy</NuxtLink>
+          <NuxtLink to="/privacy" class="hover:text-green-500 transition-colors">Privacy Policy</NuxtLink>
           <span>|</span>
-          <NuxtLink to="/return-policy" class="hover:text-yellow-500 transition-colors">Return Policy</NuxtLink>
+          <NuxtLink to="/return-policy" class="hover:text-green-500 transition-colors">Return Policy</NuxtLink>
           <span>|</span>
-          <NuxtLink to="/terms-of-service" class="hover:text-yellow-500 transition-colors">Terms & Conditions</NuxtLink>
+          <NuxtLink to="/terms-of-service" class="hover:text-green-500 transition-colors">Terms & Conditions</NuxtLink>
           <span>|</span>
-          <NuxtLink to="/eula" class="hover:text-yellow-500 transition-colors">EULA</NuxtLink>
+          <NuxtLink to="/eula" class="hover:text-green-500 transition-colors">EULA</NuxtLink>
         </div>
       </div>
     </footer>
