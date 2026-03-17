@@ -7,7 +7,7 @@
           REAL <span class="text-green-500">RESULTS</span> FROM REAL TRADERS
         </h2>
         <p class="text-gray-400 text-lg max-w-2xl mx-auto">
-          See how traders like you are applying the strategy and achieving consistent, mathematically-proven results.
+          See how traders like you are applying the strategy while live trading with me and achieving consistent, mathematically-proven results.
         </p>
       </div>
 
