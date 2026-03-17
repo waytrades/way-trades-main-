@@ -69,8 +69,8 @@
         <!-- Hero Content - Vertical Stack for Mobile -->
         <div class="max-w-4xl mx-auto">
           <!-- Headline -->
-          <h1 class="text-[26px] md:text-6xl font-black tracking-tight md:tracking-tighter mb-4 md:mb-6 leading-[1.2] md:leading-[0.95] text-center md:max-w-none mx-auto">
-            Experience <span class="text-green-500">Professional</span> Futures Trading in <span class="text-green-500">Real-Time</span>
+          <h1 class="text-3xl md:text-6xl font-black tracking-tight md:tracking-tighter mb-6 md:mb-8 leading-tight text-center">
+            Way Trades <span class="text-green-500">Community</span>
           </h1>
           
           <!-- Video Placeholder with Clean Stats Bar Below -->
