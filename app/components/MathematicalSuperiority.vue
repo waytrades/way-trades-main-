@@ -6,12 +6,12 @@
         <div class="flex justify-center mb-4">
           <Icon name="lucide:brain" class="w-12 h-12 text-green-500" />
         </div>
-        <h2 class="text-4xl md:text-5xl font-black text-white mb-4">
+        <h2 class="text-4xl md:text-5xl font-black text-gray-200 mb-4">
           MATH OVER HYPE
         </h2>
         <p class="text-xl text-gray-400 max-w-3xl mx-auto">
           Most traders chase high win rates. We chase <span class="font-bold text-green-500">Mathematical Robustness</span>. 
-          Here's why a <span class="font-bold text-white">50% win rate with 1:3 Risk:Reward</span> is the ultimate trading edge.
+          Here's why a <span class="font-bold text-gray-200">50% win rate with 1:3 Risk:Reward</span> is the ultimate trading edge.
         </p>
       </div>
 
@@ -32,7 +32,7 @@
             <div class="space-y-3 border-b border-slate-800 pb-4">
               <div class="flex justify-between items-center">
                 <span class="text-gray-400">Win Rate:</span>
-                <span class="font-bold text-lg text-white">50%</span>
+                <span class="font-bold text-lg text-gray-200">50%</span>
               </div>
               <div class="flex justify-between items-center">
                 <span class="text-gray-400">Risk:Reward:</span>
@@ -44,7 +44,7 @@
               </div>
             </div>
             <div class="space-y-2">
-              <p class="text-sm font-semibold text-white">10 Trades Result:</p>
+              <p class="text-sm font-semibold text-gray-200">10 Trades Result:</p>
               <p class="text-3xl font-bold text-green-500">+$10.00 Profit</p>
               <p class="text-xs text-gray-500">(5 wins × $3) - (5 losses × $1)</p>
             </div>
@@ -69,7 +69,7 @@
             <div class="space-y-3 border-b border-slate-800 pb-4">
               <div class="flex justify-between items-center">
                 <span class="text-gray-400">Win Rate:</span>
-                <span class="font-bold text-lg text-white">90%</span>
+                <span class="font-bold text-lg text-gray-200">90%</span>
               </div>
               <div class="flex justify-between items-center">
                 <span class="text-gray-400">Risk:Reward:</span>
@@ -81,7 +81,7 @@
               </div>
             </div>
             <div class="space-y-2">
-              <p class="text-sm font-semibold text-white">10 Trades Result:</p>
+              <p class="text-sm font-semibold text-gray-200">10 Trades Result:</p>
               <p class="text-3xl font-bold text-orange-500">+$8 Profit</p>
               <p class="text-xs text-gray-500">(9 wins × $1) - (1 loss × $1)</p>
             </div>
@@ -99,7 +99,7 @@
       <div class="max-w-4xl mx-auto mb-12">
         <div class="border-2 border-green-500 bg-green-500/5 rounded-xl p-8">
           <h3 class="text-2xl font-bold text-green-500 mb-4">The "Margin for Error" Advantage</h3>
-          <p class="text-lg text-white mb-4">
+          <p class="text-lg text-gray-200 mb-4">
             The BBR Strategy is superior because it is <span class="font-bold">Robust</span>. 
             In trading, you will have bad weeks. The math determines if you survive them.
           </p>
@@ -107,13 +107,13 @@
             <div class="space-y-2">
               <p class="font-bold text-green-500">BBR Strategy (1:3 R:R)</p>
               <p class="text-sm text-gray-400">
-                If your win rate drops to <span class="text-white font-bold">35%</span>, you are <span class="text-green-500 font-bold">STILL PROFITABLE</span> (+$0.50 per 10 trades).
+                If your win rate drops to <span class="text-gray-200 font-bold">35%</span>, you are <span class="text-green-500 font-bold">STILL PROFITABLE</span> (+$0.50 per 10 trades).
               </p>
             </div>
             <div class="space-y-2">
               <p class="font-bold text-red-500">Hype Trader (1:1 R:R)</p>
               <p class="text-sm text-gray-400">
-                If their win rate drops to <span class="text-white font-bold">40%</span>, they are <span class="text-red-500 font-bold">HEAVILY LOSING</span> (-$2 per 10 trades).
+                If their win rate drops to <span class="text-gray-200 font-bold">40%</span>, they are <span class="text-red-500 font-bold">HEAVILY LOSING</span> (-$2 per 10 trades).
               </p>
             </div>
           </div>
@@ -122,7 +122,7 @@
 
       <!-- CTA Section -->
       <div class="text-center max-w-3xl mx-auto">
-        <h3 class="text-2xl font-bold text-white mb-4">Stop Chasing Perfection. Start Using Math.</h3>
+        <h3 class="text-2xl font-bold text-gray-200 mb-4">Stop Chasing Perfection. Start Using Math.</h3>
         <p class="text-gray-400 mb-8">
           Join our free Discord community to watch daily live trading at 9:25 AM EST, where you'll see the 1:3 Risk:Reward model in action.
         </p>

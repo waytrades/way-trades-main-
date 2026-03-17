@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4">
       <!-- Section Header -->
       <div class="text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-black text-white mb-4">
+        <h2 class="text-4xl md:text-5xl font-black text-gray-200 mb-4">
           REAL <span class="text-green-500">RESULTS</span> FROM REAL TRADERS
         </h2>
         <p class="text-gray-400 text-lg max-w-2xl mx-auto">
@@ -39,7 +39,7 @@
               <div class="p-6 flex flex-col justify-between flex-grow">
                 <!-- Author Info -->
                 <div class="mb-4">
-                  <p class="font-bold text-white text-lg">{{ testimonial.author }}</p>
+                  <p class="font-bold text-gray-200 text-lg">{{ testimonial.author }}</p>
                   <p class="text-green-500 text-sm font-bold">{{ testimonial.title }}</p>
                 </div>
 

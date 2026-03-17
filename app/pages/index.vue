@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-slate-950 text-white font-sans selection:bg-green-500 selection:text-slate-950">
+  <div class="min-h-screen bg-slate-950 text-gray-200 font-sans selection:bg-green-500 selection:text-slate-950">
 
 
     <!-- Navigation -->
@@ -9,7 +9,7 @@
           <!-- Logo and Brand Name (Left) -->
           <div class="flex items-center gap-3 pl-4">
             <img src="/logo.png" alt="Way Trades Logo" class="w-8 h-8 object-contain" />
-            <span class="text-[11px] font-black tracking-tighter text-white">WAY TRADES</span>
+            <span class="text-[11px] font-black tracking-tighter text-gray-200">WAY TRADES</span>
           </div>
           
           <!-- Desktop Navigation (Hidden on Mobile) -->
@@ -69,8 +69,8 @@
         <!-- Hero Content - Vertical Stack for Mobile -->
         <div class="max-w-4xl mx-auto">
           <!-- Headline -->
-          <h1 class="text-3xl md:text-6xl font-black tracking-tight md:tracking-tighter mb-6 md:mb-8 leading-tight text-center">
-            Way Trades <span class="text-green-500">Community</span>
+          <h1 class="text-3xl md:text-6xl font-black tracking-tight md:tracking-tighter mb-6 md:mb-8 leading-tight text-center text-gray-200">
+            Way Trades Community
           </h1>
           
           <!-- Video Placeholder with Clean Stats Bar Below -->
@@ -142,13 +142,13 @@
     <section id="pricing" class="py-24 bg-slate-950">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
-          <h2 class="text-4xl md:text-5xl font-black mb-4">CHOOSE YOUR PATH</h2>
+          <h2 class="text-4xl md:text-5xl font-black mb-4 text-gray-200">CHOOSE YOUR PATH</h2>
           <p class="text-gray-400 text-xl">From free education to professional VIP mentorship.</p>
         </div>
         <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <!-- Free Plan -->
           <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 flex flex-col">
-            <h3 class="text-2xl font-bold mb-2">FREE COMMUNITY</h3>
+            <h3 class="text-2xl font-bold mb-2 text-gray-200">FREE COMMUNITY</h3>
             <div class="text-4xl font-black mb-6">$0<span class="text-sm text-gray-500 font-normal">/forever</span></div>
             <ul class="space-y-4 mb-8 flex-grow">
               <li class="flex items-center gap-3 text-gray-300">
@@ -170,7 +170,7 @@
                 Morning Watchlists
               </li>
             </ul>
-            <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="w-full py-4 bg-slate-800 hover:bg-slate-700 text-white font-bold rounded-full text-center transition-colors">
+            <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="w-full py-4 bg-slate-800 hover:bg-slate-700 text-gray-200 font-bold rounded-full text-center transition-colors">
               JOIN FREE
             </a>
           </div>
