@@ -274,7 +274,7 @@
             START USING <span class="text-green-500">MATH</span>.
           </h2>
           <p class="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
-            Stop gambling on "magic" indicators. Join the community that trades with a proven 1:3 mathematical edge every single day.
+            Stop gambling on "magic" indicators and looking for high win-rate guru's. Join the community that trades with a proven 1:3 mathematical edge every single day.
           </p>
           <div class="flex flex-col items-center gap-6">
             <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="w-full md:w-auto bg-green-500 hover:bg-green-600 text-slate-950 font-black py-5 px-12 rounded-full transition-all transform hover:scale-105 text-xl shadow-[0_0_30px_rgba(34,197,94,0.3)]">
