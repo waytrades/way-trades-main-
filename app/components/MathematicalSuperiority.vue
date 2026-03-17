@@ -89,30 +89,7 @@
         </div>
       </div>
 
-      <!-- Key Insight Box -->
-      <div class="max-w-4xl mx-auto mb-12">
-        <div class="border-2 border-green-500 bg-green-500/5 rounded-xl p-8">
-          <h3 class="text-2xl font-bold text-green-500 mb-4">The "Margin for Error" Advantage</h3>
-          <p class="text-lg text-gray-200 mb-4">
-            The BBR Strategy is superior because it is <span class="font-bold">Robust</span>. 
-            In trading, you will have bad weeks. The math determines if you survive them.
-          </p>
-          <div class="grid md:grid-cols-2 gap-6 mt-6">
-            <div class="space-y-2">
-              <p class="font-bold text-green-500">BBR Strategy (1:3 R:R)</p>
-              <p class="text-sm text-gray-400">
-                If your win rate drops to <span class="text-gray-200 font-bold">35%</span>, you are <span class="text-green-500 font-bold">STILL PROFITABLE</span> (+$0.50 per 10 trades).
-              </p>
-            </div>
-            <div class="space-y-2">
-              <p class="font-bold text-red-500">Hype Trader (1:1 R:R)</p>
-              <p class="text-sm text-gray-400">
-                If their win rate drops to <span class="text-gray-200 font-bold">40%</span>, they are <span class="text-red-500 font-bold">HEAVILY LOSING</span> (-$2 per 10 trades).
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
       <!-- CTA Section -->
       <div class="text-center max-w-3xl mx-auto">
