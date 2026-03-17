@@ -265,6 +265,30 @@
       </div>
     </section>
 
+    <!-- Final CTA Section -->
+    <section class="py-24 bg-slate-950 border-t border-slate-800">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2 class="text-4xl md:text-6xl font-black mb-6 text-gray-200 tracking-tighter">
+            STOP CHASING <span class="text-red-500">HYPE</span>.<br />
+            START USING <span class="text-green-500">MATH</span>.
+          </h2>
+          <p class="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
+            Stop gambling on "magic" indicators. Join the community that trades with a proven 1:3 mathematical edge every single day.
+          </p>
+          <div class="flex flex-col items-center gap-6">
+            <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="w-full md:w-auto bg-green-500 hover:bg-green-600 text-slate-950 font-black py-5 px-12 rounded-full transition-all transform hover:scale-105 text-xl shadow-[0_0_30px_rgba(34,197,94,0.3)]">
+              GET VIP ACCESS
+            </a>
+            <p class="text-green-500 font-bold flex items-center gap-2">
+              <Icon name="lucide:shield-check" class="w-5 h-5" />
+              First 7 Days are 100% FREE
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer class="py-12 border-t border-slate-800 bg-slate-950">
       <div class="container mx-auto px-4 text-center">
