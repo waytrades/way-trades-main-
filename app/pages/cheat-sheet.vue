@@ -59,7 +59,7 @@
             <div class="bg-slate-900/50 border border-slate-800 rounded-lg p-6">
               <Icon name="lucide:chart-line" class="w-8 h-8 text-green-500 mx-auto mb-3" />
               <p class="font-bold mb-2">Real Backtest Data</p>
-              <p class="text-sm text-gray-400">50% win rate. 3.92 profit factor.</p>
+              <p class="text-sm text-gray-400">50% win rate. 1:3 Risk:Reward.</p>
             </div>
           </div>
 

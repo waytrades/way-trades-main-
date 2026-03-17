@@ -91,11 +91,7 @@
             
             <!-- Clean Stats Bar Below Video -->
             <div class="bg-slate-900 border border-green-500/30 rounded-lg p-4 md:p-6">
-              <div class="grid grid-cols-3 gap-4">
-                <div class="text-center">
-                  <p class="text-green-500 text-2xl md:text-3xl font-black">3.92</p>
-                  <p class="text-gray-400 text-xs md:text-sm font-bold mt-2">PROFIT FACTOR</p>
-                </div>
+              <div class="grid grid-cols-2 gap-4">
                 <div class="text-center">
                   <p class="text-green-500 text-2xl md:text-3xl font-black">50%</p>
                   <p class="text-gray-400 text-xs md:text-sm font-bold mt-2">WIN RATE</p>
@@ -105,7 +101,6 @@
                   <p class="text-gray-400 text-xs md:text-sm font-bold mt-2">RISK:REWARD</p>
                 </div>
               </div>
-
             </div>
           </div>
           

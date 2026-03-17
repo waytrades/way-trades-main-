@@ -38,10 +38,7 @@
                 <span class="text-gray-400">Risk:Reward:</span>
                 <span class="font-bold text-lg text-green-500">1:3</span>
               </div>
-              <div class="flex justify-between items-center">
-                <span class="text-gray-400">Per Trade Expectancy:</span>
-                <span class="font-bold text-lg text-green-500">+$1.00</span>
-              </div>
+
             </div>
             <div class="space-y-2">
               <p class="text-sm font-semibold text-gray-200">10 Trades Result:</p>
@@ -75,10 +72,7 @@
                 <span class="text-gray-400">Risk:Reward:</span>
                 <span class="font-bold text-lg text-red-500">1:1</span>
               </div>
-              <div class="flex justify-between items-center">
-                <span class="text-gray-400">Per Trade Expectancy:</span>
-                <span class="font-bold text-lg text-orange-500">+$0.80</span>
-              </div>
+
             </div>
             <div class="space-y-2">
               <p class="text-sm font-semibold text-gray-200">10 Trades Result:</p>
