@@ -62,7 +62,7 @@
     </nav>
 
     <!-- Hero Section with Backtest Proof -->
-    <header class="relative py-4 md:py-20 overflow-hidden">
+    <header class="relative pt-10 pb-4 md:py-20 overflow-hidden">
       <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-green-500/10 via-transparent to-transparent -z-10"></div>
       <div class="container mx-auto px-4">
         
@@ -101,7 +101,7 @@
                   <p class="text-gray-400 text-xs md:text-sm font-bold mt-2">RISK:REWARD</p>
                 </div>
               </div>
-              <p class="text-gray-500 text-xs md:text-sm text-center mt-4 italic">"You don't need to be perfect to be profitable. You just need an edge."</p>
+              <p class="text-gray-500 text-[10px] sm:text-xs md:text-sm text-center mt-4 italic whitespace-nowrap">You don't need to be perfect to be profitable. You just need an edge.</p>
             </div>
           </div>
           
