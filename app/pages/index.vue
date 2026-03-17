@@ -142,8 +142,8 @@
         <!-- Section Header -->
         <div class="text-center mb-16">
           <div class="inline-flex items-center gap-2 bg-green-500/10 text-green-500 px-4 py-2 rounded-full text-sm font-bold border border-green-500/20 mb-6">
-            <Icon name="lucide:crown" class="w-4 h-4" />
-            ELITE TIER
+            <Icon name="lucide:users" class="w-4 h-4" />
+            MENTORSHIP
           </div>
           <h2 class="text-4xl md:text-5xl font-black mb-4">The 6-Week <span class="text-green-500">Trader Transformation</span></h2>
           <p class="text-gray-400 text-lg max-w-2xl mx-auto">Master the 1:3 Edge with personalized 1-on-1 mentorship. Limited to 5 serious traders only.</p>
