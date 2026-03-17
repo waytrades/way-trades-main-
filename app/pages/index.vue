@@ -101,6 +101,7 @@
                   <p class="text-gray-400 text-xs md:text-sm font-bold mt-2">RISK:REWARD</p>
                 </div>
               </div>
+              <p class="text-gray-500 text-xs md:text-sm text-center mt-4 italic">"You don't need to be perfect to be profitable. You just need an edge."</p>
             </div>
           </div>
           
