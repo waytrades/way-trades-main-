@@ -64,7 +64,7 @@
 
       <!-- Auto-rotate info -->
       <p class="text-center text-gray-500 text-sm mt-4">
-        Auto-rotating every 5 seconds
+        Auto-rotating every 4 seconds
       </p>
     </div>
   </div>
@@ -97,7 +97,7 @@ const resetAutoRotate = () => {
 const startAutoRotate = () => {
   autoRotateInterval = setInterval(() => {
     currentIndex.value = (currentIndex.value + 1) % totalTestimonials.value
-  }, 5000)
+  }, 4000)
 }
 
 onMounted(() => {
