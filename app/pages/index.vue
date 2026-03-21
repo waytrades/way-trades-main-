@@ -128,7 +128,7 @@
     <!-- Testimonials Section -->
     <section id="testimonials" class="py-24 bg-slate-950">
       <div class="container mx-auto px-4">
-        <TestimonialsSection />
+        <TestimonialsCarousel />
       </div>
     </section>
 
