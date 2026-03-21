@@ -75,17 +75,15 @@
           
           <!-- Video Placeholder with Clean Stats Bar Below -->
           <div class="mb-8 md:mb-10">
-            <!-- Temporary YouTube Backtesting Video (Until Vimeo VSL is Ready) -->
+            <!-- Official Bunny.net VSL -->
             <div class="relative bg-slate-900 border-2 border-green-500/50 rounded-2xl overflow-hidden aspect-video mb-4">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/TbDnaZZVZ-E"
-                title="4-Hour Backtest Video"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-                class="absolute inset-0"
+              <iframe 
+                src="https://player.mediadelivery.net/embed/622032/c02172f1-6f8d-45d9-8f99-55a35df94b6b?autoplay=false&loop=true&muted=false&preload=true&responsive=true" 
+                loading="lazy" 
+                style="border:0;position:absolute;top:0;height:100%;width:100%;" 
+                allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" 
+                allowfullscreen="true"
+                title="Way Trades Official VSL"
               ></iframe>
             </div>
             
