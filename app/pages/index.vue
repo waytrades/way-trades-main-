@@ -112,7 +112,7 @@
           
           <!-- CTA Description -->
           <p class="text-center text-green-500 text-sm md:text-base font-bold mt-6 md:mt-8">
-            First week is FREE so you can see we're legitimate, transparent, profitable, and CAN help you get payouts and become consistently profitable as well.
+            First week is FREE so you can see the value for yourself without paying a dime. We don't need to hide behind a paywall. See we're legitimate, transparent and profitable, and then decide if it's for you.
           </p>
         </div>
       </div>
