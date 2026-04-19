@@ -4,7 +4,7 @@
     <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
       <div class="container mx-auto px-4 py-3 flex justify-center md:justify-between items-center">
         <NuxtLink to="/" class="flex items-center gap-3 justify-center hover:opacity-80 transition-opacity">
-          <img src="/favicon.png" alt="Way Trades Logo" class="w-12 h-12 object-contain" />
+          <img src="/logo.png" alt="Way Trades Logo" class="w-12 h-12 object-contain" />
           <span class="text-xl font-black tracking-tighter">WAY TRADES</span>
         </NuxtLink>
       </div>
@@ -106,7 +106,7 @@ useSeoMeta({
   ogTitle: 'Free BBR Strategy Cheat Sheet | Master the 1:3 Trading Edge',
   description: 'Download the exact framework I use to trade breakouts, bounces, and rejects with a 50% win rate. Get the PDF cheat sheet and start trading with a mathematical edge today.',
   ogDescription: 'Download the exact framework I use to trade breakouts, bounces, and rejects with a 50% win rate. Get the PDF cheat sheet and start trading with a mathematical edge today.',
-  ogImage: '/favicon.png',
+  ogImage: '/logo.png',
   twitterCard: 'summary_large_image',
 })
 </script>
