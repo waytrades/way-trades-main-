@@ -8,7 +8,7 @@
         <div class="bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-full px-2 py-2 flex justify-between items-center shadow-2xl relative">
           <!-- Logo and Brand Name (Left) -->
           <div class="flex items-center gap-3 pl-4">
-            <img src="/logo.png" alt="Way Trades Logo" class="w-8 h-8 object-contain" />
+            <img src="/favicon.png" alt="Way Trades Logo" class="w-8 h-8 object-contain" />
             <span class="text-[11px] font-black tracking-tighter text-gray-200">WAY TRADES</span>
           </div>
           
@@ -158,7 +158,7 @@
     <footer class="py-12 border-t border-slate-800 bg-slate-950">
       <div class="container mx-auto px-4 text-center">
         <div class="flex items-center justify-center gap-3 mb-6">
-          <img src="/logo.png" alt="Way Trades Logo" class="w-10 h-10 object-contain" />
+          <img src="/favicon.png" alt="Way Trades Logo" class="w-10 h-10 object-contain" />
           <span class="text-lg font-black tracking-tighter">WAY TRADES</span>
         </div>
         <p class="text-gray-500 text-sm max-w-2xl mx-auto mb-8">
@@ -194,7 +194,7 @@ useSeoMeta({
   ogTitle: 'Way Trades | Experience Professional Futures Trading in Real-Time',
   description: 'Stop chasing hype. Watch me live trade the BBR strategy daily with a 1:3 risk-reward edge and 50% win rate. Start your 7-day free trial and see the proof for yourself.',
   ogDescription: 'Stop chasing hype. Watch me live trade the BBR strategy daily with a 1:3 risk-reward edge and 50% win rate. Start your 7-day free trial and see the proof for yourself.',
-  ogImage: '/logo.png',
+  ogImage: '/favicon.png',
   twitterCard: 'summary_large_image',
 })
 </script>
