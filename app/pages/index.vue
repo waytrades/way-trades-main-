@@ -102,7 +102,7 @@
           <!-- CTA Button (Desktop and Mobile) -->
           <div class="flex justify-center">
             <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" @click="gtag.event('click', { event_category: 'cta', event_label: 'start_trial' })" class="w-full md:w-auto text-center bg-green-500 hover:bg-green-600 text-slate-950 font-black py-4 md:py-5 px-8 md:px-12 rounded-full transition-all transform hover:scale-105 text-base md:text-lg shadow-[0_0_20px_rgba(34,197,94,0.3)]">
-              START 7-DAY FREE TRIAL
+              START 5-DAY FREE TRIAL
             </a>
           </div>
           
@@ -147,7 +147,7 @@
             </a>
             <p class="text-green-500 font-bold flex items-center gap-2">
               <Icon name="lucide:shield-check" class="w-5 h-5" />
-              First 7 Days are 100% FREE
+              First 5 Days are 100% FREE
             </p>
           </div>
         </div>
@@ -192,8 +192,8 @@ const { gtag } = useGtag()
 useSeoMeta({
   title: 'Way Trades | Experience Professional Futures Trading in Real-Time',
   ogTitle: 'Way Trades | Experience Professional Futures Trading in Real-Time',
-  description: 'Stop chasing hype. Watch me live trade the BBR strategy daily with a 1:3 risk-reward edge and 50% win rate. Start your 7-day free trial and see the proof for yourself.',
-  ogDescription: 'Stop chasing hype. Watch me live trade the BBR strategy daily with a 1:3 risk-reward edge and 50% win rate. Start your 7-day free trial and see the proof for yourself.',
+  description: 'Stop chasing hype. Watch me live trade the BBR strategy daily with a 1:3 risk-reward edge and 50% win rate. Start your 5-day free trial and see the proof for yourself.',
+  ogDescription: 'Stop chasing hype. Watch me live trade the BBR strategy daily with a 1:3 risk-reward edge and 50% win rate. Start your 5-day free trial and see the proof for yourself.',
   ogImage: '/logo.png',
   twitterCard: 'summary_large_image',
 })

@@ -55,7 +55,7 @@
               </a>
               <p class="text-green-500 font-bold flex items-center justify-center gap-2">
                 <Icon name="lucide:shield-check" class="w-5 h-5" />
-                First 7 Days are 100% FREE
+                First 5 Days are 100% FREE
               </p>
             </div>
           </div>
