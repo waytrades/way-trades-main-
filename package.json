@@ -10,13 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.11.2",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
-    "@nuxtjs/sanity": "^1.8.0",
     "@nuxt/icon": "^1.0.0",
+    "@nuxtjs/sanity": "^1.8.0",
+    "@vueuse/motion": "^3.0.3",
+    "nuxt": "^3.11.2",
     "nuxt-gtag": "^2.0.0",
-    "unstorage": "^1.10.2"
+    "unstorage": "^1.10.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.11.4"

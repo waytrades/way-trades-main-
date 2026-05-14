@@ -29,6 +29,11 @@ export default defineNuxtConfig({
     ]
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sanity', '@nuxt/icon', 'nuxt-gtag'],
+  vite: {
+    server: {
+      allowedHosts: ['3000-ieriruo0masbhxvn74t2g-8b3dffb6.us2.manus.computer']
+    }
+  },
   gtag: {
     id: 'G-QXNYRXWPJ9'
   },
