@@ -74,10 +74,10 @@
             <!-- Official Bunny.net VSL -->
             <div class="relative bg-slate-900 border-2 border-green-500/50 rounded-2xl overflow-hidden aspect-video mb-4">
               <iframe 
-                src="https://player.mediadelivery.net/embed/622032/c02172f1-6f8d-45d9-8f99-55a35df94b6b?autoplay=false&loop=true&muted=false&preload=true&responsive=true" 
+                src="https://www.youtube.com/embed/VswKTKeuBqI?autoplay=0&controls=1&modestbranding=1" 
                 loading="lazy" 
                 style="border:0;position:absolute;top:0;height:100%;width:100%;" 
-                allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" 
+                allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" 
                 allowfullscreen="true"
                 title="Way Trades Official VSL"
               ></iframe>
