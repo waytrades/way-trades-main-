@@ -447,42 +447,42 @@ const _routes = [
   {
     name: "v2",
     path: "/v2",
-    component: () => import('./v2-DPEfuMuY.mjs')
+    component: () => import('./v2-B8H1migd.mjs')
   },
   {
     name: "eula",
     path: "/eula",
     meta: __nuxt_page_meta$4 || {},
-    component: () => import('./eula-B5IUF5Wg.mjs')
+    component: () => import('./eula-CvXyf_c_.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-D7ZjMhC-.mjs')
+    component: () => import('./index-mNWeenOT.mjs')
   },
   {
     name: "privacy",
     path: "/privacy",
     meta: __nuxt_page_meta$3 || {},
-    component: () => import('./privacy-D9v8zbwc.mjs')
+    component: () => import('./privacy-x-Y0D8yr.mjs')
   },
   {
     name: "cheat-sheet",
     path: "/cheat-sheet",
     meta: __nuxt_page_meta$2 || {},
-    component: () => import('./cheat-sheet-BiUMDS8z.mjs')
+    component: () => import('./cheat-sheet-DWAcGZpf.mjs')
   },
   {
     name: "return-policy",
     path: "/return-policy",
     meta: __nuxt_page_meta$1 || {},
-    component: () => import('./return-policy-DlRK1cnd.mjs')
+    component: () => import('./return-policy-Dthj5swU.mjs')
   },
   {
     name: "terms-of-service",
     path: "/terms-of-service",
     meta: __nuxt_page_meta || {},
-    component: () => import('./terms-of-service-CJUJg30q.mjs')
+    component: () => import('./terms-of-service-CEyULsfP.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {
@@ -873,7 +873,7 @@ const LazyIcon = defineAsyncComponent(() => import('./index-Dy8173We.mjs').then(
 const lazyGlobalComponents = [
   ["Icon", LazyIcon]
 ];
-const components_plugin_4kY4pyzJIYX99vmMAAIorFf3CnAaptHitJgf7JxiED8 = /* @__PURE__ */ defineNuxtPlugin({
+const components_plugin_z4hgvsiddfKkfXTP6M8M4zG5Cb7sGnDhcryKVM45Di4 = /* @__PURE__ */ defineNuxtPlugin({
   name: "nuxt:global-components",
   setup(nuxtApp) {
     for (const [name, component] of lazyGlobalComponents) {
@@ -1131,7 +1131,7 @@ const plugins = [
   unhead_k2P3m_ZDyjlr2mMYnoDPwavjsDN8hBlk9cFai0bbopU,
   plugin,
   revive_payload_server_MVtmlZaQpj6ApFmshWfUWl5PehCebzaBf2NuRMiIbms,
-  components_plugin_4kY4pyzJIYX99vmMAAIorFf3CnAaptHitJgf7JxiED8,
+  components_plugin_z4hgvsiddfKkfXTP6M8M4zG5Cb7sGnDhcryKVM45Di4,
   plugin_MeUvTuoKUi51yb_kBguab6hdcExVXeTtZtTg9TZZBB8
 ];
 const layouts = {};

@@ -35,7 +35,7 @@ export default defineNuxtConfig({
     },
     build: {
       rollupOptions: {
-        external: ['/logo.png', '/favicon.png']
+        external: []
       }
     }
   },
