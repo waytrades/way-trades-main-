@@ -110,7 +110,7 @@
                     <div class="space-y-1">
                       <p class="text-xs text-gray-500 font-medium">Win Rate</p>
                       <div class="flex items-baseline gap-1">
-                        <span class="text-3xl font-black text-white">44</span>
+                        <span class="text-3xl font-black text-white">50</span>
                         <span class="text-lg font-bold text-green-500">%</span>
                       </div>
                     </div>
@@ -118,7 +118,7 @@
                       <p class="text-xs text-gray-500 font-medium">Risk:Reward</p>
                       <div class="flex items-baseline gap-1">
                         <span class="text-lg font-bold text-green-500">1:</span>
-                        <span class="text-3xl font-black text-white">5.4</span>
+                        <span class="text-3xl font-black text-white">4</span>
                       </div>
                     </div>
                   </div>
