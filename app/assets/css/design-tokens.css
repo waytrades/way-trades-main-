@@ -1,0 +1,190 @@
+/* waytrades Design Tokens - Fintech Premium Aesthetic */
+
+:root {
+  /* Color System */
+  --color-bg-primary: #0a0a0a;
+  --color-bg-card: #1a1a1a;
+  --color-accent-primary: #00FF94;
+  --color-accent-glow: rgba(0, 255, 148, 0.15);
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a0a0a0;
+  --color-border-subtle: rgba(255, 255, 255, 0.06);
+  
+  /* Typography */
+  --font-heading: 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-weight-heading: 700;
+  --font-weight-body: 400;
+  
+  /* Spacing & Sizing */
+  --border-radius-card: 12px;
+  --border-radius-button: 8px;
+  --transition-default: 0.3s ease;
+  --max-width-content: 1200px;
+  --section-padding: 100px 24px;
+  --section-padding-mobile: 60px 16px;
+  
+  /* Shadows & Effects */
+  --shadow-card: 0 4px 16px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 8px 32px rgba(0, 255, 148, 0.1);
+  --blur-glass: 10px;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-body);
+  line-height: 1.6;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-heading);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+p {
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+}
+
+/* Glassmorphism Base */
+.glassmorphic {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(var(--blur-glass));
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--border-radius-card);
+}
+
+.glassmorphic-hover:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--color-accent-primary);
+  box-shadow: var(--shadow-hover);
+  transition: all var(--transition-default);
+}
+
+/* Accent Glow */
+.accent-glow {
+  box-shadow: 0 0 20px var(--color-accent-glow);
+}
+
+/* Button Base */
+.btn {
+  padding: 12px 24px;
+  border-radius: var(--border-radius-button);
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-default);
+  font-family: var(--font-heading);
+}
+
+.btn-primary {
+  background-color: var(--color-accent-primary);
+  color: var(--color-bg-primary);
+}
+
+.btn-primary:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-accent-primary);
+  border: 1px solid var(--color-accent-primary);
+}
+
+.btn-secondary:hover {
+  background-color: rgba(0, 255, 148, 0.1);
+}
+
+/* Section Base */
+.section {
+  padding: var(--section-padding);
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--section-padding-mobile);
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.text-accent {
+  color: var(--color-accent-primary);
+}
+
+.text-secondary {
+  color: var(--color-text-secondary);
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-up {
+  animation: slideUp 0.6s ease-out;
+}
