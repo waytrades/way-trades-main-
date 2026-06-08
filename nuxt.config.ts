@@ -1,4 +1,4 @@
-// Force redeployment
+// Force redeploy - swing trading content removed
 export default defineNuxtConfig({
   app: {
     head: {
