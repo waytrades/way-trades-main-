@@ -116,7 +116,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/84269ad2-1d8b-4335-92f5-c49fcc9fc4a9.json"
+        "./manifest/meta/6aaf1d64-a88f-43ec-8bfd-326555f22daf.json"
       ],
       "#sanity-client": [
         "../node_modules/@sanity/client/dist/index"

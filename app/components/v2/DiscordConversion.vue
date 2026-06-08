@@ -12,7 +12,7 @@
               <Icon name="lucide:radio" />
               <div>
                 <h4>Live Market Analysis</h4>
-                <p>Real-time breakdowns of NQ and Equity setups as they form.</p>
+                <p>Real-time breakdowns of NQ futures setups as they form.</p>
               </div>
             </div>
             <div class="benefit-item">
@@ -26,7 +26,7 @@
               <Icon name="lucide:book" />
               <div>
                 <h4>The BBR Resource Library</h4>
-                <p>Instant access to the core frameworks for both futures and options.</p>
+                <p>Instant access to the core BBR framework and intraday execution strategies.</p>
               </div>
             </div>
           </div>

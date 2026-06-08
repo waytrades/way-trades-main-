@@ -457,7 +457,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-7qmzeTTC.js")
+    component: () => import("./_nuxt/index-wsrchv-y.js")
   },
   {
     name: "privacy",

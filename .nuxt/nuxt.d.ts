@@ -1,6 +1,6 @@
 /// <reference types="@nuxtjs/tailwindcss" />
-/// <reference types="@nuxt/icon" />
 /// <reference types="@nuxtjs/sanity" />
+/// <reference types="@nuxt/icon" />
 /// <reference types="nuxt-gtag" />
 /// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxt/telemetry" />
