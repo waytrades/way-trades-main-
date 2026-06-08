@@ -147,6 +147,7 @@
     "../node_modules/@nuxtjs/sanity/node_modules",
     "../node_modules/@nuxt/icon/node_modules",
     "../node_modules/nuxt-gtag/node_modules",
+    "../node_modules/@vueuse/motion/node_modules",
     "../node_modules/@nuxt/devtools/node_modules",
     "../node_modules/@nuxt/telemetry/node_modules",
     "../dist"

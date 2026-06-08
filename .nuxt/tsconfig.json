@@ -116,7 +116,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/37db05e9-306a-4663-a540-86669af48ed9.json"
+        "./manifest/meta/84269ad2-1d8b-4335-92f5-c49fcc9fc4a9.json"
       ],
       "#sanity-client": [
         "../node_modules/@sanity/client/dist/index"
@@ -181,6 +181,7 @@
     "../node_modules/@nuxtjs/sanity/node_modules",
     "../node_modules/@nuxt/icon/node_modules",
     "../node_modules/nuxt-gtag/node_modules",
+    "../node_modules/@vueuse/motion/node_modules",
     "../node_modules/@nuxt/devtools/node_modules",
     "../node_modules/@nuxt/telemetry/node_modules",
     "../node_modules/runtime/server",

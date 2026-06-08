@@ -28,7 +28,7 @@ export default defineNuxtConfig({
       '~/app/components'
     ]
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sanity', '@nuxt/icon', 'nuxt-gtag'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sanity', '@nuxt/icon', 'nuxt-gtag', '@vueuse/motion/nuxt'],
   vite: {
     server: {
       allowedHosts: ['3000-ieriruo0masbhxvn74t2g-8b3dffb6.us2.manus.computer']

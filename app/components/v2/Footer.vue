@@ -27,3 +27,7 @@
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+// Empty setup to ensure proper SSR handling
+</script>

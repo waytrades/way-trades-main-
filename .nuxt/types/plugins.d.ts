@@ -15,6 +15,7 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/revive-payload.server.js")> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/chunk-reload.client.js")> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/plugins/prefetch.client.js")> &
+  InjectionType<typeof import("../../node_modules/@vueuse/motion/dist/nuxt/runtime/templates/motion.js")> &
   InjectionType<typeof import("../../node_modules/nuxt-gtag/dist/runtime/plugin.client.js")> &
   InjectionType<typeof import("../../node_modules/@nuxt/icon/dist/runtime/plugin.js")>
 
