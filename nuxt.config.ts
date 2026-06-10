@@ -1,4 +1,3 @@
-// Force redeploy - swing trading content removed
 export default defineNuxtConfig({
   app: {
     head: {
@@ -19,6 +18,7 @@ export default defineNuxtConfig({
       ]
     }
   },
+  css: ['~/assets/css/design-tokens.css'],
   future: {
     compatibilityVersion: 4, ssr: true,
   },
@@ -29,16 +29,6 @@ export default defineNuxtConfig({
     ]
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sanity', '@nuxt/icon', 'nuxt-gtag', '@vueuse/motion/nuxt'],
-  vite: {
-    server: {
-      allowedHosts: ['3000-ieriruo0masbhxvn74t2g-8b3dffb6.us2.manus.computer']
-    },
-    build: {
-      rollupOptions: {
-        external: []
-      }
-    }
-  },
   gtag: {
     id: 'G-QXNYRXWPJ9'
   },
