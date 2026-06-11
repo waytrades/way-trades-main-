@@ -2,8 +2,8 @@
   <section id="pillars" class="pillars-section">
     <div class="section">
       <div class="pillars-header" v-motion="{ initial: { opacity: 0, y: 20 }, enter: { opacity: 1, y: 0, transition: { duration: 600 } } }">
-        <h2>Master Intraday Futures Trading</h2>
-        <p>Master the NQ futures markets using intraday order flow and the BBR strategy. We focus on high-probability execution on the 30-second and 5-minute timeframes, specifically designed for prop firm consistency.</p>
+        <h2>Two Disciplines. One Mathematical Foundation.</h2>
+        <p>We don't believe in "one size fits all." Whether you prefer the high-octane execution of intraday futures or the calculated patience of options swings, our BBR framework scales across both.</p>
       </div>
 
       <div class="pillars-grid">
@@ -12,21 +12,45 @@
           <div class="pillar-icon">
             <Icon name="lucide:zap" />
           </div>
-          <h3>Intraday BBR Framework</h3>
-          <p class="pillar-description">Breakouts, Bounces, and Rejects on the 30-second and 5-minute timeframes. Our proven methodology for consistent prop firm performance.</p>
+          <h3>Futures Day Trading</h3>
+          <p class="pillar-description">Master the NQ futures markets using intraday order flow and the BBR strategy. We focus on high-probability execution on the 30-second and 5-minute timeframes, specifically designed for prop firm consistency.</p>
           
           <ul class="pillar-features">
             <li>
               <Icon name="lucide:check" />
-              <span>Order Flow & ICT Execution Concepts</span>
+              <span>Intraday BBR (Breakouts, Bounces, Rejects)</span>
+            </li>
+            <li>
+              <Icon name="lucide:check" />
+              <span>Order Flow &amp; ICT Execution Concepts</span>
             </li>
             <li>
               <Icon name="lucide:check" />
               <span>Prop Firm Risk Management Protocols</span>
             </li>
+          </ul>
+        </div>
+
+        <!-- Options Swing Trading -->
+        <div class="pillar-card" v-motion="{ initial: { opacity: 0, x: 30 }, enter: { opacity: 1, x: 0, transition: { duration: 600, delay: 200 } } }">
+          <div class="pillar-icon">
+            <Icon name="lucide:trending-up" />
+          </div>
+          <h3>Options Swing Trading</h3>
+          <p class="pillar-description">Build wealth through individual equity options using higher timeframe setups. We utilize bullish divergence and oversold support levels to capture 2-week to 3-month moves with defined risk.</p>
+          
+          <ul class="pillar-features">
             <li>
               <Icon name="lucide:check" />
-              <span>High-Probability Setup Recognition</span>
+              <span>High-Timeframe BBR Setups</span>
+            </li>
+            <li>
+              <Icon name="lucide:check" />
+              <span>Bullish Divergence &amp; Support Confluence</span>
+            </li>
+            <li>
+              <Icon name="lucide:check" />
+              <span>Strategic 2-Week to 3-Month Hold Periods</span>
             </li>
           </ul>
         </div>
@@ -35,7 +59,7 @@
   </section>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { useMotion } from '@vueuse/motion'
 </script>
 
