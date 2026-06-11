@@ -20,14 +20,10 @@
         <span>|</span>
         <NuxtLink to="/return-policy" class="hover:text-green-500 transition-colors">Return Policy</NuxtLink>
         <span>|</span>
-        <NuxtLink to="/terms-of-service" class="hover:text-green-500 transition-colors">Terms & Conditions</NuxtLink>
+        <NuxtLink to="/terms-of-service" class="hover:text-green-500 transition-colors">Terms &amp; Conditions</NuxtLink>
         <span>|</span>
         <NuxtLink to="/eula" class="hover:text-green-500 transition-colors">EULA</NuxtLink>
       </div>
     </div>
   </footer>
 </template>
-
-<script setup lang="ts">
-// Empty setup to ensure proper SSR handling
-</script>
