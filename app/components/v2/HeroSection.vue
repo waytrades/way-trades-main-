@@ -16,9 +16,6 @@
             :enter="{ opacity: 1, x: 0, transition: { duration: 800 } }"
             class="space-y-8"
           >
-            <!-- Eyebrow -->
-
-
             <!-- Main Headline -->
             <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-tight tracking-tight text-center sm:text-left">
               You Don't Need a <span class="text-green-500">High Win Rate</span> to Become Profitable.
@@ -110,7 +107,7 @@
                     <div class="space-y-1">
                       <p class="text-xs text-gray-500 font-medium">Win Rate</p>
                       <div class="flex items-baseline gap-1">
-                        <span class="text-3xl font-black text-white">50</span>
+                        <span class="text-3xl font-black text-white">44</span>
                         <span class="text-lg font-bold text-green-500">%</span>
                       </div>
                     </div>
@@ -118,7 +115,7 @@
                       <p class="text-xs text-gray-500 font-medium">Risk:Reward</p>
                       <div class="flex items-baseline gap-1">
                         <span class="text-lg font-bold text-green-500">1:</span>
-                        <span class="text-3xl font-black text-white">4</span>
+                        <span class="text-3xl font-black text-white">5.4</span>
                       </div>
                     </div>
                   </div>
@@ -142,7 +139,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { useMotions } from '@vueuse/motion'
 </script>
 
