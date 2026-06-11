@@ -2,24 +2,28 @@
   <div class="homepage">
     <Header />
     <HeroSection />
+    <TrustBar />
     <PillarsSection />
     <TargetAudience />
     <TestimonialsGrid />
     <DiscordConversion />
     <FinalCTA />
     <Footer />
+    <StickyMobileCTA />
   </div>
 </template>
 
 <script setup>
 import Header from '~/components/v2/Header.vue'
 import HeroSection from '~/components/v2/HeroSection.vue'
+import TrustBar from '~/components/v2/TrustBar.vue'
 import PillarsSection from '~/components/v2/PillarsSection.vue'
 import TargetAudience from '~/components/v2/TargetAudience.vue'
 import TestimonialsGrid from '~/components/v2/Testimonials.vue'
 import DiscordConversion from '~/components/v2/DiscordConversion.vue'
 import FinalCTA from '~/components/v2/FinalCTA.vue'
 import Footer from '~/components/v2/Footer.vue'
+import StickyMobileCTA from '~/components/v2/StickyMobileCTA.vue'
 
 const { gtag } = useGtag()
 
