@@ -14,41 +14,47 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Card 1 -->
         <div
-          v-for="(point, index) in audiencePoints"
-          :key="index"
-          v-motion
-          :initial="{ opacity: 0, y: 20 }"
-          :enter="{ opacity: 1, y: 0, transition: { duration: 600, delay: 200 + index * 100 } }"
           class="bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-green-500/20 rounded-2xl p-8 backdrop-blur-sm hover:border-green-500/50 transition-all duration-300"
+          v-motion="{ initial: { opacity: 0, y: 20 }, enter: { opacity: 1, y: 0, transition: { duration: 600, delay: 200 } } }"
         >
           <div class="w-12 h-12 flex items-center justify-center bg-green-500/10 rounded-xl mb-6">
-            <Icon :name="point.icon" class="w-6 h-6 text-green-500" />
+            <Icon name="lucide:alert-circle" class="w-6 h-6 text-green-500" />
           </div>
-          <h3 class="text-xl font-black text-white mb-3">{{ point.title }}</h3>
-          <p class="text-gray-400 leading-relaxed">{{ point.description }}</p>
+          <h3 class="text-xl font-black text-white mb-3">This is for you if...</h3>
+          <p class="text-gray-400 leading-relaxed">You find yourself breaking your own rules in the heat of the moment and sabotaging perfectly good setups.</p>
         </div>
+
+        <!-- Card 2 -->
+        <div
+          class="bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-green-500/20 rounded-2xl p-8 backdrop-blur-sm hover:border-green-500/50 transition-all duration-300"
+          v-motion="{ initial: { opacity: 0, y: 20 }, enter: { opacity: 1, y: 0, transition: { duration: 600, delay: 300 } } }"
+        >
+          <div class="w-12 h-12 flex items-center justify-center bg-green-500/10 rounded-xl mb-6">
+            <Icon name="lucide:trending-down" class="w-6 h-6 text-green-500" />
+          </div>
+          <h3 class="text-xl font-black text-white mb-3">This is for you if...</h3>
+          <p class="text-gray-400 leading-relaxed">You've struggled to pass or maintain prop firm accounts because of emotional over-leveraging and revenge trading.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-green-500/20 rounded-2xl p-8 backdrop-blur-sm hover:border-green-500/50 transition-all duration-300"
+          v-motion="{ initial: { opacity: 0, y: 20 }, enter: { opacity: 1, y: 0, transition: { duration: 600, delay: 400 } } }"
+        >
+          <div class="w-12 h-12 flex items-center justify-center bg-green-500/10 rounded-xl mb-6">
+            <Icon name="lucide:compass" class="w-6 h-6 text-green-500" />
+          </div>
+          <h3 class="text-xl font-black text-white mb-3">This is for you if...</h3>
+          <p class="text-gray-400 leading-relaxed">You have a "strategy" but lack a clear, repeatable process for when to step away from the screens.</p>
+        </div>
+
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-const audiencePoints = [
-  {
-    icon: 'lucide:alert-circle',
-    title: 'This is for you if...',
-    description: 'You find yourself breaking your own rules in the heat of the moment and sabotaging perfectly good setups.'
-  },
-  {
-    icon: 'lucide:trending-down',
-    title: 'This is for you if...',
-    description: 'You've struggled to pass or maintain prop firm accounts because of emotional over-leveraging and revenge trading.'
-  },
-  {
-    icon: 'lucide:compass',
-    title: 'This is for you if...',
-    description: 'You have a "strategy" but lack a clear, repeatable process for when to step away from the screens.'
-  }
-]
 </script>
