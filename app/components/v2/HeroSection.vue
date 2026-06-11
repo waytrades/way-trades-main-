@@ -40,7 +40,7 @@
                 <div class="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-1">
                   <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
                 </div>
-                <span class="text-gray-300">11 serious traders. Not a signal farm.</span>
+                <span class="text-gray-300"><span class="text-white font-bold">{{ memberCount }}</span> serious traders. Not a signal farm.</span>
               </div>
             </div>
 
@@ -118,7 +118,15 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import { useMotions } from '@vueuse/motion'
+
+const { data: memberData } = await useFetch('/api/members', { server: true, lazy: false })
+const memberCount = computed(() => {
+  const count = memberData.value?.count
+  if (!count) return '—'
+  return count.toLocaleString()
+})
 </script>
 
 <style scoped>
@@ -130,3 +138,4 @@ import { useMotions } from '@vueuse/motion'
   animation: subtle-pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 </style>
+
