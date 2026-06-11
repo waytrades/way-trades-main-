@@ -21,7 +21,7 @@
 
 <script setup>
 const stats = [
-  { icon: 'lucide:users', value: '5,000+', label: 'Community Members' },
+  { icon: 'lucide:shield', value: '11 Members', label: 'Not a signal farm' },
   { icon: 'lucide:target', value: '1:3+ R:R', label: 'Target Risk:Reward' },
   { icon: 'lucide:star', value: '4.9 / 5', label: 'Avg Member Rating' },
   { icon: 'lucide:video', value: 'Daily 9:25 AM', label: 'Live Trading Sessions' },
