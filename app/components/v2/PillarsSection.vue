@@ -1,56 +1,55 @@
 <template>
-  <section id="pillars" class="pillars-section">
-    <div class="section">
-      <div class="pillars-header" v-motion="{ initial: { opacity: 0, y: 20 }, enter: { opacity: 1, y: 0, transition: { duration: 600 } } }">
-        <h2>Two Disciplines. One Mathematical Foundation.</h2>
-        <p>We don't believe in "one size fits all." Whether you prefer the high-octane execution of intraday futures or the calculated patience of options swings, our BBR framework scales across both.</p>
+  <section id="pillars" class="bg-slate-950 py-24 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div
+        class="text-center mb-16 max-w-3xl mx-auto"
+        v-motion="{ initial: { opacity: 0, y: 20 }, enter: { opacity: 1, y: 0, transition: { duration: 600 } } }"
+      >
+        <h2 class="text-4xl md:text-5xl font-black text-white mb-6 tracking-tight">
+          Two Disciplines. One Mathematical Foundation.
+        </h2>
+        <p class="text-lg md:text-xl text-gray-400 leading-relaxed">
+          Whether you prefer the high-octane execution of intraday futures or the calculated patience of options swings, our BBR framework scales across both.
+        </p>
       </div>
 
-      <div class="pillars-grid">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Futures Day Trading -->
-        <div class="pillar-card" v-motion="{ initial: { opacity: 0, x: -30 }, enter: { opacity: 1, x: 0, transition: { duration: 600, delay: 200 } } }">
-          <div class="pillar-icon">
-            <Icon name="lucide:zap" />
+        <div
+          class="bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-green-500/20 rounded-2xl p-8 backdrop-blur-sm hover:border-green-500/50 transition-all duration-300"
+          v-motion="{ initial: { opacity: 0, x: -30 }, enter: { opacity: 1, x: 0, transition: { duration: 600, delay: 200 } } }"
+        >
+          <div class="w-12 h-12 flex items-center justify-center bg-green-500/10 rounded-xl mb-6">
+            <Icon name="lucide:zap" class="w-6 h-6 text-green-500" />
           </div>
-          <h3>Futures Day Trading</h3>
-          <p class="pillar-description">Master the NQ futures markets using intraday order flow and the BBR strategy. We focus on high-probability execution on the 30-second and 5-minute timeframes, specifically designed for prop firm consistency.</p>
-          
-          <ul class="pillar-features">
-            <li>
-              <Icon name="lucide:check" />
-              <span>Intraday BBR (Breakouts, Bounces, Rejects)</span>
-            </li>
-            <li>
-              <Icon name="lucide:check" />
-              <span>Order Flow &amp; ICT Execution Concepts</span>
-            </li>
-            <li>
-              <Icon name="lucide:check" />
-              <span>Prop Firm Risk Management Protocols</span>
+          <h3 class="text-2xl font-black text-white mb-4">Futures Day Trading</h3>
+          <p class="text-gray-400 leading-relaxed mb-6">
+            Master the NQ futures markets using intraday order flow and the BBR strategy. We focus on high-probability execution on the 30-second and 5-minute timeframes, specifically designed for prop firm consistency.
+          </p>
+          <ul class="space-y-3">
+            <li v-for="item in futuresFeatures" :key="item" class="flex items-start gap-3 text-gray-300">
+              <Icon name="lucide:check" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
+              <span>{{ item }}</span>
             </li>
           </ul>
         </div>
 
         <!-- Options Swing Trading -->
-        <div class="pillar-card" v-motion="{ initial: { opacity: 0, x: 30 }, enter: { opacity: 1, x: 0, transition: { duration: 600, delay: 200 } } }">
-          <div class="pillar-icon">
-            <Icon name="lucide:trending-up" />
+        <div
+          class="bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-green-500/20 rounded-2xl p-8 backdrop-blur-sm hover:border-green-500/50 transition-all duration-300"
+          v-motion="{ initial: { opacity: 0, x: 30 }, enter: { opacity: 1, x: 0, transition: { duration: 600, delay: 200 } } }"
+        >
+          <div class="w-12 h-12 flex items-center justify-center bg-green-500/10 rounded-xl mb-6">
+            <Icon name="lucide:trending-up" class="w-6 h-6 text-green-500" />
           </div>
-          <h3>Options Swing Trading</h3>
-          <p class="pillar-description">Build wealth through individual equity options using higher timeframe setups. We utilize bullish divergence and oversold support levels to capture 2-week to 3-month moves with defined risk.</p>
-          
-          <ul class="pillar-features">
-            <li>
-              <Icon name="lucide:check" />
-              <span>High-Timeframe BBR Setups</span>
-            </li>
-            <li>
-              <Icon name="lucide:check" />
-              <span>Bullish Divergence &amp; Support Confluence</span>
-            </li>
-            <li>
-              <Icon name="lucide:check" />
-              <span>Strategic 2-Week to 3-Month Hold Periods</span>
+          <h3 class="text-2xl font-black text-white mb-4">Options Swing Trading</h3>
+          <p class="text-gray-400 leading-relaxed mb-6">
+            Build wealth through individual equity options using higher timeframe setups. We utilize bullish divergence and oversold support levels to capture 2-week to 3-month moves with defined risk.
+          </p>
+          <ul class="space-y-3">
+            <li v-for="item in optionsFeatures" :key="item" class="flex items-start gap-3 text-gray-300">
+              <Icon name="lucide:check" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
+              <span>{{ item }}</span>
             </li>
           </ul>
         </div>
@@ -60,128 +59,15 @@
 </template>
 
 <script setup>
-import { useMotion } from '@vueuse/motion'
+const futuresFeatures = [
+  'Intraday BBR (Breakouts, Bounces, Rejects)',
+  'Order Flow & ICT Execution Concepts',
+  'Prop Firm Risk Management Protocols',
+]
+
+const optionsFeatures = [
+  'High-Timeframe BBR Setups',
+  'Bullish Divergence & Support Confluence',
+  'Strategic 2-Week to 3-Month Hold Periods',
+]
 </script>
-
-<style scoped>
-.pillars-section {
-  background-color: var(--color-bg-primary);
-  padding: var(--section-padding);
-}
-
-.pillars-header {
-  text-align: center;
-  margin-bottom: 60px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.pillars-header h2 {
-  font-size: 2.5rem;
-  margin-bottom: 16px;
-  color: var(--color-text-primary);
-}
-
-.pillars-header p {
-  font-size: 1.125rem;
-  color: var(--color-text-secondary);
-  line-height: 1.6;
-}
-
-.pillars-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 32px;
-}
-
-.pillar-card {
-  padding: 32px;
-  border-radius: var(--border-radius-card);
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--color-border-subtle);
-  transition: all var(--transition-default);
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.pillar-card:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: var(--color-accent-primary);
-  box-shadow: 0 0 20px rgba(0, 255, 148, 0.1);
-}
-
-.pillar-icon {
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0, 255, 148, 0.1);
-  border-radius: 8px;
-  color: var(--color-accent-primary);
-}
-
-.pillar-icon :deep(svg) {
-  width: 24px;
-  height: 24px;
-}
-
-.pillar-card h3 {
-  font-size: 1.5rem;
-  color: var(--color-text-primary);
-  margin: 0;
-}
-
-.pillar-description {
-  font-size: 1rem;
-  color: var(--color-text-secondary);
-  line-height: 1.6;
-  margin: 0;
-}
-
-.pillar-features {
-  list-style: none;
-  padding: 0;
-  margin: 16px 0 0 0;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.pillar-features li {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  color: var(--color-text-secondary);
-  font-size: 0.95rem;
-}
-
-.pillar-features li :deep(svg) {
-  width: 18px;
-  height: 18px;
-  color: var(--color-accent-primary);
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-
-@media (max-width: 768px) {
-  .pillars-section {
-    padding: var(--section-padding-mobile);
-  }
-
-  .pillars-header h2 {
-    font-size: 1.75rem;
-  }
-
-  .pillars-header p {
-    font-size: 1rem;
-  }
-
-  .pillar-card {
-    padding: 24px;
-  }
-}
-</style>
