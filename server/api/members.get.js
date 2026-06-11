@@ -5,27 +5,44 @@ export default defineEventHandler(async () => {
     return { count: null, error: 'WHOP_API_KEY not set' }
   }
 
+  const headers = { Authorization: `Bearer ${key}` }
+
   try {
-    // Filter by the VIP access pass slug — only counts paid VIP members
-    const res = await fetch(
-      'https://api.whop.com/api/v2/memberships?valid=true&access_pass_id=vip-access-60-1cb2&limit=1',
-      { headers: { Authorization: `Bearer ${key}` } }
+    // Step 1: Get all products to find the VIP product ID
+    const productsRes = await fetch(
+      'https://api.whop.com/api/v2/products?limit=20',
+      { headers }
     )
 
-    if (!res.ok) {
-      // Fallback: try without access_pass filter if slug format is wrong
-      const fallback = await fetch(
-        'https://api.whop.com/api/v2/memberships?valid=true&limit=1',
-        { headers: { Authorization: `Bearer ${key}` } }
-      )
-      if (!fallback.ok) return { count: null, error: `Whop API error: ${fallback.status}` }
-      const fallbackData = await fallback.json()
-      return { count: fallbackData?.pagination?.total_count ?? null }
+    if (!productsRes.ok) {
+      return { count: null, error: `Products API error: ${productsRes.status}` }
     }
 
-    const data = await res.json()
-    const count = data?.pagination?.total_count ?? null
-    return { count }
+    const productsData = await productsRes.json()
+    const products = productsData?.data ?? []
+
+    // Find the VIP product by matching the slug/name
+    const vipProduct = products.find(p =>
+      p.slug?.includes('vip') ||
+      p.name?.toLowerCase().includes('vip') ||
+      p.id?.includes('vip')
+    )
+
+    // Step 2: Fetch memberships — filtered by product ID if we found it
+    const url = vipProduct
+      ? `https://api.whop.com/api/v2/memberships?valid=true&product_id=${vipProduct.id}&limit=1`
+      : `https://api.whop.com/api/v2/memberships?valid=true&limit=1`
+
+    const membersRes = await fetch(url, { headers })
+
+    if (!membersRes.ok) {
+      return { count: null, error: `Memberships API error: ${membersRes.status}` }
+    }
+
+    const membersData = await membersRes.json()
+    const count = membersData?.pagination?.total_count ?? null
+
+    return { count, productId: vipProduct?.id ?? null }
   } catch (e) {
     return { count: null, error: e.message }
   }
