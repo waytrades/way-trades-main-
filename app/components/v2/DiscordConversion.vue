@@ -91,14 +91,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Trust line -->
-      <div
-        class="text-center mt-16 pt-10 border-t border-slate-800"
-        v-motion="{ initial: { opacity: 0 }, enter: { opacity: 1, transition: { duration: 600, delay: 400 } } }"
-      >
-        <p class="text-gray-500">Join 5,000+ traders. Access is instant. No credit card required.</p>
-      </div>
     </div>
   </section>
 </template>
