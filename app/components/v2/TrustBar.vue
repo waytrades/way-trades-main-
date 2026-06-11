@@ -20,10 +20,23 @@
 </template>
 
 <script setup>
-const stats = [
-  { icon: 'lucide:shield', value: '11 Members', label: 'Not a signal farm' },
+import { computed } from 'vue'
+
+const { data: memberData } = await useFetch('/api/members', {
+  server: true,
+  lazy: false,
+})
+
+const memberCount = computed(() => {
+  const count = memberData.value?.count
+  if (!count) return '—'
+  return count.toLocaleString()
+})
+
+const stats = computed(() => [
+  { icon: 'lucide:shield', value: memberCount.value, label: 'Members · Not a signal farm' },
   { icon: 'lucide:target', value: '1:3+ R:R', label: 'Target Risk:Reward' },
   { icon: 'lucide:star', value: '4.9 / 5', label: 'Avg Member Rating' },
   { icon: 'lucide:video', value: 'Daily 9:25 AM', label: 'Live Trading Sessions' },
-]
+])
 </script>
