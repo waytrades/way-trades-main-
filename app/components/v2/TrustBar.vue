@@ -21,9 +21,9 @@
 
 <script setup>
 const stats = [
-  { icon: 'lucide:target', value: '1:3+', label: 'Target Risk:Reward' },
   { icon: 'lucide:users', value: '5,000+', label: 'Community Members' },
-  { icon: 'lucide:check-circle', value: 'Verified', label: 'BBR Framework' },
-  { icon: 'lucide:zap', value: 'Zero Hype', label: 'Pure Execution' },
+  { icon: 'lucide:target', value: '1:3+ R:R', label: 'Target Risk:Reward' },
+  { icon: 'lucide:star', value: '4.9 / 5', label: 'Avg Member Rating' },
+  { icon: 'lucide:video', value: 'Daily 9:25 AM', label: 'Live Trading Sessions' },
 ]
 </script>
