@@ -6,14 +6,21 @@ export default defineEventHandler(async () => {
   }
 
   try {
-    // Fetch valid memberships with limit=1 — we only need total_count from pagination
+    // Filter by the VIP access pass slug — only counts paid VIP members
     const res = await fetch(
-      'https://api.whop.com/api/v2/memberships?valid=true&limit=1',
+      'https://api.whop.com/api/v2/memberships?valid=true&access_pass_id=vip-access-60-1cb2&limit=1',
       { headers: { Authorization: `Bearer ${key}` } }
     )
 
     if (!res.ok) {
-      return { count: null, error: `Whop API error: ${res.status}` }
+      // Fallback: try without access_pass filter if slug format is wrong
+      const fallback = await fetch(
+        'https://api.whop.com/api/v2/memberships?valid=true&limit=1',
+        { headers: { Authorization: `Bearer ${key}` } }
+      )
+      if (!fallback.ok) return { count: null, error: `Whop API error: ${fallback.status}` }
+      const fallbackData = await fallback.json()
+      return { count: fallbackData?.pagination?.total_count ?? null }
     }
 
     const data = await res.json()
