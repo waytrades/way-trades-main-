@@ -15,26 +15,26 @@
 
         <div class="bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-green-500/20 rounded-2xl p-8 backdrop-blur-sm hover:border-green-500/50 transition-all duration-300">
           <div class="w-12 h-12 flex items-center justify-center bg-green-500/10 rounded-xl mb-6">
-            <Icon name="lucide:alert-circle" class="w-6 h-6 text-green-500" />
+            <Icon name="lucide:flame" class="w-6 h-6 text-green-500" />
           </div>
-          <h3 class="text-xl font-black text-white mb-3">This is for you if...</h3>
-          <p class="text-gray-400 leading-relaxed">You find yourself breaking your own rules in the heat of the moment and sabotaging perfectly good setups.</p>
+          <h3 class="text-xl font-black text-white mb-3">You keep breaking your own rules.</h3>
+          <p class="text-gray-400 leading-relaxed">You have a plan before the open — then throw it out the moment price moves against you. The setup was right. The execution wasn't.</p>
         </div>
 
         <div class="bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-green-500/20 rounded-2xl p-8 backdrop-blur-sm hover:border-green-500/50 transition-all duration-300">
           <div class="w-12 h-12 flex items-center justify-center bg-green-500/10 rounded-xl mb-6">
             <Icon name="lucide:trending-down" class="w-6 h-6 text-green-500" />
           </div>
-          <h3 class="text-xl font-black text-white mb-3">This is for you if...</h3>
-          <p class="text-gray-400 leading-relaxed">You've struggled to pass or maintain prop firm accounts because of emotional over-leveraging and revenge trading.</p>
+          <h3 class="text-xl font-black text-white mb-3">You've blown a prop firm account.</h3>
+          <p class="text-gray-400 leading-relaxed">One bad trade turns into revenge trading. One bad day turns into a blown account. Not because your strategy failed — because your risk management did.</p>
         </div>
 
         <div class="bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-green-500/20 rounded-2xl p-8 backdrop-blur-sm hover:border-green-500/50 transition-all duration-300">
           <div class="w-12 h-12 flex items-center justify-center bg-green-500/10 rounded-xl mb-6">
             <Icon name="lucide:compass" class="w-6 h-6 text-green-500" />
           </div>
-          <h3 class="text-xl font-black text-white mb-3">This is for you if...</h3>
-          <p class="text-gray-400 leading-relaxed">You have a "strategy" but lack a clear, repeatable process for when to step away from the screens.</p>
+          <h3 class="text-xl font-black text-white mb-3">You've studied for years and still aren't profitable.</h3>
+          <p class="text-gray-400 leading-relaxed">You've watched the courses. You know the concepts. But without a clear, repeatable process for when to trade and when to walk away — nothing sticks.</p>
         </div>
 
       </div>
