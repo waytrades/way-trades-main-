@@ -30,7 +30,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import Header from '~/components/v2/Header.vue'
 import HeroSection from '~/components/v2/HeroSection.vue'
 import TrustBar from '~/components/v2/TrustBar.vue'
@@ -45,10 +45,10 @@ import Footer from '~/components/v2/Footer.vue'
 const { gtag } = useGtag()
 
 useSeoMeta({
-  title: 'Way Trades - Master Futures Day Trading Through Disciplined Process',
-  ogTitle: 'Way Trades - Master Futures Day Trading Through Disciplined Process',
-  description: 'Join 5,000+ traders mastering NQ futures day trading using the BBR framework. No hype. Just math and discipline.',
-  ogDescription: 'Join 5,000+ traders mastering NQ futures day trading using the BBR framework. No hype. Just math and discipline.',
+  title: 'Way Trades - Master Futures & Options Through Disciplined Process',
+  ogTitle: 'Way Trades - Master Futures & Options Through Disciplined Process',
+  description: 'Join 5,000+ traders mastering NQ futures day trading and equity options swings using the BBR framework. No hype. Just math and discipline.',
+  ogDescription: 'Join 5,000+ traders mastering NQ futures day trading and equity options swings using the BBR framework. No hype. Just math and discipline.',
   ogImage: '/logo.png',
   twitterCard: 'summary_large_image',
 })
