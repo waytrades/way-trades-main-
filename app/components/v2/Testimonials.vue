@@ -1,7 +1,6 @@
 <template>
   <section id="testimonials" class="w-full bg-slate-900 py-20 md:py-32 px-4">
     <div class="max-w-6xl mx-auto">
-      <!-- Section Header -->
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-black text-white mb-4 tracking-tight">
           Real Results from Real Traders
@@ -11,14 +10,10 @@
         </p>
       </div>
 
-      <!-- Masonry Grid -->
       <div class="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
         <div
           v-for="(testimonial, index) in testimonials"
           :key="index"
-          v-motion
-          :initial="{ opacity: 0, y: 20 }"
-          :enter="{ opacity: 1, y: 0, transition: { delay: index * 50 } }"
           class="break-inside-avoid group relative overflow-hidden rounded-xl border border-slate-800 hover:border-green-500/50 transition-all duration-300 cursor-pointer bg-slate-800/50"
           @click="openLightbox(testimonial.image)"
         >
@@ -37,12 +32,10 @@
         <!-- CTA Card -->
         <div class="break-inside-avoid flex items-center justify-center min-h-[400px]">
           <div class="w-full bg-gradient-to-br from-green-500/10 via-slate-900 to-slate-900 border-2 border-green-500/50 rounded-2xl p-8 md:p-12 text-center hover:border-green-500 transition-all duration-300 group shadow-xl">
-            <div class="mb-6">
-              <Icon name="lucide:shield-check" class="w-16 h-16 text-green-500 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
-            </div>
+            <Icon name="lucide:shield-check" class="w-16 h-16 text-green-500 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
             <h3 class="text-2xl md:text-3xl font-black text-white mb-4">Ready to Join?</h3>
             <p class="text-gray-400 text-lg mb-8 leading-relaxed">
-              Stop watching from the sidelines. Join the community of traders who are applying the 1:3 mathematical edge.
+              Stop watching from the sidelines. Join the community of traders applying the 1:3 mathematical edge.
             </p>
             <div class="space-y-4">
               <a
@@ -84,7 +77,7 @@ import { ref } from 'vue'
 const lightboxOpen = ref(false)
 const lightboxImage = ref('')
 
-const testimonials = Array.from({ length: 18 }, (_, i) => ({
+const testimonials = Array.from({ length: 17 }, (_, i) => ({
   image: `/testimonials/t${i + 1}.png`
 }))
 
@@ -101,7 +94,5 @@ const closeLightbox = () => {
 </script>
 
 <style scoped>
-.break-inside-avoid {
-  break-inside: avoid;
-}
+.break-inside-avoid { break-inside: avoid; }
 </style>
