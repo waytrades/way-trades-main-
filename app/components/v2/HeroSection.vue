@@ -1,6 +1,5 @@
 <template>
   <div class="relative w-full min-h-screen bg-slate-950 overflow-hidden flex items-center">
-    <!-- Background Gradients -->
     <div class="absolute inset-0 overflow-hidden">
       <div class="absolute -top-40 -right-40 w-80 h-80 bg-green-500/20 rounded-full blur-3xl animate-pulse"></div>
       <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-green-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s;"></div>
@@ -24,7 +23,6 @@
               Built around risk:reward, expectancy, and disciplined execution — not gambling.
             </p>
 
-            <!-- Key Points -->
             <div class="space-y-4 pt-4">
               <div class="flex items-start gap-4">
                 <div class="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-1">
@@ -42,21 +40,18 @@
                 <div class="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-1">
                   <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
                 </div>
-                <span class="text-gray-300">Join 5,000+ traders applying the BBR framework in live markets</span>
+                <span class="text-gray-300">11 serious traders. Not a signal farm.</span>
               </div>
             </div>
 
-            <!-- Primary CTA -->
             <div class="flex flex-col gap-3 pt-8">
               <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-green-500 hover:bg-green-600 text-slate-950 font-black rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-green-500/50 duration-300 text-lg">
                 Start 5-Day Free Trial
                 <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
               </a>
-              <!-- Pricing transparency -->
               <p class="text-center text-sm text-gray-500">
                 5 days free — then <span class="text-gray-400 font-bold">$74/month</span>. Cancel anytime.
               </p>
-              <!-- Secondary CTA -->
               <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="inline-flex items-center justify-center px-8 py-3 border border-gray-700 hover:border-green-500 text-gray-400 hover:text-white font-bold rounded-full transition-all duration-300 hover:bg-green-500/10 text-sm mt-1">
                 Or join the Free Discord →
               </a>
@@ -72,7 +67,6 @@
             <div class="relative w-full max-w-lg">
               <div class="absolute inset-0 bg-gradient-to-br from-green-500/20 to-transparent rounded-2xl blur-3xl"></div>
               <div class="relative bg-slate-900/80 backdrop-blur-xl border border-green-500/30 rounded-2xl overflow-hidden shadow-2xl">
-                <!-- Video -->
                 <div class="aspect-video w-full bg-slate-800 relative">
                   <iframe
                     src="https://www.youtube.com/embed/RZkAQ7HU-38?autoplay=0&controls=1&modestbranding=1"
@@ -82,8 +76,6 @@
                     allowfullscreen
                   ></iframe>
                 </div>
-
-                <!-- Stats Bar -->
                 <div class="p-6 bg-slate-900/50">
                   <div class="flex items-center justify-between mb-4">
                     <h3 class="text-sm font-bold text-gray-400 uppercase tracking-widest">The Math Behind It</h3>
@@ -109,8 +101,7 @@
                     <p class="text-[11px] text-gray-500 italic leading-relaxed mb-4">
                       "You don't need to be right most of the time. You just need to be right when it matters."
                     </p>
-                    <!-- Live sessions badge -->
-                    <div class="flex items-center gap-2 mb-4 px-3 py-2 bg-green-500/5 border border-green-500/20 rounded-xl">
+                    <div class="flex items-center gap-2 px-3 py-2 bg-green-500/5 border border-green-500/20 rounded-xl">
                       <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse flex-shrink-0"></span>
                       <span class="text-[11px] text-green-400 font-bold">Live every market day · 9:25 AM EST</span>
                     </div>
@@ -119,6 +110,7 @@
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
