@@ -32,13 +32,14 @@ const HOLIDAYS = new Set([
 const SESSION_HOUR = 9
 const SESSION_MIN = 25
 const SESSION_END_MINS = 90
+const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
 
 function getETNow() {
   const etStr = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' })
   return new Date(etStr)
 }
 
-function toDateKey(d) {
+function dateKey(d) {
   const y = d.getFullYear()
   const m = String(d.getMonth() + 1).padStart(2, '0')
   const day = String(d.getDate()).padStart(2, '0')
@@ -47,66 +48,77 @@ function toDateKey(d) {
 
 function isTradingDay(d) {
   const dow = d.getDay()
-  return dow >= 1 && dow <= 5 && !HOLIDAYS.has(toDateKey(d))
+  return dow >= 1 && dow <= 5 && !HOLIDAYS.has(dateKey(d))
 }
 
-function nextSessionET(etNow) {
+function nextSession(etNow) {
   const minNow = etNow.getHours() * 60 + etNow.getMinutes()
   const sessionStart = SESSION_HOUR * 60 + SESSION_MIN
-  const candidate = new Date(etNow)
+
+  // If today is a trading day and session hasn't started — return today's session
   if (isTradingDay(etNow) && minNow < sessionStart) {
-    candidate.setHours(SESSION_HOUR, SESSION_MIN, 0, 0)
-    return candidate
+    const d = new Date(etNow)
+    d.setHours(SESSION_HOUR, SESSION_MIN, 0, 0)
+    return d
   }
-  candidate.setDate(candidate.getDate() + 1)
-  candidate.setHours(SESSION_HOUR, SESSION_MIN, 0, 0)
-  while (!isTradingDay(candidate)) {
-    candidate.setDate(candidate.getDate() + 1)
+
+  // Otherwise find the next trading day
+  const d = new Date(etNow)
+  d.setDate(d.getDate() + 1)
+  d.setHours(SESSION_HOUR, SESSION_MIN, 0, 0)
+  while (!isTradingDay(d)) {
+    d.setDate(d.getDate() + 1)
   }
-  return candidate
+  return d
 }
 
 function formatMs(ms) {
   if (ms <= 0) return '00:00:00'
-  const s = Math.floor(ms / 1000)
-  const h = Math.floor(s / 3600)
-  const m = Math.floor((s % 3600) / 60)
-  const sec = s % 60
-  if (h > 0) return `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`
-  return `${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`
+  const totalSec = Math.floor(ms / 1000)
+  const h = Math.floor(totalSec / 3600)
+  const m = Math.floor((totalSec % 3600) / 60)
+  const s = totalSec % 60
+  const pad = n => String(n).padStart(2, '0')
+  return h > 0 ? `${pad(h)}:${pad(m)}:${pad(s)}` : `${pad(m)}:${pad(s)}`
 }
 
 const isLive = ref(false)
-const sessionLabel = ref('')
-const countdown = ref('...')
+const sessionLabel = ref('...')
+const countdown = ref('')
 const showCountdown = ref(false)
-
-const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
 
 function tick() {
   const etNow = getETNow()
   const minNow = etNow.getHours() * 60 + etNow.getMinutes()
   const sessionStart = SESSION_HOUR * 60 + SESSION_MIN
 
+  // Check if currently live
   if (isTradingDay(etNow) && minNow >= sessionStart && minNow < sessionStart + SESSION_END_MINS) {
     isLive.value = true
     return
   }
   isLive.value = false
 
-  const next = nextSessionET(etNow)
-  const msUntil = next - new Date()
+  const next = nextSession(etNow)
 
-  const diffDays = Math.round((next.getTime() - etNow.setHours(0,0,0,0)) / 86400000)
-  if (isTradingDay(etNow) && minNow < sessionStart) {
+  // Work out label — use a fresh copy of etNow for midnight comparison
+  const etMidnight = new Date(etNow)
+  etMidnight.setHours(0, 0, 0, 0)
+  const nextMidnight = new Date(next)
+  nextMidnight.setHours(0, 0, 0, 0)
+  const dayDiff = Math.round((nextMidnight - etMidnight) / 86400000)
+
+  if (dayDiff === 0) {
     sessionLabel.value = 'today at 9:25 AM EST'
-  } else if (diffDays === 1) {
+  } else if (dayDiff === 1) {
     sessionLabel.value = 'tomorrow at 9:25 AM EST'
   } else {
     sessionLabel.value = `${DAYS[next.getDay()]} at 9:25 AM EST`
   }
 
-  showCountdown.value = msUntil < 86400000
+  // Show live countdown only if session is within 24h
+  const msUntil = next - new Date()
+  showCountdown.value = msUntil > 0 && msUntil < 86400000
   if (showCountdown.value) countdown.value = formatMs(msUntil)
 }
 
