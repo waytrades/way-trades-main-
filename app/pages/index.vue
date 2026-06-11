@@ -3,6 +3,7 @@
     <Header />
     <HeroSection />
     <TrustBar />
+    <EVExplainer />
     <PillarsSection />
     <TargetAudience />
     <TestimonialsGrid />
@@ -17,6 +18,7 @@
 import Header from '~/components/v2/Header.vue'
 import HeroSection from '~/components/v2/HeroSection.vue'
 import TrustBar from '~/components/v2/TrustBar.vue'
+import EVExplainer from '~/components/v2/EVExplainer.vue'
 import PillarsSection from '~/components/v2/PillarsSection.vue'
 import TargetAudience from '~/components/v2/TargetAudience.vue'
 import TestimonialsGrid from '~/components/v2/Testimonials.vue'
@@ -30,8 +32,8 @@ const { gtag } = useGtag()
 useSeoMeta({
   title: 'Way Trades - Master Futures & Options Through Disciplined Process',
   ogTitle: 'Way Trades - Master Futures & Options Through Disciplined Process',
-  description: 'Join 5,000+ traders mastering NQ futures day trading and equity options swings using the BBR framework. No hype. Just math and discipline.',
-  ogDescription: 'Join 5,000+ traders mastering NQ futures day trading and equity options swings using the BBR framework. No hype. Just math and discipline.',
+  description: 'Join serious traders mastering NQ futures day trading and equity options swings using the BBR framework. No hype. Just math and discipline.',
+  ogDescription: 'Join serious traders mastering NQ futures day trading and equity options swings using the BBR framework. No hype. Just math and discipline.',
   ogImage: '/logo.png',
   twitterCard: 'summary_large_image',
 })
