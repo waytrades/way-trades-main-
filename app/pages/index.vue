@@ -2,7 +2,6 @@
   <div class="homepage">
     <Header />
     <HeroSection />
-    <TrustBar />
     <PillarsSection />
     <TargetAudience />
     <TestimonialsGrid />
@@ -15,7 +14,6 @@
 <script setup>
 import Header from '~/components/v2/Header.vue'
 import HeroSection from '~/components/v2/HeroSection.vue'
-import TrustBar from '~/components/v2/TrustBar.vue'
 import PillarsSection from '~/components/v2/PillarsSection.vue'
 import TargetAudience from '~/components/v2/TargetAudience.vue'
 import TestimonialsGrid from '~/components/v2/Testimonials.vue'
@@ -37,14 +35,8 @@ useSeoMeta({
 
 <style scoped>
 .homepage {
-  background-color: var(--color-bg-primary);
-  color: var(--color-text-primary);
+  background-color: #0a0a0a;
+  color: #ffffff;
   min-height: 100vh;
-}
-
-:deep(.section) {
-  max-width: var(--max-width-content);
-  margin: 0 auto;
-  padding: 0 24px;
 }
 </style>
