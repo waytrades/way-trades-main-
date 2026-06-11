@@ -101,10 +101,7 @@
                     <p class="text-[11px] text-gray-500 italic leading-relaxed mb-4">
                       "You don't need to be right most of the time. You just need to be right when it matters."
                     </p>
-                    <div class="flex items-center gap-2 px-3 py-2 bg-green-500/5 border border-green-500/20 rounded-xl">
-                      <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse flex-shrink-0"></span>
-                      <span class="text-[11px] text-green-400 font-bold">Live every market day · 9:25 AM EST</span>
-                    </div>
+                    <SessionCountdown />
                   </div>
                 </div>
               </div>
@@ -138,4 +135,5 @@ const memberCount = computed(() => {
   animation: subtle-pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 </style>
+
 
