@@ -1,31 +1,13 @@
 <template>
   <div class="homepage">
     <Header />
-    
-    <!-- Hero Section -->
     <HeroSection />
-    
-    <!-- Trust Bar -->
     <TrustBar />
-    
-    <!-- Two Pillars -->
     <PillarsSection />
-    
-    <!-- Target Audience -->
     <TargetAudience />
-    
-    <!-- Testimonials Grid -->
     <TestimonialsGrid />
-    
-    <!-- Discord Conversion -->
     <DiscordConversion />
-    
-    <!-- Mentorship Teaser -->
-    <MentorshipTeaser />
-    
-    <!-- Final CTA -->
     <FinalCTA />
-    
     <Footer />
   </div>
 </template>
@@ -38,7 +20,6 @@ import PillarsSection from '~/components/v2/PillarsSection.vue'
 import TargetAudience from '~/components/v2/TargetAudience.vue'
 import TestimonialsGrid from '~/components/v2/Testimonials.vue'
 import DiscordConversion from '~/components/v2/DiscordConversion.vue'
-import MentorshipTeaser from '~/components/v2/MentorshipTeaser.vue'
 import FinalCTA from '~/components/v2/FinalCTA.vue'
 import Footer from '~/components/v2/Footer.vue'
 
@@ -61,7 +42,6 @@ useSeoMeta({
   min-height: 100vh;
 }
 
-/* Global section wrapper */
 :deep(.section) {
   max-width: var(--max-width-content);
   margin: 0 auto;
