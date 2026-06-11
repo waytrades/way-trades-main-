@@ -15,7 +15,7 @@
           <span class="text-green-500">Expected Value Is Everything.</span>
         </h2>
         <p class="text-lg md:text-xl text-gray-400 leading-relaxed">
-          A trader with a 99% win rate can still blow up. A trader with a 50% win rate can build consistent wealth. The difference is expected value — the only number that actually predicts long-term profitability.
+          A trader with a 90% win rate can still blow up. A trader with a 50% win rate can build consistent wealth. The difference is expected value — the only number that actually predicts long-term profitability.
         </p>
       </div>
 
@@ -53,25 +53,25 @@
             </div>
             <div>
               <p class="text-xs text-gray-500 uppercase tracking-widest font-bold">Most Retail Traders</p>
-              <h3 class="text-xl font-black text-white">99% Win Rate · 1:1 R:R</h3>
+              <h3 class="text-xl font-black text-white">90% Win Rate · 1:1 R:R</h3>
             </div>
           </div>
 
           <div class="space-y-3 mb-6 text-sm text-gray-400 font-mono bg-slate-950/60 rounded-xl p-4">
-            <div class="flex justify-between"><span>Win Rate</span><span class="text-white">99%</span></div>
+            <div class="flex justify-between"><span>Win Rate</span><span class="text-white">90%</span></div>
             <div class="flex justify-between"><span>Avg Win</span><span class="text-white">$100</span></div>
-            <div class="flex justify-between"><span>Loss Rate</span><span class="text-white">1%</span></div>
+            <div class="flex justify-between"><span>Loss Rate</span><span class="text-white">10%</span></div>
             <div class="flex justify-between"><span>Avg Loss</span><span class="text-white">$100</span></div>
             <div class="border-t border-slate-700 pt-3 flex justify-between font-black">
               <span class="text-gray-300">EV per trade</span>
-              <span class="text-green-400">+$98.00</span>
+              <span class="text-green-400">+$80.00</span>
             </div>
           </div>
 
           <div class="p-4 bg-red-500/10 border border-red-500/20 rounded-xl">
             <p class="text-red-400 text-sm font-bold mb-1">The hidden trap</p>
             <p class="text-gray-400 text-sm leading-relaxed">
-              To hit 99% you take tiny wins and avoid cutting losses. One trade — a news spike, a gap, a margin call — wipes out 99 winning trades in a single session. This is how most retail accounts blow up.
+              To hit 90% you take tiny wins and avoid cutting losses. One trade — a news spike, a gap, a margin call — wipes out 9 winning trades in a single session. This is how most retail accounts blow up.
             </p>
           </div>
         </div>
@@ -132,3 +132,4 @@
 
 <script setup>
 </script>
+
