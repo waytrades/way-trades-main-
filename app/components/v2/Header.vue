@@ -4,7 +4,7 @@
       <div class="bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-full px-2 py-2 flex justify-between items-center shadow-2xl relative">
         <!-- Logo and Brand Name (Left) -->
         <div class="flex items-center gap-3 pl-4">
-          <img src="/logo.png" alt="Way Trades Logo" class="w-10 h-10 object-contain" />
+          <img src="/wt-logo-transparent.png" alt="Way Trades Logo" class="w-10 h-10 object-contain" />
           <span class="text-[11px] font-black tracking-tighter text-gray-200 uppercase">Way Trades</span>
         </div>
         
