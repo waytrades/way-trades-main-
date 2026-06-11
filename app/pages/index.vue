@@ -8,6 +8,7 @@
     <TargetAudience />
     <TestimonialsGrid />
     <DiscordConversion />
+    <FAQSection />
     <FinalCTA />
     <Footer />
     <StickyMobileCTA />
@@ -23,6 +24,7 @@ import PillarsSection from '~/components/v2/PillarsSection.vue'
 import TargetAudience from '~/components/v2/TargetAudience.vue'
 import TestimonialsGrid from '~/components/v2/Testimonials.vue'
 import DiscordConversion from '~/components/v2/DiscordConversion.vue'
+import FAQSection from '~/components/v2/FAQSection.vue'
 import FinalCTA from '~/components/v2/FinalCTA.vue'
 import Footer from '~/components/v2/Footer.vue'
 import StickyMobileCTA from '~/components/v2/StickyMobileCTA.vue'
