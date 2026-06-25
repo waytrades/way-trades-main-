@@ -5,8 +5,8 @@
     <TrustBar />
     <EVExplainer />
     <TestimonialsGrid />
-    <DiscordConversion />
     <AffiliateSection />
+    <DiscordConversion />
     <FAQSection />
     <FinalCTA />
     <Footer />
