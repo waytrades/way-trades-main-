@@ -4,7 +4,6 @@
     <HeroSection />
     <TrustBar />
     <EVExplainer />
-    <TargetAudience />
     <TestimonialsGrid />
     <DiscordConversion />
     <AffiliateSection />
@@ -20,7 +19,6 @@ import Header from '~/components/v2/Header.vue'
 import HeroSection from '~/components/v2/HeroSection.vue'
 import TrustBar from '~/components/v2/TrustBar.vue'
 import EVExplainer from '~/components/v2/EVExplainer.vue'
-import TargetAudience from '~/components/v2/TargetAudience.vue'
 import TestimonialsGrid from '~/components/v2/Testimonials.vue'
 import DiscordConversion from '~/components/v2/DiscordConversion.vue'
 import AffiliateSection from '~/components/v2/AffiliateSection.vue'
