@@ -17,7 +17,7 @@
           </h1>
 
           <p class="text-lg sm:text-xl md:text-2xl text-gray-300 leading-relaxed max-w-2xl mx-auto">
-            A free community built around the BBR strategy — risk:reward, expected value, and disciplined execution. No signals. No hype. No gatekeeping.
+            Most traders lose because they overtrade, not because they don&apos;t know enough. We fix the part nobody teaches: patience and risk.
           </p>
 
           <div class="space-y-4 pt-4 max-w-md mx-auto text-left">
