@@ -57,7 +57,7 @@ const memberCount = computed(() => {
 const stats = computed(() => [
   { icon: 'lucide:shield', value: memberCount.value, label: 'Members · Not a signal farm' },
   { icon: 'lucide:target', value: '1:3+ R:R', label: 'Target Risk:Reward' },
-  { icon: 'lucide:star', value: '4.9 / 5', label: 'Avg Member Rating' },
+  { icon: 'lucide:star', value: '4.9 / 5', label: 'Verified Rating on Whop' },
   { icon: 'lucide:gift', value: '100% Free', label: 'No Paywalls · No Catch' },
 ])
 </script>
