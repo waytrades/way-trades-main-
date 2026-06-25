@@ -5,6 +5,7 @@
     <TrustBar />
     <EVExplainer />
     <FounderSection />
+    <ContentShowcase />
     <TestimonialsGrid />
     <AffiliateSection />
     <DiscordConversion />
@@ -21,6 +22,7 @@ import HeroSection from '~/components/v2/HeroSection.vue'
 import TrustBar from '~/components/v2/TrustBar.vue'
 import EVExplainer from '~/components/v2/EVExplainer.vue'
 import FounderSection from '~/components/v2/FounderSection.vue'
+import ContentShowcase from '~/components/v2/ContentShowcase.vue'
 import TestimonialsGrid from '~/components/v2/Testimonials.vue'
 import DiscordConversion from '~/components/v2/DiscordConversion.vue'
 import AffiliateSection from '~/components/v2/AffiliateSection.vue'
