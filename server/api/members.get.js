@@ -7,7 +7,7 @@ export default defineEventHandler(async () => {
 
   try {
     const res = await fetch(
-      'https://api.whop.com/api/v2/memberships?valid=true&product_id=prod_EF2Ny79RMBAMz&limit=1',
+      'https://api.whop.com/api/v2/memberships?valid=true&product_id=prod_Oa1axgSMSVWdd&limit=1',
       { headers: { Authorization: `Bearer ${key}` } }
     )
 
