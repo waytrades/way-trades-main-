@@ -24,7 +24,7 @@
         Stop Guessing. Start Executing.
       </h2>
       <p class="text-lg md:text-xl text-gray-400 mb-4 leading-relaxed max-w-2xl mx-auto">
-        The difference between a gambler and a trader is a repeatable process. Your journey toward consistency starts with the right community and the right math.
+        The difference between a gambler and a trader is a repeatable process. Join a free community of traders who are building that process — together.
       </p>
 
       <!-- Member quote -->
@@ -32,26 +32,26 @@
         <p class="text-gray-300 text-sm leading-relaxed italic mb-3">
           "An elegant strategy with logical confluences — the best trading week of my 4-year career from the very first week I joined."
         </p>
-        <p class="text-green-500 text-xs font-bold">— Emmanuel C., VIP Member</p>
+        <p class="text-green-500 text-xs font-bold">— Emmanuel C., Community Member</p>
       </div>
 
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a
-          href="https://whop.com/waytrades/vip-access-60-1cb2/"
+          href="https://whop.com/waytrades/free-access-c6/"
           target="_blank"
           class="inline-flex items-center justify-center px-8 py-4 bg-green-500 hover:bg-green-600 text-slate-950 font-black rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-green-500/50 duration-300"
         >
-          Start 5-Day Free Trial
+          Join the Free Community
         </a>
         <a
-          href="https://whop.com/waytrades/free-access-c6/"
+          href="https://www.instagram.com/way_trades"
           target="_blank"
           class="inline-flex items-center justify-center px-8 py-4 border-2 border-gray-600 hover:border-green-500 text-white font-black rounded-full transition-all duration-300 hover:bg-green-500/10"
         >
-          Join Free Discord
+          Follow on Instagram
         </a>
       </div>
-      <p class="mt-4 text-sm text-gray-600">5 days free — then $74/month. Cancel anytime.</p>
+      <p class="mt-4 text-sm text-gray-600">Free forever. No credit card. No catch.</p>
     </div>
   </section>
 </template>
