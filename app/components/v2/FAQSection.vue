@@ -53,7 +53,7 @@
 
       <!-- Bottom CTA -->
       <div class="mt-12 text-center">
-        <p class="text-gray-500 text-sm mb-4">Still have questions? Join the free Discord and ask directly.</p>
+        <p class="text-gray-500 text-sm mb-4">Still have questions? Join the Discord and ask directly.</p>
         <a
           href="https://whop.com/waytrades/free-access-c6/"
           target="_blank"
@@ -75,24 +75,28 @@ const open = ref(0)
 
 const faqs = [
   {
+    q: "Is this actually free? What's the catch?",
+    a: "Completely free. Way Trades makes money through affiliate partnerships with the tools and prop firms listed on this page — platforms Waylon personally uses. The community itself will always be free. No upsells, no paid tier, no catch."
+  },
+  {
     q: "Are your signals instant copy-and-paste trades?",
-    a: "No — and that's intentional. Way Trades is an education-first community. You'll watch live screen-share sessions, understand the BBR setup, and learn to execute it yourself. The goal is to make you a self-sufficient trader, not dependent on someone else's alerts."
+    a: "No — and that's intentional. Way Trades is an education-first community. You'll learn the BBR setup, understand the logic behind it, and execute it yourself. The goal is to make you a self-sufficient trader, not dependent on someone else's alerts."
   },
   {
     q: "Is this beginner-friendly?",
-    a: "It's best suited for traders who have some foundational knowledge — ideally 1–4 years of experience — and are struggling with consistency and discipline rather than needing to learn what a candlestick is. If you're completely new to trading, the free Discord is a great starting point."
+    a: "It's best suited for traders who have some foundational knowledge — ideally 1–4 years of experience — and are struggling with consistency and discipline rather than needing to learn what a candlestick is. If you're brand new, the free Discord is still a great starting point."
   },
   {
-    q: "How often are sessions delivered?",
-    a: "Every market day. Live screen-share trading sessions start at 9:25 AM EST, Monday through Friday, on every day the US markets are open. Morning watchlists, trade recaps, and swing trade alerts are posted throughout the day in the VIP channels."
+    q: "What prop firms do you recommend?",
+    a: "Alpha Futures and Tradeify are the two Waylon actively uses and recommends. Both offer funded futures accounts with trader-friendly rules. Use code WAY at either firm for a discount. You can find the links in the Tools section of this page."
   },
   {
-    q: "How do I get Discord access after purchasing?",
-    a: "Immediately after completing checkout on Whop, you'll receive an invitation link to the private Discord server. The whole process takes under two minutes. If you run into any issues, support is available directly in the free Discord."
+    q: "Do I need a journal or backtesting tool?",
+    a: "Strongly recommended. TradeZella is what Waylon uses to track performance and refine the BBR strategy. If you're trading without a journal, you're flying blind. The affiliate link on this page will get you set up."
   },
   {
-    q: "Do you offer refunds?",
-    a: "The 5-day free trial exists so you can evaluate the community with zero financial risk. Because of the trial, refunds are not offered after the trial period ends and billing begins. If you're unsure, start with the free Discord or the BBR Cheat Sheet before committing."
+    q: "Where else can I follow Waylon?",
+    a: "Instagram (@way_trades) is the most active — daily charts, trade breakdowns, and real talk. YouTube has longer-form content and strategy recaps. Both are completely free."
   },
 ]
 </script>
