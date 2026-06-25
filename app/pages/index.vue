@@ -8,6 +8,7 @@
     <TargetAudience />
     <TestimonialsGrid />
     <DiscordConversion />
+    <AffiliateSection />
     <FAQSection />
     <FinalCTA />
     <Footer />
@@ -24,6 +25,7 @@ import PillarsSection from '~/components/v2/PillarsSection.vue'
 import TargetAudience from '~/components/v2/TargetAudience.vue'
 import TestimonialsGrid from '~/components/v2/Testimonials.vue'
 import DiscordConversion from '~/components/v2/DiscordConversion.vue'
+import AffiliateSection from '~/components/v2/AffiliateSection.vue'
 import FAQSection from '~/components/v2/FAQSection.vue'
 import FinalCTA from '~/components/v2/FinalCTA.vue'
 import Footer from '~/components/v2/Footer.vue'
@@ -32,10 +34,10 @@ import StickyMobileCTA from '~/components/v2/StickyMobileCTA.vue'
 const { gtag } = useGtag()
 
 useSeoMeta({
-  title: 'Way Trades - Master Futures & Options Through Disciplined Process',
-  ogTitle: 'Way Trades - Master Futures & Options Through Disciplined Process',
-  description: 'Join serious traders mastering NQ futures day trading and equity options swings using the BBR framework. No hype. Just math and discipline.',
-  ogDescription: 'Join serious traders mastering NQ futures day trading and equity options swings using the BBR framework. No hype. Just math and discipline.',
+  title: 'Way Trades - Free Trading Community | BBR Strategy',
+  ogTitle: 'Way Trades - Free Trading Community | BBR Strategy',
+  description: 'Join a free community of serious traders mastering the BBR strategy for NQ futures and options. No signals, no hype — just math, discipline, and like-minded traders.',
+  ogDescription: 'Join a free community of serious traders mastering the BBR strategy for NQ futures and options. No signals, no hype — just math, discipline, and like-minded traders.',
   ogImage: '/logo.png',
   twitterCard: 'summary_large_image',
 })
