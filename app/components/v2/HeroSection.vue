@@ -16,11 +16,11 @@
             class="space-y-8"
           >
             <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-tight tracking-tight text-center sm:text-left">
-              You Don't Need a <span class="text-green-500">High Win Rate</span> to Become Profitable.
+              Learn to Trade. <span class="text-green-500">For Free.</span> With People Who Actually Trade.
             </h1>
 
             <p class="text-lg sm:text-xl md:text-2xl text-gray-300 leading-relaxed max-w-lg text-center sm:text-left mx-auto sm:mx-0">
-              Built around risk:reward, expectancy, and disciplined execution — not gambling.
+              A free community built around the BBR strategy — risk:reward, expected value, and disciplined execution. No signals. No hype. No gatekeeping.
             </p>
 
             <div class="space-y-4 pt-4">
@@ -34,26 +34,26 @@
                 <div class="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-1">
                   <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
                 </div>
-                <span class="text-gray-300">Watch live screen-share trades every market day at 9:25 AM EST</span>
+                <span class="text-gray-300">BBR strategy education — NQ futures &amp; options swings</span>
               </div>
               <div class="flex items-start gap-4">
                 <div class="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-1">
                   <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
                 </div>
-                <span class="text-gray-300"><span class="text-white font-bold">{{ memberCount }}</span> serious traders. Not a signal farm.</span>
+                <span class="text-gray-300"><span class="text-white font-bold">{{ memberCount }}</span> traders. 100% free. No credit card.</span>
               </div>
             </div>
 
             <div class="flex flex-col gap-3 pt-8">
-              <a href="https://whop.com/waytrades/vip-access-60-1cb2/" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-green-500 hover:bg-green-600 text-slate-950 font-black rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-green-500/50 duration-300 text-lg">
-                Start 5-Day Free Trial
+              <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-green-500 hover:bg-green-600 text-slate-950 font-black rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-green-500/50 duration-300 text-lg">
+                Join the Free Community
                 <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
               </a>
               <p class="text-center text-sm text-gray-500">
-                5 days free — then <span class="text-gray-400 font-bold">$74/month</span>. Cancel anytime.
+                Free forever. Join <span class="text-gray-400 font-bold">{{ memberCount }}</span> traders already inside.
               </p>
-              <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="inline-flex items-center justify-center px-8 py-3 border border-gray-700 hover:border-green-500 text-gray-400 hover:text-white font-bold rounded-full transition-all duration-300 hover:bg-green-500/10 text-sm mt-1">
-                Or join the Free Discord →
+              <a href="https://www.youtube.com/@waytrades" target="_blank" class="inline-flex items-center justify-center px-8 py-3 border border-gray-700 hover:border-green-500 text-gray-400 hover:text-white font-bold rounded-full transition-all duration-300 hover:bg-green-500/10 text-sm mt-1">
+                Watch Free Content on YouTube →
               </a>
             </div>
           </div>
@@ -98,18 +98,9 @@
                     </div>
                   </div>
                   <div class="mt-6 pt-6 border-t border-white/5">
-                    <p class="text-[11px] text-gray-500 italic leading-relaxed mb-4">
+                    <p class="text-[11px] text-gray-500 italic leading-relaxed">
                       "You don't need to be right most of the time. You just need to be right when it matters."
                     </p>
-                    <!-- Inline countdown — no child component dependency -->
-                    <div class="flex items-center gap-2 px-4 py-2.5 bg-green-500/5 border border-green-500/20 rounded-xl">
-                      <span class="w-2 h-2 rounded-full flex-shrink-0" :class="isLive ? 'bg-green-500 animate-pulse' : 'bg-green-500/50'"></span>
-                      <span v-if="isLive" class="text-green-400 font-black text-xs uppercase tracking-wider">Live Now · 9:25 AM EST</span>
-                      <span v-else class="text-gray-400 text-xs font-medium">
-                        Next session <span class="text-green-400 font-black">{{ sessionLabel }}</span>
-                        <template v-if="showCountdown">&nbsp;·&nbsp;<span class="text-white font-black font-mono">{{ countdown }}</span></template>
-                      </span>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -123,90 +114,14 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue'
-import { useMotions } from '@vueuse/motion'
+import { computed } from 'vue'
 
-// ── Member count ─────────────────────────────────────────────────────────────
 const { data: memberData } = await useFetch('/api/members', { server: true, lazy: false })
 const memberCount = computed(() => {
   const count = memberData.value?.count
   if (!count) return '—'
   return count.toLocaleString()
 })
-
-// ── Session countdown ─────────────────────────────────────────────────────────
-const HOLIDAYS = new Set([
-  '2025-01-01','2025-01-20','2025-02-17','2025-04-18','2025-05-26',
-  '2025-06-19','2025-07-04','2025-09-01','2025-11-27','2025-12-25',
-  '2026-01-01','2026-01-19','2026-02-16','2026-04-03','2026-05-25',
-  '2026-06-19','2026-07-03','2026-09-07','2026-11-26','2026-12-25',
-])
-const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
-const SESSION_HOUR = 9
-const SESSION_MIN = 25
-const SESSION_END_MINS = 90
-
-function getETNow() {
-  return new Date(new Date().toLocaleString('en-US', { timeZone: 'America/New_York' }))
-}
-function dateKey(d) {
-  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`
-}
-function isTradingDay(d) {
-  return d.getDay() >= 1 && d.getDay() <= 5 && !HOLIDAYS.has(dateKey(d))
-}
-function nextSession(etNow) {
-  const minNow = etNow.getHours() * 60 + etNow.getMinutes()
-  const start = SESSION_HOUR * 60 + SESSION_MIN
-  if (isTradingDay(etNow) && minNow < start) {
-    const d = new Date(etNow); d.setHours(SESSION_HOUR, SESSION_MIN, 0, 0); return d
-  }
-  const d = new Date(etNow)
-  d.setDate(d.getDate() + 1); d.setHours(SESSION_HOUR, SESSION_MIN, 0, 0)
-  while (!isTradingDay(d)) d.setDate(d.getDate() + 1)
-  return d
-}
-function pad(n) { return String(n).padStart(2,'0') }
-function formatMs(ms) {
-  const s = Math.floor(ms / 1000)
-  const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), sec = s % 60
-  return h > 0 ? `${pad(h)}:${pad(m)}:${pad(sec)}` : `${pad(m)}:${pad(sec)}`
-}
-
-const isLive = ref(false)
-const sessionLabel = ref('...')
-const countdown = ref('')
-const showCountdown = ref(false)
-
-function tick() {
-  const etNow = getETNow()
-  const minNow = etNow.getHours() * 60 + etNow.getMinutes()
-  const start = SESSION_HOUR * 60 + SESSION_MIN
-
-  if (isTradingDay(etNow) && minNow >= start && minNow < start + SESSION_END_MINS) {
-    isLive.value = true; return
-  }
-  isLive.value = false
-
-  const next = nextSession(etNow)
-  const etMid = new Date(etNow); etMid.setHours(0,0,0,0)
-  const nextMid = new Date(next); nextMid.setHours(0,0,0,0)
-  const dayDiff = Math.round((nextMid - etMid) / 86400000)
-
-  sessionLabel.value = dayDiff === 0
-    ? 'today at 9:25 AM EST'
-    : dayDiff === 1
-      ? 'tomorrow at 9:25 AM EST'
-      : `${DAYS[next.getDay()]} at 9:25 AM EST`
-
-  const msUntil = next - new Date()
-  showCountdown.value = msUntil > 0 && msUntil < 86400000
-  if (showCountdown.value) countdown.value = formatMs(msUntil)
-}
-
-let timer
-onMounted(() => { tick(); timer = setInterval(tick, 1000) })
-onUnmounted(() => clearInterval(timer))
 </script>
 
 <style scoped>
