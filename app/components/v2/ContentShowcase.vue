@@ -59,8 +59,8 @@
 
 <script setup>
 const videos = [
-  { id: 'rpO9RFv9hhA', title: 'BBR Strategy Breakdown' },
-  { id: 'Oo0nDbxEKYg', title: 'Live Trade Execution' },
+  { id: 'rpO9RFv9hhA', title: 'Liquidity Sweeps Explained In Less Than 4 Minutes' },
+  { id: 'Oo0nDbxEKYg', title: 'The ONLY Day Trading Setup You Need (Break & Retest)' },
   { id: 'RZkAQ7HU-38', title: 'How Taking LESS Trades Made Me MORE Money' },
 ]
 </script>
