@@ -76,7 +76,7 @@ const open = ref(0)
 const faqs = [
   {
     q: "Is this actually free? What's the catch?",
-    a: "Completely free. Way Trades makes money through affiliate partnerships with the tools and prop firms listed on this page — platforms Waylon personally uses. The community itself will always be free. No upsells, no paid tier, no catch."
+    a: "Completely free. The community will always be free. No upsells, no paid tier, no catch."
   },
   {
     q: "Are your signals instant copy-and-paste trades?",
