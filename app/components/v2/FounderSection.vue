@@ -35,18 +35,18 @@
             Meet the Trader
           </span>
           <h2 class="text-4xl md:text-5xl font-black text-white mb-6 tracking-tight leading-tight">
-            Hey, I\'m Waylon.
+            Hey, I'm Waylon.
           </h2>
 
           <div class="space-y-5 text-gray-400 text-lg leading-relaxed">
             <p>
-              I\'ve been trading for almost five years, and it\'s now my full-time income. But the turning point wasn\'t learning more — it was realizing <span class="text-white font-bold">less is more</span>. I already had the knowledge and the tools. What I was missing was the discipline to wait for A+ setups and size correctly when they showed up.
+              I've been trading for almost five years, and it's now my full-time income. But the turning point wasn't learning more — it was realizing <span class="text-white font-bold">less is more</span>. I already had the knowledge and the tools. What I was missing was the discipline to wait for A+ setups and size correctly when they showed up.
             </p>
             <p>
-              When I started, I had no way to learn properly from real traders for free. So that\'s exactly what I built. The BBR strategy and everything inside the community is free — because seeing other traders pass accounts and take payouts from what I teach is what makes it worth it.
+              When I started, I had no way to learn properly from real traders for free. So that's exactly what I built. The BBR strategy and everything inside the community is free — because seeing other traders pass accounts and take payouts from what I teach is what makes it worth it.
             </p>
             <p class="text-gray-300">
-              If you want to support the free education, use my code when you buy an account — and always treat every account like it\'s real money, with proper risk management.
+              If you want to support the free education, use my code when you buy an account — and always treat every account like it's real money, with proper risk management.
             </p>
           </div>
 
