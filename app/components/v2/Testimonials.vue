@@ -89,7 +89,7 @@ import { ref } from 'vue'
 const lightboxImage = ref(null)
 const openLightbox = (img) => { lightboxImage.value = img }
 
-const testimonials = Array.from({ length: 18 }, (_, i) => ({
+const testimonials = Array.from({ length: 17 }, (_, i) => ({
   image: `/testimonials/t${i + 1}.png`
 }))
 </script>
