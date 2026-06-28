@@ -43,7 +43,7 @@
 
           <div class="flex flex-col gap-3 pt-8 max-w-md mx-auto">
             <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-green-500 hover:bg-green-600 text-slate-950 font-black rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-green-500/50 duration-300 text-lg">
-              Join the Free Community
+              Join Free on Whop
               <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
             </a>
             <p class="text-center text-sm text-gray-500">
