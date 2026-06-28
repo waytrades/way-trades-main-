@@ -17,7 +17,7 @@
           </h1>
 
           <p class="text-lg sm:text-xl md:text-2xl text-gray-300 leading-relaxed max-w-2xl mx-auto">
-            Most traders think win-rate is the end all be all, not because they&apos;re stupid, but because they&apos;ve never heard of expected value per trade. We fix the part nobody teaches: patience and risk combined with strategy expectancy.
+            Most traders obsess over win rate — not because they&apos;re stupid, but because nobody ever taught them expectancy. A 50% win rate with a 1:3 R:R prints money. That&apos;s what we teach. For free.
           </p>
 
           <div class="space-y-4 pt-4 max-w-md mx-auto text-left">
