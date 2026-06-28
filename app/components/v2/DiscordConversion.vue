@@ -79,7 +79,7 @@
               target="_blank"
               class="block w-full bg-green-500 hover:bg-green-600 text-slate-950 font-black py-4 px-6 rounded-full transition-all transform hover:scale-105 text-lg shadow-[0_0_20px_rgba(34,197,94,0.3)]"
             >
-              Join Free Now →
+              Join Free on Whop →
             </a>
             <p class="text-gray-600 text-xs mt-3">No credit card required. Ever.</p>
           </div>
