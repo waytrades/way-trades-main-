@@ -17,7 +17,7 @@
           </h1>
 
           <p class="text-lg sm:text-xl md:text-2xl text-gray-300 leading-relaxed max-w-2xl mx-auto">
-            Most traders obsess over win rate — not because they&apos;re stupid, but because nobody ever taught them expectancy. A 50% win rate with a 1:3 R:R prints money. That&apos;s what we teach. For free.
+            Most traders obsess over win rate — not because they&apos;re stupid, but because nobody ever taught them expectancy. A 50% win rate with a 1:3 R:R prints money. That&apos;s what we teach. <span class="glint-green">For free.</span>
           </p>
 
           <div class="space-y-4 pt-4 max-w-md mx-auto text-left">
@@ -77,5 +77,30 @@ const memberCount = computed(() => {
 }
 .animate-pulse {
   animation: subtle-pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.glint-green {
+  color: #00FF94;
+  font-weight: 800;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(
+    90deg,
+    #00FF94 0%,
+    #00FF94 40%,
+    #ffffff 50%,
+    #00FF94 60%,
+    #00FF94 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: glint 3s linear infinite;
+}
+
+@keyframes glint {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
 }
 </style>
