@@ -41,7 +41,7 @@
           target="_blank"
           class="inline-flex items-center justify-center px-8 py-4 bg-green-500 hover:bg-green-600 text-slate-950 font-black rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-green-500/50 duration-300"
         >
-          Join the Free Community
+          Join Free on Whop
         </a>
         <a
           href="https://www.instagram.com/way_trades"
