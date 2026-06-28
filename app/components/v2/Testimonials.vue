@@ -53,6 +53,18 @@
           </div>
         </div>
       </div>
+      <!-- More reviews footer -->
+      <div class="mt-12 text-center">
+        <a
+          href="https://whop.com/waytrades/free-access-c6/"
+          target="_blank"
+          class="inline-flex items-center gap-2 text-gray-400 hover:text-green-500 transition-colors duration-300 text-sm font-medium"
+        >
+          <Icon name="lucide:message-square" class="w-4 h-4" />
+          More reviews and member wins inside the Discord
+          <Icon name="lucide:arrow-right" class="w-4 h-4" />
+        </a>
+      </div>
     </div>
 
     <!-- Lightbox -->
