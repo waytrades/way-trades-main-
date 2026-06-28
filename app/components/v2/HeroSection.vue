@@ -13,11 +13,11 @@
           class="space-y-8 text-center"
         >
           <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-tight tracking-tight">
-            Stop Trying to Win More.<br class="hidden sm:block" /> Start Losing Less. <span class="text-green-500">For Free.</span>
+            You don't need to win more. You need to focus on expectancy.
           </h1>
 
           <p class="text-lg sm:text-xl md:text-2xl text-gray-300 leading-relaxed max-w-2xl mx-auto">
-            Most traders lose because they overtrade, not because they don&apos;t know enough. We fix the part nobody teaches: patience and risk.
+            Most traders think win-rate is the end all be all, not because they&apos;re stupid, but because they&apos;ve never heard of expected value per trade. We fix the part nobody teaches: patience and risk combined with strategy expectancy.
           </p>
 
           <div class="space-y-4 pt-4 max-w-md mx-auto text-left">
